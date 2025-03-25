@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { MovieCard } from "../MovieCard/movie-card";
-import { movieView } from "../movie-view/movie-view";
+import { MovieView } from "../movie-view/movie-view";
 
 
 // The following is the old code that is used prior to the "useState" state from react
@@ -67,7 +67,7 @@ export const MainView = () => {
   const [selectedMovie, setSelectedMovie] = useState(null);
   if (selectedMovie) {
     return (
-      <MovieView movie={selectedMovie} onBackCLick={() => setSelectedMovie(null)} />
+      <MovieView movie={selectedMovie} onBackClick={() => setSelectedMovie(null)} />
     );
   }
 

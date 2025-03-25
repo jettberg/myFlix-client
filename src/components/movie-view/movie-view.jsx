@@ -1,4 +1,4 @@
-export const movieView = ([ movie, onBackClick ]) => {
+export const MovieView = ({ movie, onBackClick }) => {
     return (
         <div>
 
