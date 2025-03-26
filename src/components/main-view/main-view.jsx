@@ -46,7 +46,7 @@ export const MainView = () => {
 
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/movies")
+    fetch("http://localhost:8080/movies")
     .then((response) => response.json())
     .then((data) => {
       const moviesFromApi = data.map((doc) => {
@@ -84,7 +84,8 @@ export const MainView = () => {
     return (
       <div>
         {movies.map((movie) => {
-          return <MovieCard key={movie.id}
+          return <MovieCard 
+            key={movie.id}
             movieData={movie}
             onMovieClick={(newSelectedMovie) => {
               setSelectedMovie(newSelectedMovie);
