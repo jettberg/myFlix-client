@@ -18762,13 +18762,17 @@ const MainView = ()=>{
     const [movies, setMovies] = (0, _react.useState)([]);
     const [selectedMovie, setSelectedMovie] = (0, _react.useState)(null);
     (0, _react.useEffect)(()=>{
-        fetch("https://openlibrary.org/search.json?q=star+wars").then((response)=>response.json()).then((data)=>{
-            const moviesFromApi = data.docs.map((doc)=>{
+        fetch("http://localhost:5000/api/movies").then((response)=>response.json()).then((data)=>{
+            const moviesFromApi = data.map((doc)=>{
                 return {
-                    id: doc.key,
+                    id: doc._id,
                     title: doc.title,
-                    image: `https://covers.openlibrary.org/b/id/${doc.cover_i}-L.jpg`,
-                    author: doc.author_name?.[0]
+                    year: doc.year,
+                    genre: doc.genre.join(', '),
+                    director: doc.director,
+                    cast: doc.cast.join(', '),
+                    runtime: doc.runtime,
+                    rating: doc.rating
                 };
             });
             setMovies(moviesFromApi);
@@ -18779,14 +18783,14 @@ const MainView = ()=>{
         onBackClick: ()=>setSelectedMovie(null)
     }, void 0, false, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 69,
+        lineNumber: 72,
         columnNumber: 7
     }, undefined);
     if (movies.length === 0) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: "The listy is empty!"
     }, void 0, false, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 77,
+        lineNumber: 80,
         columnNumber: 12
     }, undefined);
     else return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18798,13 +18802,13 @@ const MainView = ()=>{
                 }
             }, movie.id, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 84,
+                lineNumber: 87,
                 columnNumber: 18
             }, undefined);
         })
     }, void 0, false, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 82,
+        lineNumber: 85,
         columnNumber: 7
     }, undefined);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -18815,12 +18819,12 @@ const MainView = ()=>{
                 }
             }, movie.id, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 98,
+                lineNumber: 101,
                 columnNumber: 9
             }, undefined))
     }, void 0, false, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 96,
+        lineNumber: 99,
         columnNumber: 5
     }, undefined);
 };

@@ -46,16 +46,19 @@ export const MainView = () => {
 
 
   useEffect(() => {
-    fetch("https://openlibrary.org/search.json?q=star+wars")
+    fetch("http://localhost:5000/api/movies")
     .then((response) => response.json())
     .then((data) => {
-      const moviesFromApi = data.docs.map((doc) => {
+      const moviesFromApi = data.map((doc) => {
         return {
-          id: doc.key,
+          id: doc._id,
           title: doc.title,
-          image:
-          `https://covers.openlibrary.org/b/id/${doc.cover_i}-L.jpg`,
-          author: doc.author_name?.[0]
+          year: doc.year,
+          genre: doc.genre.join(', '),
+          director: doc.director,
+          cast: doc.cast.join(', '),
+          runtime: doc.runtime,
+          rating: doc.rating,
         };
       });
       setMovies(moviesFromApi);
