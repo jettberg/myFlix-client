@@ -46,7 +46,7 @@ export const MainView = () => {
 
 
   useEffect(() => {
-    fetch("http://localhost:8080/movies")
+    fetch("https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com/movies")
     .then((response) => response.json())
     .then((data) => {
       const moviesFromApi = data.map((doc) => {
@@ -77,7 +77,7 @@ export const MainView = () => {
 
 
   if (movies.length === 0) {
-    return <div>The listy is empty!</div>;
+    return <div>The list is empty!</div>;
   } else {
 
 
