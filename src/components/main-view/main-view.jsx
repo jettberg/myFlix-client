@@ -1,52 +1,29 @@
 import { useState, useEffect } from "react";
 import { MovieCard } from "../MovieCard/movie-card";
 import { MovieView } from "../movie-view/movie-view";
-
+import { LoginView } from "../login-view/login-view";
+import { SignupView } from "../signup-view/signup-view";
 
 
 
 export const MainView = () => {
-  // const [movies, setMovies] = useState([
-  //   {
-  //     id: 1, title: "Eloquent Java",
-  //     image: "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
-  //     author: "Jett berg 1"
-  //   },
-
-
-  //   {
-  //     id: 2, title: "Ugly Java",
-  //     image: "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
-  //     author: "Jett berg 2"
-  //   },
-
-
-  //   {
-  //     id: 3, title: "Decent Java",
-  //     image: "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
-  //     author: "Jett berg 3"
-  //   },
-
-
-  //   {
-  //     id: 4, title: "Whatever Java",
-  //     image: "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
-  //     author: "Jett berg 4"
-  //   },
-
-
-  //   {
-  //     id: 5, title: "Astounding Java",
-  //     image: "https://images-na.ssl-images-amazon.com/images/I/51InjRPaF7L._SX377_BO1,204,203,200_.jpg",
-  //     author: "Jett berg 5"
-  //   }
-  // ]);
+  const storedUser = JSON.parse(localStorage.getItem("user"));
+  const storedToken = localStorage.getItem("token");
   const [movies, setMovies] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState(null);
+  const [user, setUser] = useState(storedUser? storedUser:null);
+  const [token, setToken] = useState(storedToken? storedToken:null);
 
 
   useEffect(() => {
-    fetch("https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com/movies")
+
+    if (!token) {
+      return;
+    }
+
+    fetch("https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com/movies", {
+      headers: {Authorization: `Bearer ${token}` },
+    })
     .then((response) => response.json())
     .then((data) => {
       const moviesFromApi = data.map((doc) => {
@@ -54,25 +31,35 @@ export const MainView = () => {
           id: doc._id,
           title: doc.title,
           year: doc.year,
-          genre: doc.genre.join(', '),
+          genre: doc.genre,
           director: doc.director,
-          cast: doc.cast.join(', '),
+          cast: doc.cast,
           runtime: doc.runtime,
           rating: doc.rating,
         };
       });
       setMovies(moviesFromApi);
     });
-  }, []);
+  }, [token]);
 
-
+  if (!user) {
+    return (
+    <>
+    <LoginView onLoggedIn= {(user, token) => {
+      setUser(user);
+      setToken(token);
+    }} />
+    or
+    <SignupView />
+    </>
+    );
+  };
 
   if (selectedMovie) {
     return (
       <MovieView movie={selectedMovie} onBackClick={() => setSelectedMovie(null)} />
     );
   }
-
 
 
 
@@ -91,22 +78,10 @@ export const MainView = () => {
               setSelectedMovie(newSelectedMovie);
             }} />
         })}
+        <button onClick={() => { setUser(null); setToken(null); localStorage.clear(); }}>Logout</button>
       </div>
     );
   }
-
-
-  return (
-    <div>
-      {movies.map((movie) => (
-        <MovieCard key={movie.id}
-          movie={movie}
-          onCLick={() => {
-            setSelectedMovie(movie);
-          }} />
-      ))}
-    </div>
-  );
 
 
 };
