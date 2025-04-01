@@ -1,7 +1,15 @@
+import "./movie-view.scss";
+
 export const MovieView = ({ movie, onBackClick }) => {
     return (
         <div className="movie-view">
             <h1>{movie.title}</h1>
+
+            {movie.image && (
+                <div className="movie-image">
+                    <img src={movie.image} alt={movie.title} />
+                </div>
+            )}
             
             <div>
             <strong>Genre:</strong> {Array.isArray(movie.genre) ? movie.genre.join(', ') : movie.genre}
@@ -15,9 +23,7 @@ export const MovieView = ({ movie, onBackClick }) => {
             <div>
                 <strong>Rating:</strong> {movie.rating}
             </div>
-
-            {/* Button to go back to the previous view */}
-            <button onClick={onBackClick}>Back</button>
+            <button onClick={onBackClick} className="back-button" style={{ cursor: "pointer"}}>Back</button>
         </div>
     );
 };

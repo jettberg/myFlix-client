@@ -3,7 +3,8 @@ import { MovieCard } from "../MovieCard/movie-card";
 import { MovieView } from "../movie-view/movie-view";
 import { LoginView } from "../login-view/login-view";
 import { SignupView } from "../signup-view/signup-view";
-
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 export const MainView = () => {
@@ -11,8 +12,8 @@ export const MainView = () => {
   const storedToken = localStorage.getItem("token");
   const [movies, setMovies] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState(null);
-  const [user, setUser] = useState(storedUser? storedUser:null);
-  const [token, setToken] = useState(storedToken? storedToken:null);
+  const [user, setUser] = useState(storedUser ? storedUser : null);
+  const [token, setToken] = useState(storedToken ? storedToken : null);
 
 
   useEffect(() => {
@@ -22,67 +23,71 @@ export const MainView = () => {
     }
 
     fetch("https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com/movies", {
-      headers: {Authorization: `Bearer ${token}` },
+      headers: { Authorization: `Bearer ${token}` },
     })
-    .then((response) => response.json())
-    .then((data) => {
-      const moviesFromApi = data.map((doc) => {
-        return {
-          id: doc._id,
-          title: doc.title,
-          year: doc.year,
-          genre: doc.genre,
-          director: doc.director,
-          cast: doc.cast,
-          runtime: doc.runtime,
-          rating: doc.rating,
-        };
+      .then((response) => response.json())
+      .then((data) => {
+        const moviesFromApi = data.map((doc) => {
+          return {
+            id: doc._id,
+            title: doc.title,
+            year: doc.year,
+            genre: doc.genre,
+            director: doc.director,
+            cast: doc.cast,
+            runtime: doc.runtime,
+            image: doc.image,
+            rating: doc.rating,
+          };
+        });
+        setMovies(moviesFromApi);
       });
-      setMovies(moviesFromApi);
-    });
   }, [token]);
 
-  if (!user) {
-    return (
-    <>
-    <LoginView onLoggedIn= {(user, token) => {
-      setUser(user);
-      setToken(token);
-    }} />
-    or
-    <SignupView />
-    </>
-    );
-  };
+  return (
+    <Row className="justify-content-md-center">
 
-  if (selectedMovie) {
-    return (
-      <MovieView movie={selectedMovie} onBackClick={() => setSelectedMovie(null)} />
-    );
-  }
-
-
-
-  if (movies.length === 0) {
-    return <div>The list is empty!</div>;
-  } else {
-
-
-    return (
-      <div>
-        {movies.map((movie) => {
-          return <MovieCard 
-            key={movie.id}
-            movieData={movie}
-            onMovieClick={(newSelectedMovie) => {
-              setSelectedMovie(newSelectedMovie);
-            }} />
-        })}
-        <button onClick={() => { setUser(null); setToken(null); localStorage.clear(); }}>Logout</button>
-      </div>
-    );
-  }
-
-
+      {!user ? (
+        <Col md={5}>
+          <LoginView
+            onLoggedIn={(user, token) => {
+              setUser(user);
+              setToken(token);
+            }}
+          />
+          <p>or</p>
+          <SignupView />
+        </Col>
+      ) : selectedMovie ? (
+        <Col md={8}>
+          <MovieView movie={selectedMovie} onBackClick={() => setSelectedMovie(null)} />
+        </Col>
+      ) : movies.length === 0 ? (
+        <div>The list is empty!</div>
+      ) : (
+        <>
+          {movies.map((movie) => (
+            <Col className="mb-3" key={movie.id} md={6}>
+              <MovieCard
+                movieData={movie}
+                onMovieClick={(newSelectedMovie) => {
+                  setSelectedMovie(newSelectedMovie);
+                }}
+              />
+            </Col>
+          ))}
+          <button
+            onClick={() => {
+              setUser(null);
+              setToken(null);
+              localStorage.clear();
+            }}
+            style={{ cursor: "pointer" }}
+          >
+            Logout
+          </button>
+        </>
+      )}
+    </Row>
+  );
 };
-

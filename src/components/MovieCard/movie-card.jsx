@@ -1,10 +1,19 @@
 import PropTypes from "prop-types";
+import { Button, Card } from "react-bootstrap";
+import "./movie-card.scss"
 
 export const MovieCard = ({ movieData, onMovieClick }) => {
 
 
     return (
-        <div onClick={() => { onMovieClick(movieData); }}>{movieData.title}</div>
+        <Card className='h-100'>
+            <Card.Img variant="top" src={movieData.image } style={{ width: "286px", height: "180px", objectFit: "cover" }} />
+            <Card.Body>
+                <Card.Title>{movieData.title}</Card.Title>
+                <Card.Text>{movieData.director}</Card.Text>
+                <Button  onClick={() => onMovieClick(movieData)} variant="link">Open</Button>
+            </Card.Body>
+        </Card>
     );
 };
 
@@ -17,7 +26,7 @@ MovieCard.PropTypes = {
     movieData: PropTypes.shape({
 
         title: PropTypes.string.isRequired,
-        // image: PropTypes.string.isRequired,
+        image: PropTypes.string.isRequired,
         director: PropTypes.string.isRequired,
         genre: PropTypes.arrayOf(PropTypes.string).isRequired,
         cast: PropTypes.arrayOf(PropTypes.string).isRequired,
@@ -29,4 +38,4 @@ MovieCard.PropTypes = {
 
     }).isRequired,
     onMovieClick: PropTypes.func.isRequired
-};
+}; 
