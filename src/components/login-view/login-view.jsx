@@ -29,6 +29,7 @@ export const LoginView = ({onLoggedIn}) => {
             localStorage.setItem("user", JSON.stringify(mockUser));
             localStorage.setItem("token", mockToken);
             onLoggedIn(mockUser, mockToken);
+            return;
         }else {
 
         fetch("https://jsonplaceholder.typicode.com/users", {

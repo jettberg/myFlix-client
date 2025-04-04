@@ -1,17 +1,25 @@
 import PropTypes from "prop-types";
 import { Button, Card } from "react-bootstrap";
-import "./movie-card.scss"
+import { Link } from "react-router";
+import "./movie-card.scss";
+
 
 export const MovieCard = ({ movieData, onMovieClick }) => {
 
 
     return (
         <Card className='h-100'>
-            <Card.Img variant="top" src={movieData.image } style={{ width: "286px", height: "180px", objectFit: "cover" }} />
+            <Card.Img variant="top" src={movieData.image }
+             style={{ width: "286px", height: "180px", objectFit: "cover" }} />
             <Card.Body>
                 <Card.Title>{movieData.title}</Card.Title>
                 <Card.Text>{movieData.director}</Card.Text>
-                <Button  onClick={() => onMovieClick(movieData)} variant="link">Open</Button>
+                <Link to={`/movies/${encodeURIComponent(movieData._id)}`}>
+                <Button  
+                onClick={() => onMovieClick(movieData)} 
+                variant="link">Open
+                </Button>
+                </Link>
             </Card.Body>
         </Card>
     );
