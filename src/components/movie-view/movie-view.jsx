@@ -31,7 +31,7 @@ export const MovieView = ({ movie }) => {
             <div>
                 <strong>Rating:</strong> {movie.rating}
             </div>
-            <Link to={`/`}>
+            <Link to={'/'}>
             <button className="back-button" 
             style={{ cursor: "pointer"}}>Back
             </button>
