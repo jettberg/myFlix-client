@@ -8,6 +8,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { BrowserRouter, Routes, Route, Navigate, Link } from "react-router";
 import './main-view.scss';
+import { ProfileView } from "../profile-view/profile-view";
 
 
 export const MainView = () => {
@@ -74,12 +75,14 @@ export const MainView = () => {
                 {!user ? (
                   <Row className="signup-login-container justify-content-md-center">
                     <Col md={5} className="mb-4">
+                      <h2>Login!</h2>
                       <LoginView onLoggedIn={(user, token) => {
                         setUser(user);
                         setToken(token);
                       }} />
                     </Col>
                     <Col md={5}>
+                      <h2>Sign up!</h2>
                       <SignupView />
                     </Col>
                   </Row>
@@ -106,6 +109,14 @@ export const MainView = () => {
               </>
             }
           />
+          <Route 
+          path = "/profile"
+          element={
+            <ProfileView user={user}
+            token ={token}
+            movies={movies}
+            onLogout={handleLogout}/>
+          }/>
 
 
           <Route
@@ -118,7 +129,11 @@ export const MainView = () => {
                   <div>The selected movie doesn't exist!</div>
                 ) : (
                   <Col md={8}>
-                    <MovieView movie={selectedMovie} onBackClick={() => setSelectedMovie(null)} />
+                    <MovieView movie={selectedMovie}
+                    user={user}
+                    token={token}
+                    setUser={setUser}
+                    onBackClick={() => setSelectedMovie(null)}/>
                   </Col>
                 )}
               </>

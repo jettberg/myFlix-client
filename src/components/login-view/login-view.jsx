@@ -9,30 +9,18 @@ export const LoginView = ({onLoggedIn}) => {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [passwordVisible, setPasswordVisible] = useState(false);
+    const [errorMessage, setErrorMessage] = useState("");
  
     const handleSubmit = (event) => {
         event.preventDefault();
 
-
-//only adding this because the API that i am using to POST to isnt working
-        const mockUser = { username: "testuser", id: 1};
-        const mockToken = "mocked-token-12345";
-
-
         const data = {
-            access: username,
-            secret: password
+            Username: username,
+            Password: password,
         };
 
-//only adding this too to bypass the login state
-        if (username === "testuser" && password === "testpassword") {
-            localStorage.setItem("user", JSON.stringify(mockUser));
-            localStorage.setItem("token", mockToken);
-            onLoggedIn(mockUser, mockToken);
-            return;
-        }else {
 
-        fetch("https://jsonplaceholder.typicode.com/users", {
+        fetch("https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com/login", {
             method: "POST",
             body: JSON.stringify(data),
             headers: {
@@ -42,22 +30,23 @@ export const LoginView = ({onLoggedIn}) => {
         .then((response) => response.json())
         .then((data) => {
             console.log("Login response: ", data);
-            if (data.user) {
+            if (data.token && data.user) {
                 localStorage.setItem("user", JSON.stringify(data.user));
                 localStorage.setItem("token", data.token);
                 onLoggedIn(data.user, data.token);
             }else{
-                alert("No such user");
+                setErrorMessage("Invalid Username or Passowrd");
             }
         })
-        .catch((e) => {
-            alert("Something went wrong!");
+        .catch((error) => {
+            console.error("Error during login:", error);
+            setErrorMessage("Something went wrong!");
         });
     };
-};
+
     return (
         <form onSubmit={handleSubmit}>
-            <Form.Group controlId = "formUsername">
+            <Form.Group controlId = "LoginFormUsername">
                 <Form.Label>Username:</Form.Label>
                 <Form.Control
                     type="text" 
@@ -67,7 +56,7 @@ export const LoginView = ({onLoggedIn}) => {
                     />
             </Form.Group>
 
-            <Form.Group controlId="formPassword">
+            <Form.Group controlId="LoginFormPassword">
                 <Form.Label>Password:</Form.Label>
                 <Form.Control 
                 type={passwordVisible ? "text" : "password"}
@@ -93,10 +82,6 @@ export const LoginView = ({onLoggedIn}) => {
             >
                 Submit
             </Button>
-{/* this is the username:
-testuser
-this is the password:
-testpassword */}
         </form>
     );
 };

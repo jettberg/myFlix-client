@@ -1,11 +1,43 @@
 import "./movie-view.scss";
 import { Link, useParams } from "react-router";
+import { Button } from 'react-bootstrap';
 
-export const MovieView = ({ movie }) => {
+export const MovieView = ({ movie, user, token, setUser }) => {
 
     // const { movieId } = useParams();
     // const movie = movies.find((m) => m.id === movieId);
-        if (!movie) return <div>Movie not found</div>;
+    if (!movie) return <div>Movie not found</div>;
+        
+    const isFavorite = user.FavoriteMovies.includes(movie._id);
+
+        
+    const handleFavoriteToggle = (movieId) => {
+
+        const url = `https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com/users/${user.Username}/movies/${movieId}`;
+        const method = isFavorite ? 'DELETE' : 'POST';
+    
+        fetch(url, {
+          method: method,
+          headers: { 
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${token}` }
+        })
+          .then((response) => {
+            if (response.ok) {
+              const updatedFavorites = isFavorite
+                ? user.FavoriteMovies.filter((id) => id !== movieId)
+                : [...user.FavoriteMovies, movieId];
+    
+              const updatedUser = { ...user, FavoriteMovies: updatedFavorites };
+    
+              localStorage.setItem("user", JSON.stringify(updatedUser));
+              setUser(updatedUser);
+            } else {
+              throw new Error('Favorite toggle failed');
+            }
+          })
+          .catch((error) => console.error(error));
+      };
 
     return (
         <div className="movie-view">
@@ -13,14 +45,14 @@ export const MovieView = ({ movie }) => {
 
             {movie.image && (
                 <div>
-                    <img src={movie.image} 
-                    alt={movie.title} 
-                    className="w-100"/>
+                    <img src={movie.image}
+                        alt={movie.title}
+                        className="w-100" />
                 </div>
             )}
-            
+
             <div>
-            <strong>Genre:</strong> {Array.isArray(movie.genre) ? movie.genre.join(', ') : movie.genre}
+                <strong>Genre:</strong> {Array.isArray(movie.genre) ? movie.genre.join(', ') : movie.genre}
             </div>
             <div>
                 <strong>Director:</strong> {movie.director}
@@ -31,10 +63,18 @@ export const MovieView = ({ movie }) => {
             <div>
                 <strong>Rating:</strong> {movie.rating}
             </div>
+
+            <Button
+                onClick={() => handleFavoriteToggle(movie.id)}
+                variant={isFavorite ? 'danger' : 'primary'}
+            >
+                {isFavorite ? 'Remove from Favorites' : 'Add to Favorites'}
+            </Button>
+
             <Link to={'/'}>
-            <button className="back-button" 
-            style={{ cursor: "pointer"}}>Back
-            </button>
+                <button className="back-button"
+                    style={{ cursor: "pointer" }}>Back
+                </button>
             </Link>
         </div>
     );

@@ -17,7 +17,7 @@ export const SignupView = () => {
         Birthday: birthday
       };
 
-      fetch("SIGNUP_URL", {
+      fetch("https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com/users", {
         method: "POST",
         body: JSON.stringify(data),
         headers: {
@@ -35,7 +35,7 @@ export const SignupView = () => {
   
     return (
       <form onSubmit={handleSubmit}>
-      <Form.Group controlId="formUsername">
+      <Form.Group controlId="SignupFormUsername">
         <Form.Label>Username:</Form.Label>
         <Form.Control
           type="text"
@@ -46,7 +46,7 @@ export const SignupView = () => {
         />
       </Form.Group>
 
-      <Form.Group controlId="formPassword">
+      <Form.Group controlId="SignupFormPassword">
         <Form.Label>Password:</Form.Label>
         <Form.Control
           type="password"
