@@ -5,6 +5,7 @@ import "./movie-card.scss";
 
 
 export const MovieCard = ({ movieData, onMovieClick, onFavoriteToggle }) => {
+  console.log("Favorite toggle clicked for movie:", movieData);
     const handleClick = () => {
         console.log('Clicked remove button for:', movieData._id);
         onFavoriteToggle(movieData._id);
@@ -20,9 +21,12 @@ export const MovieCard = ({ movieData, onMovieClick, onFavoriteToggle }) => {
           <Card.Title>{movieData.title}</Card.Title>
           <Card.Text>{movieData.director}</Card.Text>
   
-          <Link to={`/movies/${encodeURIComponent(movieData._id)}`}>
+          <Link to={`/movies/${encodeURIComponent(movieData.id)}`}>
             <Button
-              onClick={() => onMovieClick(movieData)}
+              onClick={() => {
+                console.log("MovieCard Open clicked:", movieData);
+                onMovieClick(movieData); 
+              }}
               variant="link"
             >
               Open

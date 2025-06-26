@@ -3,13 +3,13 @@ import { Link, useParams } from "react-router";
 import { Button } from 'react-bootstrap';
 
 export const MovieView = ({ movie, user, token, setUser }) => {
-
+    console.log("MovieView revieved movie", movie);
     // const { movieId } = useParams();
     // const movie = movies.find((m) => m.id === movieId);
     if (!movie) return <div>Movie not found</div>;
         
-    const isFavorite = user.FavoriteMovies.includes(movie._id);
-
+    const isFavorite = user.FavoriteMovies.includes(movie.id);
+        console.log("movie.id being used in FavoriteToggle:", movie?.id);
         
     const handleFavoriteToggle = (movieId) => {
 

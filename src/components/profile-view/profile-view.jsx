@@ -102,7 +102,7 @@ export const ProfileView = ({ user, token, onLogout, movies }) => {
         setUserInfo(updatedUser);
 
         const updatedFavorites = updatedUser.FavoriteMovies
-          .map(id => movies.find(movie => movie._id === id))
+          .map(id => movies.find(movie => movie.id === id))
           .filter(Boolean);
 
         setFavoriteMovies(updatedFavorites);
