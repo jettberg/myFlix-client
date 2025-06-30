@@ -142,9 +142,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"fYiDu":[function(require,module,exports,__globalThis) {
-var Refresh = require("8656a84be92d3145");
-var ErrorOverlay = require("c8dd6a6325c84e1d");
+})({"aQL8O":[function(require,module,exports,__globalThis) {
+var Refresh = require("f11b6b8f6a1f6f0b");
+var ErrorOverlay = require("f490fb404efab291");
 window.__REACT_REFRESH_VERSION_RUNTIME = '0.14.2';
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
@@ -164,11 +164,11 @@ window.addEventListener('parcelhmraccept', ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"8656a84be92d3145":"kWNC7","c8dd6a6325c84e1d":"isFMJ"}],"kWNC7":[function(require,module,exports,__globalThis) {
+},{"f11b6b8f6a1f6f0b":"786KC","f490fb404efab291":"1dldy"}],"786KC":[function(require,module,exports,__globalThis) {
 'use strict';
-module.exports = require("1788ef1edae5a9c8");
+module.exports = require("96622d495519d4e");
 
-},{"1788ef1edae5a9c8":"brBHE"}],"brBHE":[function(require,module,exports,__globalThis) {
+},{"96622d495519d4e":"hdge7"}],"hdge7":[function(require,module,exports,__globalThis) {
 /**
  * @license React
  * react-refresh-runtime.development.js
@@ -609,8 +609,8 @@ module.exports = require("1788ef1edae5a9c8");
     exports.setSignature = setSignature;
 })();
 
-},{}],"isFMJ":[function(require,module,exports,__globalThis) {
-var process = require("a1d42976efea377a");
+},{}],"1dldy":[function(require,module,exports,__globalThis) {
+var process = require("d1546958eb39fdcf");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2340,7 +2340,7 @@ var process = require("a1d42976efea377a");
     ]);
 });
 
-},{"a1d42976efea377a":"d5jf4"}],"d5jf4":[function(require,module,exports,__globalThis) {
+},{"d1546958eb39fdcf":"d5jf4"}],"d5jf4":[function(require,module,exports,__globalThis) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2485,7 +2485,7 @@ process.umask = function() {
     return 0;
 };
 
-},{}],"dstz8":[function(require,module,exports,__globalThis) {
+},{}],"7qMjn":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -2981,7 +2981,7 @@ $RefreshReg$(_c, "MyFlixApplication");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dldZz","./components/main-view/main-view":"4gflv","react-bootstrap/container":"hEdsw","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"iTorj":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./index.scss":"lJZlQ","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/main-view/main-view":"4gflv","react-bootstrap/container":"hEdsw","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iTorj":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("ee51401569654d91");
 
@@ -18576,10 +18576,10 @@ module.exports = require("b0f0e6b9e8349dac");
     "undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ && "function" === typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(Error());
 })();
 
-},{"6f0162e9ab224cd4":"21dqq"}],"lJZlQ":[function() {},{}],"dldZz":[function(require,module,exports,__globalThis) {
+},{"6f0162e9ab224cd4":"21dqq"}],"lJZlQ":[function() {},{}],"km3Ru":[function(require,module,exports,__globalThis) {
 "use strict";
-var Refresh = require("a3ceedca625e605");
-var { version } = require("1921647249a4f8ef");
+var Refresh = require("7422ead32dcc1e6b");
+var { version } = require("630b62916b1ae0e7");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -18718,7 +18718,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"a3ceedca625e605":"kWNC7","1921647249a4f8ef":"lQitK"}],"lQitK":[function(require,module,exports,__globalThis) {
+},{"7422ead32dcc1e6b":"786KC","630b62916b1ae0e7":"4SQxb"}],"4SQxb":[function(require,module,exports,__globalThis) {
 module.exports = JSON.parse("{\"name\":\"react-refresh\",\"description\":\"React is a JavaScript library for building user interfaces.\",\"keywords\":[\"react\"],\"version\":\"0.14.2\",\"homepage\":\"https://reactjs.org/\",\"bugs\":\"https://github.com/facebook/react/issues\",\"license\":\"MIT\",\"files\":[\"LICENSE\",\"README.md\",\"babel.js\",\"runtime.js\",\"cjs/\",\"umd/\"],\"main\":\"runtime.js\",\"exports\":{\".\":\"./runtime.js\",\"./runtime\":\"./runtime.js\",\"./babel\":\"./babel.js\",\"./package.json\":\"./package.json\"},\"repository\":{\"type\":\"git\",\"url\":\"https://github.com/facebook/react.git\",\"directory\":\"packages/react\"},\"engines\":{\"node\":\">=0.10.0\"},\"devDependencies\":{\"react-16-8\":\"npm:react@16.8.0\",\"react-dom-16-8\":\"npm:react-dom@16.8.0\",\"scheduler-0-13\":\"npm:scheduler@0.13.0\"}}");
 
 },{}],"4gflv":[function(require,module,exports,__globalThis) {
@@ -18742,6 +18742,8 @@ var _row = require("react-bootstrap/Row");
 var _rowDefault = parcelHelpers.interopDefault(_row);
 var _col = require("react-bootstrap/Col");
 var _colDefault = parcelHelpers.interopDefault(_col);
+var _form = require("react-bootstrap/Form");
+var _formDefault = parcelHelpers.interopDefault(_form);
 var _reactRouter = require("react-router");
 var _mainViewScss = require("./main-view.scss");
 var _profileView = require("../profile-view/profile-view");
@@ -18754,6 +18756,7 @@ const MainView = ()=>{
     const [selectedMovie, setSelectedMovie] = (0, _react.useState)(null);
     const [user, setUser] = (0, _react.useState)(storedUser ? storedUser : null);
     const [token, setToken] = (0, _react.useState)(storedToken ? storedToken : null);
+    const [searchQuery, setSearchQuery] = (0, _react.useState)("");
     (0, _react.useEffect)(()=>{
         if (!token) return;
         fetch("https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com/movies", {
@@ -18780,6 +18783,11 @@ const MainView = ()=>{
     }, [
         token
     ]);
+    const filteredMovies = movies.filter((movie)=>{
+        const titleMatch = movie.title.toLowerCase().includes(searchQuery.toLowerCase());
+        const genreMatch = Array.isArray(movie.genre) ? movie.genre.some((g)=>g.toLowerCase().includes(searchQuery.toLowerCase())) : movie.genre.toLowerCase().includes(searchQuery.toLowerCase());
+        return titleMatch || genreMatch;
+    });
     const handleLogout = ()=>{
         setUser(null);
         setToken(null);
@@ -18793,10 +18801,11 @@ const MainView = ()=>{
                     setUser(null);
                     setToken(null);
                     localStorage.clear();
-                }
+                },
+                onSearchChange: setSearchQuery
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 61,
+                lineNumber: 73,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _rowDefault.default), {
@@ -18817,7 +18826,7 @@ const MainView = ()=>{
                                                     children: "Login!"
                                                 }, void 0, false, {
                                                     fileName: "src/components/main-view/main-view.jsx",
-                                                    lineNumber: 79,
+                                                    lineNumber: 92,
                                                     columnNumber: 23
                                                 }, void 0),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _loginView.LoginView), {
@@ -18827,13 +18836,13 @@ const MainView = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "src/components/main-view/main-view.jsx",
-                                                    lineNumber: 80,
+                                                    lineNumber: 93,
                                                     columnNumber: 23
                                                 }, void 0)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/main-view/main-view.jsx",
-                                            lineNumber: 78,
+                                            lineNumber: 91,
                                             columnNumber: 21
                                         }, void 0),
                                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
@@ -18843,34 +18852,34 @@ const MainView = ()=>{
                                                     children: "Sign up!"
                                                 }, void 0, false, {
                                                     fileName: "src/components/main-view/main-view.jsx",
-                                                    lineNumber: 86,
+                                                    lineNumber: 99,
                                                     columnNumber: 23
                                                 }, void 0),
                                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signupView.SignupView), {}, void 0, false, {
                                                     fileName: "src/components/main-view/main-view.jsx",
-                                                    lineNumber: 87,
+                                                    lineNumber: 100,
                                                     columnNumber: 23
                                                 }, void 0)
                                             ]
                                         }, void 0, true, {
                                             fileName: "src/components/main-view/main-view.jsx",
-                                            lineNumber: 85,
+                                            lineNumber: 98,
                                             columnNumber: 21
                                         }, void 0)
                                     ]
                                 }, void 0, true, {
                                     fileName: "src/components/main-view/main-view.jsx",
-                                    lineNumber: 77,
+                                    lineNumber: 90,
                                     columnNumber: 19
                                 }, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-                                    children: movies.length === 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
+                                    children: filteredMovies.length === 0 ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
                                         children: "The list is empty!"
                                     }, void 0, false, {
                                         fileName: "src/components/main-view/main-view.jsx",
-                                        lineNumber: 93,
+                                        lineNumber: 107,
                                         columnNumber: 23
                                     }, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-                                        children: movies.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
+                                        children: filteredMovies.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
                                                 className: "mb-4",
                                                 md: 3,
                                                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCard.MovieCard), {
@@ -18881,12 +18890,12 @@ const MainView = ()=>{
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "src/components/main-view/main-view.jsx",
-                                                    lineNumber: 98,
+                                                    lineNumber: 112,
                                                     columnNumber: 29
                                                 }, void 0)
                                             }, movie.id, false, {
                                                 fileName: "src/components/main-view/main-view.jsx",
-                                                lineNumber: 97,
+                                                lineNumber: 111,
                                                 columnNumber: 27
                                             }, void 0))
                                     }, void 0, false)
@@ -18894,7 +18903,7 @@ const MainView = ()=>{
                             }, void 0, false)
                         }, void 0, false, {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 72,
+                            lineNumber: 85,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Route), {
@@ -18906,12 +18915,12 @@ const MainView = ()=>{
                                 onLogout: handleLogout
                             }, void 0, false, {
                                 fileName: "src/components/main-view/main-view.jsx",
-                                lineNumber: 117,
+                                lineNumber: 131,
                                 columnNumber: 13
                             }, void 0)
                         }, void 0, false, {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 114,
+                            lineNumber: 128,
                             columnNumber: 11
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouter.Route), {
@@ -18922,13 +18931,13 @@ const MainView = ()=>{
                                     replace: true
                                 }, void 0, false, {
                                     fileName: "src/components/main-view/main-view.jsx",
-                                    lineNumber: 129,
+                                    lineNumber: 143,
                                     columnNumber: 19
                                 }, void 0) : !selectedMovie ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                     children: "The selected movie doesn't exist!"
                                 }, void 0, false, {
                                     fileName: "src/components/main-view/main-view.jsx",
-                                    lineNumber: 131,
+                                    lineNumber: 145,
                                     columnNumber: 19
                                 }, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
                                     md: 8,
@@ -18940,39 +18949,39 @@ const MainView = ()=>{
                                         onBackClick: ()=>setSelectedMovie(null)
                                     }, void 0, false, {
                                         fileName: "src/components/main-view/main-view.jsx",
-                                        lineNumber: 134,
+                                        lineNumber: 148,
                                         columnNumber: 21
                                     }, void 0)
                                 }, void 0, false, {
                                     fileName: "src/components/main-view/main-view.jsx",
-                                    lineNumber: 133,
+                                    lineNumber: 147,
                                     columnNumber: 19
                                 }, void 0)
                             }, void 0, false)
                         }, void 0, false, {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 124,
+                            lineNumber: 138,
                             columnNumber: 11
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/main-view/main-view.jsx",
-                    lineNumber: 71,
+                    lineNumber: 84,
                     columnNumber: 9
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 70,
+                lineNumber: 83,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 59,
+        lineNumber: 71,
         columnNumber: 5
     }, undefined);
 };
-_s(MainView, "hFDxRpIbGxP6+QKMAcm8hX/Ql7A=");
+_s(MainView, "P+567A6MzJ4aDlYHCSjlLO8cF/w=");
 _c = MainView;
 var _c;
 $RefreshReg$(_c, "MainView");
@@ -18982,7 +18991,7 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../MovieCard/movie-card":"dg3Ls","../movie-view/movie-view":"ggaUx","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dldZz","../signup-view/signup-view":"4OGiN","../login-view/login-view":"9YtA0","react-bootstrap/Row":"cMC39","react-bootstrap/Col":"2L2I6","react-router":"dXVwI","./main-view.scss":"eBaMl","../navigation-bar/navigation-bar":"bsPVM","../profile-view/profile-view":"2vVqf"}],"dg3Ls":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../MovieCard/movie-card":"dg3Ls","../movie-view/movie-view":"ggaUx","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../signup-view/signup-view":"4OGiN","../login-view/login-view":"9YtA0","react-bootstrap/Row":"cMC39","react-bootstrap/Col":"2L2I6","react-router":"dXVwI","./main-view.scss":"eBaMl","../navigation-bar/navigation-bar":"bsPVM","../profile-view/profile-view":"2vVqf","react-bootstrap/Form":"iBZ80"}],"dg3Ls":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$2506 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -19108,7 +19117,7 @@ $RefreshReg$(_c, "MovieCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dldZz","prop-types":"7wKI2","react-bootstrap":"3AD9A","./movie-card.scss":"2era4","react-router":"dXVwI"}],"lWgMN":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","prop-types":"7wKI2","react-bootstrap":"3AD9A","./movie-card.scss":"2era4","react-router":"dXVwI"}],"gkKU3":[function(require,module,exports,__globalThis) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -20223,7 +20232,7 @@ var _toggleButtonGroupDefault = parcelHelpers.interopDefault(_toggleButtonGroup)
 var _tooltip = require("./Tooltip");
 var _tooltipDefault = parcelHelpers.interopDefault(_tooltip);
 
-},{"./Accordion":false,"./AccordionContext":false,"./AccordionCollapse":false,"./AccordionButton":false,"./AccordionBody":false,"./AccordionHeader":false,"./AccordionItem":false,"./Alert":false,"./AlertHeading":false,"./AlertLink":false,"./Anchor":false,"./Badge":false,"./Breadcrumb":false,"./BreadcrumbItem":false,"./Button":"aPzUt","./ButtonGroup":false,"./ButtonToolbar":false,"./Card":"lAynp","./CardBody":false,"./CardFooter":false,"./CardGroup":false,"./CardHeader":false,"./CardImg":false,"./CardImgOverlay":false,"./CardLink":false,"./CardSubtitle":false,"./CardText":false,"./CardTitle":false,"./Carousel":false,"./CarouselCaption":false,"./CarouselItem":false,"./CloseButton":false,"./Col":false,"./Collapse":false,"./Container":"hEdsw","./Dropdown":false,"./DropdownButton":false,"./DropdownDivider":false,"./DropdownHeader":false,"./DropdownItem":false,"./DropdownItemText":false,"./DropdownMenu":false,"./DropdownToggle":false,"./Fade":false,"./Figure":false,"./FigureCaption":false,"./FigureImage":false,"./Form":"iBZ80","./FormControl":false,"./FormCheck":false,"./FormFloating":false,"./FloatingLabel":false,"./FormGroup":false,"./FormLabel":false,"./FormText":false,"./FormSelect":false,"./Image":false,"./InputGroup":false,"./ListGroup":false,"./ListGroupItem":false,"./Modal":false,"./ModalBody":false,"./ModalDialog":false,"./ModalFooter":false,"./ModalHeader":false,"./ModalTitle":false,"./Nav":"cXyL2","./Navbar":"1mHjo","./NavbarBrand":false,"./NavbarCollapse":false,"./NavbarOffcanvas":false,"./NavbarText":false,"./NavbarToggle":false,"./NavDropdown":false,"./NavItem":false,"./NavLink":false,"./Offcanvas":false,"./OffcanvasBody":false,"./OffcanvasHeader":false,"./OffcanvasTitle":false,"./OffcanvasToggling":false,"./Overlay":false,"./OverlayTrigger":false,"./PageItem":false,"./Pagination":false,"./Placeholder":false,"./PlaceholderButton":false,"./Popover":false,"./PopoverBody":false,"./PopoverHeader":false,"./ProgressBar":false,"./Ratio":false,"./Row":false,"./Spinner":false,"./SplitButton":false,"./SSRProvider":false,"./Stack":false,"./Tab":false,"./TabContainer":false,"./TabContent":false,"./Table":false,"./TabPane":false,"./Tabs":false,"./ThemeProvider":false,"./Toast":false,"./ToastBody":false,"./ToastContainer":false,"./ToastHeader":false,"./ToggleButton":false,"./ToggleButtonGroup":false,"./Tooltip":false,"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"aPzUt":[function(require,module,exports,__globalThis) {
+},{"./Accordion":false,"./AccordionContext":false,"./AccordionCollapse":false,"./AccordionButton":false,"./AccordionBody":false,"./AccordionHeader":false,"./AccordionItem":false,"./Alert":false,"./AlertHeading":false,"./AlertLink":false,"./Anchor":false,"./Badge":false,"./Breadcrumb":false,"./BreadcrumbItem":false,"./Button":"aPzUt","./ButtonGroup":false,"./ButtonToolbar":false,"./Card":"lAynp","./CardBody":false,"./CardFooter":false,"./CardGroup":false,"./CardHeader":false,"./CardImg":false,"./CardImgOverlay":false,"./CardLink":false,"./CardSubtitle":false,"./CardText":false,"./CardTitle":false,"./Carousel":false,"./CarouselCaption":false,"./CarouselItem":false,"./CloseButton":false,"./Col":false,"./Collapse":false,"./Container":"hEdsw","./Dropdown":false,"./DropdownButton":false,"./DropdownDivider":false,"./DropdownHeader":false,"./DropdownItem":false,"./DropdownItemText":false,"./DropdownMenu":false,"./DropdownToggle":false,"./Fade":false,"./Figure":false,"./FigureCaption":false,"./FigureImage":false,"./Form":"iBZ80","./FormControl":"iynMc","./FormCheck":false,"./FormFloating":false,"./FloatingLabel":false,"./FormGroup":false,"./FormLabel":false,"./FormText":false,"./FormSelect":false,"./Image":false,"./InputGroup":false,"./ListGroup":false,"./ListGroupItem":false,"./Modal":false,"./ModalBody":false,"./ModalDialog":false,"./ModalFooter":false,"./ModalHeader":false,"./ModalTitle":false,"./Nav":"cXyL2","./Navbar":"1mHjo","./NavbarBrand":false,"./NavbarCollapse":false,"./NavbarOffcanvas":false,"./NavbarText":false,"./NavbarToggle":false,"./NavDropdown":false,"./NavItem":false,"./NavLink":false,"./Offcanvas":false,"./OffcanvasBody":false,"./OffcanvasHeader":false,"./OffcanvasTitle":false,"./OffcanvasToggling":false,"./Overlay":false,"./OverlayTrigger":false,"./PageItem":false,"./Pagination":false,"./Placeholder":false,"./PlaceholderButton":false,"./Popover":false,"./PopoverBody":false,"./PopoverHeader":false,"./ProgressBar":false,"./Ratio":false,"./Row":false,"./Spinner":false,"./SplitButton":false,"./SSRProvider":false,"./Stack":false,"./Tab":false,"./TabContainer":false,"./TabContent":false,"./Table":false,"./TabPane":false,"./Tabs":false,"./ThemeProvider":false,"./Toast":false,"./ToastBody":false,"./ToastContainer":false,"./ToastHeader":false,"./ToggleButton":false,"./ToggleButtonGroup":false,"./Tooltip":false,"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aPzUt":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -20252,7 +20261,7 @@ const Button = /*#__PURE__*/ _react.forwardRef(({ as, bsPrefix, variant = 'prima
 Button.displayName = 'Button';
 exports.default = Button;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/Button":"8YUbR","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"jocGM":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Button":"8YUbR","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jocGM":[function(require,module,exports,__globalThis) {
 /*!
 	Copyright (c) 2018 Jed Watson.
 	Licensed under the MIT License (MIT), see
@@ -20379,7 +20388,7 @@ const Button = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
 Button.displayName = 'Button';
 exports.default = Button;
 
-},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"6AEwr":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6AEwr":[function(require,module,exports,__globalThis) {
 'use strict';
 module.exports = require("c4c10cbba9862d5f");
 
@@ -20870,7 +20879,7 @@ function createBootstrapComponent(Component, opts) {
 }
 exports.default = ThemeProvider;
 
-},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"lAynp":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lAynp":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -20922,7 +20931,7 @@ exports.default = Object.assign(Card, {
     ImgOverlay: (0, _cardImgOverlayDefault.default)
 });
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./CardBody":"iN1Jc","./CardFooter":"jUi26","./CardHeader":"dXnnx","./CardImg":"1reTi","./CardImgOverlay":"Bi8dC","./CardLink":"9uFCo","./CardSubtitle":"i2BiN","./CardText":"aUUmg","./CardTitle":"79rSZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"iN1Jc":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./CardBody":"iN1Jc","./CardFooter":"jUi26","./CardHeader":"dXnnx","./CardImg":"1reTi","./CardImgOverlay":"Bi8dC","./CardLink":"9uFCo","./CardSubtitle":"i2BiN","./CardText":"aUUmg","./CardTitle":"79rSZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iN1Jc":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -20942,7 +20951,7 @@ const CardBody = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Com
 CardBody.displayName = 'CardBody';
 exports.default = CardBody;
 
-},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"jUi26":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jUi26":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -20962,7 +20971,7 @@ const CardFooter = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: C
 CardFooter.displayName = 'CardFooter';
 exports.default = CardFooter;
 
-},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"dXnnx":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dXnnx":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -20993,7 +21002,7 @@ as: Component = 'div', ...props }, ref)=>{
 CardHeader.displayName = 'CardHeader';
 exports.default = CardHeader;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./CardHeaderContext":"36cNB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"36cNB":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./CardHeaderContext":"36cNB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"36cNB":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -21002,7 +21011,7 @@ const context = /*#__PURE__*/ _react.createContext(null);
 context.displayName = 'CardHeaderContext';
 exports.default = context;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"1reTi":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1reTi":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -21023,7 +21032,7 @@ const CardImg = /*#__PURE__*/ _react.forwardRef(// Need to define the default "a
 CardImg.displayName = 'CardImg';
 exports.default = CardImg;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"Bi8dC":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"Bi8dC":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -21043,7 +21052,7 @@ const CardImgOverlay = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, a
 CardImgOverlay.displayName = 'CardImgOverlay';
 exports.default = CardImgOverlay;
 
-},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"9uFCo":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9uFCo":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -21063,7 +21072,7 @@ const CardLink = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Com
 CardLink.displayName = 'CardLink';
 exports.default = CardLink;
 
-},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"i2BiN":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"i2BiN":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -21086,7 +21095,7 @@ const CardSubtitle = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as:
 CardSubtitle.displayName = 'CardSubtitle';
 exports.default = CardSubtitle;
 
-},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","./divWithClassName":"eDg7t","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"eDg7t":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","./divWithClassName":"eDg7t","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eDg7t":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -21099,7 +21108,7 @@ exports.default = (className)=>/*#__PURE__*/ _react.forwardRef((p, ref)=>/*#__PU
             className: (0, _classnamesDefault.default)(p.className, className)
         }));
 
-},{"react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"aUUmg":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aUUmg":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -21119,7 +21128,7 @@ const CardText = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Com
 CardText.displayName = 'CardText';
 exports.default = CardText;
 
-},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"79rSZ":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"79rSZ":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -21142,7 +21151,7 @@ const CardTitle = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Co
 CardTitle.displayName = 'CardTitle';
 exports.default = CardTitle;
 
-},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","./divWithClassName":"eDg7t","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"1wmVl":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","./divWithClassName":"eDg7t","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1wmVl":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _propTypes = require("prop-types");
@@ -21173,7 +21182,7 @@ CloseButton.displayName = 'CloseButton';
 CloseButton.propTypes = propTypes;
 exports.default = CloseButton;
 
-},{"prop-types":"7wKI2","react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"2L2I6":[function(require,module,exports,__globalThis) {
+},{"prop-types":"7wKI2","react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2L2I6":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCol", ()=>useCol);
@@ -21226,7 +21235,7 @@ const Col = /*#__PURE__*/ _react.forwardRef(// Need to define the default "as" d
 Col.displayName = 'Col';
 exports.default = Col;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"acuzI":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"acuzI":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -21330,7 +21339,7 @@ const Collapse = /*#__PURE__*/ (0, _reactDefault.default).forwardRef(({ onEnter,
 // @ts-ignore
 exports.default = Collapse;
 
-},{"classnames":"jocGM","dom-helpers/css":"klmhr","react":"21dqq","react-transition-group/Transition":"cKsrS","@restart/ui/utils":"2Fmci","./transitionEndListener":"68oh7","./createChainedFunction":"1KNLM","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"klmhr":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","dom-helpers/css":"klmhr","react":"21dqq","react-transition-group/Transition":"cKsrS","@restart/ui/utils":"2Fmci","./transitionEndListener":"68oh7","./createChainedFunction":"1KNLM","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"klmhr":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getComputedStyle = require("./getComputedStyle");
@@ -21354,7 +21363,7 @@ function style(node, property) {
 }
 exports.default = style;
 
-},{"./getComputedStyle":"adqGa","./hyphenateStyle":"hbsNp","./isTransform":"gnxjD","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"adqGa":[function(require,module,exports,__globalThis) {
+},{"./getComputedStyle":"adqGa","./hyphenateStyle":"hbsNp","./isTransform":"gnxjD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"adqGa":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getComputedStyle);
@@ -21364,7 +21373,7 @@ function getComputedStyle(node, psuedoElement) {
     return (0, _ownerWindowDefault.default)(node).getComputedStyle(node, psuedoElement);
 }
 
-},{"./ownerWindow":"3nPSD","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"3nPSD":[function(require,module,exports,__globalThis) {
+},{"./ownerWindow":"3nPSD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3nPSD":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>ownerWindow);
@@ -21375,7 +21384,7 @@ function ownerWindow(node) {
     return doc && doc.defaultView || window;
 }
 
-},{"./ownerDocument":"2WpOk","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"2WpOk":[function(require,module,exports,__globalThis) {
+},{"./ownerDocument":"2WpOk","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2WpOk":[function(require,module,exports,__globalThis) {
 /**
  * Returns the owner document of a given element.
  * 
@@ -21387,7 +21396,7 @@ function ownerDocument(node) {
     return node && node.ownerDocument || document;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"hbsNp":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hbsNp":[function(require,module,exports,__globalThis) {
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -21402,7 +21411,7 @@ function hyphenateStyleName(string) {
     return (0, _hyphenateDefault.default)(string).replace(msPattern, '-ms-');
 }
 
-},{"./hyphenate":"3UJRr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"3UJRr":[function(require,module,exports,__globalThis) {
+},{"./hyphenate":"3UJRr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3UJRr":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>hyphenate);
@@ -21411,7 +21420,7 @@ function hyphenate(string) {
     return string.replace(rUpper, '-$1').toLowerCase();
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"gnxjD":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gnxjD":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isTransform);
@@ -21420,7 +21429,7 @@ function isTransform(value) {
     return !!(value && supportedTransforms.test(value));
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"cKsrS":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cKsrS":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "UNMOUNTED", ()=>UNMOUNTED);
@@ -21936,7 +21945,7 @@ Transition.ENTERED = ENTERED;
 Transition.EXITING = EXITING;
 exports.default = Transition;
 
-},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","prop-types":"7wKI2","react":"21dqq","react-dom":"j6uA9","./config":"cepoZ","./utils/PropTypes":"9Zqaa","./TransitionGroupContext":"47LXo","./utils/reflow":"V4VjQ","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"adHgr":[function(require,module,exports,__globalThis) {
+},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","prop-types":"7wKI2","react":"21dqq","react-dom":"j6uA9","./config":"cepoZ","./utils/PropTypes":"9Zqaa","./TransitionGroupContext":"47LXo","./utils/reflow":"V4VjQ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"adHgr":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_objectWithoutPropertiesLoose);
@@ -21950,7 +21959,7 @@ function _objectWithoutPropertiesLoose(r, e) {
     return t;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"9u2Z8":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9u2Z8":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_inheritsLoose);
@@ -21960,7 +21969,7 @@ function _inheritsLoose(t, o) {
     t.prototype = Object.create(o.prototype), t.prototype.constructor = t, (0, _setPrototypeOfJsDefault.default)(t, o);
 }
 
-},{"./setPrototypeOf.js":"3XDFA","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"3XDFA":[function(require,module,exports,__globalThis) {
+},{"./setPrototypeOf.js":"3XDFA","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3XDFA":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_setPrototypeOf);
@@ -21970,14 +21979,14 @@ function _setPrototypeOf(t, e) {
     }, _setPrototypeOf(t, e);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"cepoZ":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cepoZ":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     disabled: false
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"9Zqaa":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9Zqaa":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "timeoutsShape", ()=>timeoutsShape);
@@ -22009,14 +22018,14 @@ var classNamesShape = (0, _propTypesDefault.default).oneOfType([
     })
 ]);
 
-},{"prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"47LXo":[function(require,module,exports,__globalThis) {
+},{"prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"47LXo":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 exports.default = (0, _reactDefault.default).createContext(null);
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"V4VjQ":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"V4VjQ":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "forceReflow", ()=>forceReflow);
@@ -22024,7 +22033,7 @@ var forceReflow = function forceReflow(node) {
     return node.scrollTop;
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"2Fmci":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2Fmci":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isEscKey", ()=>isEscKey);
@@ -22049,7 +22058,7 @@ function getChildRef(element) {
     return childRef;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"68oh7":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"68oh7":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>transitionEndListener);
@@ -22073,7 +22082,7 @@ function transitionEndListener(element, handler) {
     }, duration + delay);
 }
 
-},{"dom-helpers/css":"klmhr","dom-helpers/transitionEnd":"7hVJq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"7hVJq":[function(require,module,exports,__globalThis) {
+},{"dom-helpers/css":"klmhr","dom-helpers/transitionEnd":"7hVJq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7hVJq":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>transitionEnd);
@@ -22114,7 +22123,7 @@ function transitionEnd(element, handler, duration, padding) {
     };
 }
 
-},{"./css":"klmhr","./listen":"1i4e7","./triggerEvent":"lQ70W","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"1i4e7":[function(require,module,exports,__globalThis) {
+},{"./css":"klmhr","./listen":"1i4e7","./triggerEvent":"lQ70W","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1i4e7":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _addEventListener = require("./addEventListener");
@@ -22129,7 +22138,7 @@ function listen(node, eventName, handler, options) {
 }
 exports.default = listen;
 
-},{"./addEventListener":"c5x2p","./removeEventListener":"la8JB","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"c5x2p":[function(require,module,exports,__globalThis) {
+},{"./addEventListener":"c5x2p","./removeEventListener":"la8JB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"c5x2p":[function(require,module,exports,__globalThis) {
 /* eslint-disable no-return-assign */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "optionsSupported", ()=>optionsSupported);
@@ -22178,12 +22187,12 @@ try {
 }
 exports.default = addEventListener;
 
-},{"./canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"9AwUB":[function(require,module,exports,__globalThis) {
+},{"./canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9AwUB":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = !!(typeof window !== 'undefined' && window.document && window.document.createElement);
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"la8JB":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"la8JB":[function(require,module,exports,__globalThis) {
 /**
  * A `removeEventListener` ponyfill
  * 
@@ -22200,7 +22209,7 @@ function removeEventListener(node, eventName, handler, options) {
 }
 exports.default = removeEventListener;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"lQ70W":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lQ70W":[function(require,module,exports,__globalThis) {
 /**
  * Triggers an event on a given element.
  * 
@@ -22221,7 +22230,7 @@ function triggerEvent(node, eventName, bubbles, cancelable) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"1KNLM":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1KNLM":[function(require,module,exports,__globalThis) {
 /**
  * Safe chained function
  *
@@ -22246,7 +22255,7 @@ function createChainedFunction(...funcs) {
 }
 exports.default = createChainedFunction;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"eWjs5":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eWjs5":[function(require,module,exports,__globalThis) {
 // reading a dimension prop will cause the browser to recalculate,
 // which will let our animations work
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -22257,7 +22266,7 @@ function triggerBrowserReflow(node) {
     node.offsetHeight;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"jKUqZ":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jKUqZ":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -22323,7 +22332,7 @@ const TransitionWrapper = /*#__PURE__*/ (0, _reactDefault.default).forwardRef(({
 });
 exports.default = TransitionWrapper;
 
-},{"react":"21dqq","react-transition-group/Transition":"cKsrS","@restart/hooks/useMergedRefs":"6hhuo","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"6hhuo":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","react-transition-group/Transition":"cKsrS","@restart/hooks/useMergedRefs":"6hhuo","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6hhuo":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "mergeRefs", ()=>mergeRefs);
@@ -22362,7 +22371,7 @@ function mergeRefs(refA, refB) {
 }
 exports.default = useMergedRefs;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"XsXw9":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"XsXw9":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>safeFindDOMNode);
@@ -22373,7 +22382,7 @@ function safeFindDOMNode(componentOrElement) {
     return componentOrElement != null ? componentOrElement : null;
 }
 
-},{"react-dom":"j6uA9","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"hEdsw":[function(require,module,exports,__globalThis) {
+},{"react-dom":"j6uA9","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hEdsw":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22395,7 +22404,7 @@ as: Component = 'div', className, ...props }, ref)=>{
 Container.displayName = 'Container';
 exports.default = Container;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"aH18S":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aH18S":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22444,7 +22453,7 @@ const Fade = /*#__PURE__*/ _react.forwardRef(({ className, children, transitionC
 Fade.displayName = 'Fade';
 exports.default = Fade;
 
-},{"classnames":"jocGM","react":"21dqq","react-transition-group/Transition":"cKsrS","@restart/ui/utils":"2Fmci","./transitionEndListener":"68oh7","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"iBZ80":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","react-transition-group/Transition":"cKsrS","@restart/ui/utils":"2Fmci","./transitionEndListener":"68oh7","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iBZ80":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22509,7 +22518,7 @@ exports.default = Object.assign(Form, {
     FloatingLabel: (0, _floatingLabelDefault.default)
 });
 
-},{"classnames":"jocGM","prop-types":"7wKI2","react":"21dqq","./FormCheck":"idkr0","./FormControl":"iynMc","./FormFloating":"aj346","./FormGroup":"1qBHH","./FormLabel":"66epi","./FormRange":"8zsCO","./FormSelect":"hHWyB","./FormText":"ffeC7","./Switch":"9O81i","./FloatingLabel":"coYzo","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"idkr0":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","prop-types":"7wKI2","react":"21dqq","./FormCheck":"idkr0","./FormControl":"iynMc","./FormFloating":"aj346","./FormGroup":"1qBHH","./FormLabel":"66epi","./FormRange":"8zsCO","./FormSelect":"hHWyB","./FormText":"ffeC7","./Switch":"9O81i","./FloatingLabel":"coYzo","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"idkr0":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22576,7 +22585,7 @@ exports.default = Object.assign(FormCheck, {
     Label: (0, _formCheckLabelDefault.default)
 });
 
-},{"classnames":"jocGM","react":"21dqq","./Feedback":"aWeg2","./FormCheckInput":"dPzD9","./FormCheckLabel":"fGhS2","./FormContext":"gjvSt","./ThemeProvider":"dVixI","./ElementChildren":"fdyAp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"aWeg2":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./Feedback":"aWeg2","./FormCheckInput":"dPzD9","./FormCheckLabel":"fGhS2","./FormContext":"gjvSt","./ThemeProvider":"dVixI","./ElementChildren":"fdyAp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"aWeg2":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22604,7 +22613,7 @@ Feedback.displayName = 'Feedback';
 Feedback.propTypes = propTypes;
 exports.default = Feedback;
 
-},{"classnames":"jocGM","react":"21dqq","prop-types":"7wKI2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"dPzD9":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","prop-types":"7wKI2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dPzD9":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22630,7 +22639,7 @@ as: Component = 'input', ...props }, ref)=>{
 FormCheckInput.displayName = 'FormCheckInput';
 exports.default = FormCheckInput;
 
-},{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"gjvSt":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gjvSt":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -22639,7 +22648,7 @@ var _react = require("react");
 const FormContext = /*#__PURE__*/ _react.createContext({});
 exports.default = FormContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"fGhS2":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fGhS2":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22663,7 +22672,7 @@ const FormCheckLabel = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, h
 FormCheckLabel.displayName = 'FormCheckLabel';
 exports.default = FormCheckLabel;
 
-},{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"fdyAp":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fdyAp":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "map", ()=>map);
@@ -22699,7 +22708,7 @@ var _react = require("react");
     return _react.Children.toArray(children).some((child)=>/*#__PURE__*/ _react.isValidElement(child) && child.type === type);
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"iynMc":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iynMc":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22734,7 +22743,7 @@ exports.default = Object.assign(FormControl, {
     Feedback: (0, _feedbackDefault.default)
 });
 
-},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","./Feedback":"aWeg2","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"eUVzU":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","./Feedback":"aWeg2","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eUVzU":[function(require,module,exports,__globalThis) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -22797,7 +22806,7 @@ const FormFloating = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as:
 FormFloating.displayName = 'FormFloating';
 exports.default = FormFloating;
 
-},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"1qBHH":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1qBHH":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -22822,7 +22831,7 @@ as: Component = 'div', ...props }, ref)=>{
 FormGroup.displayName = 'FormGroup';
 exports.default = FormGroup;
 
-},{"react":"21dqq","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"66epi":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"66epi":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22864,7 +22873,7 @@ as: Component = 'label', bsPrefix, column = false, visuallyHidden = false, class
 FormLabel.displayName = 'FormLabel';
 exports.default = FormLabel;
 
-},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","./Col":"2L2I6","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"8zsCO":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","./Col":"2L2I6","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8zsCO":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22889,7 +22898,7 @@ const FormRange = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, id, ..
 FormRange.displayName = 'FormRange';
 exports.default = FormRange;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"hHWyB":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hHWyB":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22914,7 +22923,7 @@ const FormSelect = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, size, htmlSize, 
 FormSelect.displayName = 'FormSelect';
 exports.default = FormSelect;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"ffeC7":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ffeC7":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22935,7 +22944,7 @@ const FormText = /*#__PURE__*/ _react.forwardRef(// Need to define the default "
 FormText.displayName = 'FormText';
 exports.default = FormText;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"9O81i":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9O81i":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -22953,7 +22962,7 @@ exports.default = Object.assign(Switch, {
     Label: (0, _formCheckDefault.default).Label
 });
 
-},{"react":"21dqq","./FormCheck":"idkr0","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"coYzo":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","./FormCheck":"idkr0","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"coYzo":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -22983,7 +22992,7 @@ const FloatingLabel = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, ch
 FloatingLabel.displayName = 'FloatingLabel';
 exports.default = FloatingLabel;
 
-},{"classnames":"jocGM","react":"21dqq","./FormGroup":"1qBHH","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"cXyL2":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./FormGroup":"1qBHH","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cXyL2":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -23039,7 +23048,7 @@ exports.default = Object.assign(Nav, {
     Link: (0, _navLinkDefault.default)
 });
 
-},{"classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","@restart/ui/Nav":"fZdNd","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","./CardHeaderContext":"36cNB","./NavItem":"ew05W","./NavLink":"7geL8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"b3yWY":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","@restart/ui/Nav":"fZdNd","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","./CardHeaderContext":"36cNB","./NavItem":"ew05W","./NavLink":"7geL8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b3yWY":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useUncontrolled", ()=>(0, _hookDefault.default));
@@ -23050,7 +23059,7 @@ var _hookDefault = parcelHelpers.interopDefault(_hook);
 var _uncontrollable = require("./uncontrollable");
 var _uncontrollableDefault = parcelHelpers.interopDefault(_uncontrollable);
 
-},{"./hook":"cv9oS","./uncontrollable":"aqbCD","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"cv9oS":[function(require,module,exports,__globalThis) {
+},{"./hook":"cv9oS","./uncontrollable":"aqbCD","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cv9oS":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useUncontrolledProp", ()=>useUncontrolledProp);
@@ -23111,7 +23120,7 @@ function useUncontrolled(props, config) {
     }, props);
 }
 
-},{"@babel/runtime/helpers/esm/extends":"fTBFS","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","react":"21dqq","./utils":"7UQ73","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"fTBFS":[function(require,module,exports,__globalThis) {
+},{"@babel/runtime/helpers/esm/extends":"fTBFS","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","react":"21dqq","./utils":"7UQ73","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fTBFS":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_extends);
@@ -23125,7 +23134,7 @@ function _extends() {
     }, _extends.apply(null, arguments);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"7UQ73":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7UQ73":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "uncontrolledPropTypes", ()=>uncontrolledPropTypes);
@@ -23170,7 +23179,7 @@ function canAcceptRef(component) {
     return !!component && (typeof component !== 'function' || component.prototype && component.prototype.isReactComponent);
 }
 
-},{"invariant":"d1QgR","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"d1QgR":[function(require,module,exports,__globalThis) {
+},{"invariant":"d1QgR","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d1QgR":[function(require,module,exports,__globalThis) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -23358,7 +23367,7 @@ function uncontrollable(Component, controlledValues, methods) {
     return WrappedComponent;
 }
 
-},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","@babel/runtime/helpers/esm/extends":"fTBFS","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","react":"21dqq","react-lifecycles-compat":"3f3fU","invariant":"d1QgR","./utils":"7UQ73","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"3f3fU":[function(require,module,exports,__globalThis) {
+},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","@babel/runtime/helpers/esm/extends":"fTBFS","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","react":"21dqq","react-lifecycles-compat":"3f3fU","invariant":"d1QgR","./utils":"7UQ73","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3f3fU":[function(require,module,exports,__globalThis) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -23451,7 +23460,7 @@ function polyfill(Component) {
     return Component;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"fZdNd":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fZdNd":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _querySelectorAll = require("dom-helpers/querySelectorAll");
@@ -23579,7 +23588,7 @@ exports.default = Object.assign(Nav, {
     Item: (0, _navItemDefault.default)
 });
 
-},{"dom-helpers/querySelectorAll":"g5Sx6","react":"21dqq","@restart/hooks/useForceUpdate":"eF5x7","@restart/hooks/useMergedRefs":"1Tfc6","./NavContext":"j1SMA","./SelectableContext":"8zLqy","./TabContext":"cI3G3","./DataKey":"9vwZh","./NavItem":"2cGYS","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"g5Sx6":[function(require,module,exports,__globalThis) {
+},{"dom-helpers/querySelectorAll":"g5Sx6","react":"21dqq","@restart/hooks/useForceUpdate":"eF5x7","@restart/hooks/useMergedRefs":"1Tfc6","./NavContext":"j1SMA","./SelectableContext":"8zLqy","./TabContext":"cI3G3","./DataKey":"9vwZh","./NavItem":"2cGYS","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g5Sx6":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>qsa);
@@ -23588,7 +23597,7 @@ function qsa(element, selector) {
     return toArray(element.querySelectorAll(selector));
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"eF5x7":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eF5x7":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useForceUpdate);
@@ -23600,7 +23609,7 @@ function useForceUpdate() {
     return dispatch;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"1Tfc6":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1Tfc6":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "mergeRefs", ()=>mergeRefs);
@@ -23639,7 +23648,7 @@ function mergeRefs(refA, refB) {
 }
 exports.default = useMergedRefs;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"j1SMA":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"j1SMA":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -23647,7 +23656,7 @@ const NavContext = /*#__PURE__*/ _react.createContext(null);
 NavContext.displayName = 'NavContext';
 exports.default = NavContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"8zLqy":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"8zLqy":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "makeEventKey", ()=>makeEventKey);
@@ -23659,14 +23668,14 @@ const makeEventKey = (eventKey, href = null)=>{
 };
 exports.default = SelectableContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"cI3G3":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cI3G3":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
 const TabContext = /*#__PURE__*/ _react.createContext(null);
 exports.default = TabContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"9vwZh":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9vwZh":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ATTRIBUTE_PREFIX", ()=>ATTRIBUTE_PREFIX);
@@ -23682,7 +23691,7 @@ function dataProp(property) {
     return `${PROPERTY_PREFIX}${property}`;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"2cGYS":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2cGYS":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useNavItem", ()=>useNavItem);
@@ -23775,7 +23784,7 @@ const NavItem = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
 NavItem.displayName = 'NavItem';
 exports.default = NavItem;
 
-},{"react":"21dqq","@restart/hooks/useEventCallback":"62akH","./NavContext":"j1SMA","./SelectableContext":"8zLqy","./Button":"8YUbR","./DataKey":"9vwZh","./TabContext":"cI3G3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"62akH":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@restart/hooks/useEventCallback":"62akH","./NavContext":"j1SMA","./SelectableContext":"8zLqy","./Button":"8YUbR","./DataKey":"9vwZh","./TabContext":"cI3G3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"62akH":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useEventCallback);
@@ -23791,7 +23800,7 @@ function useEventCallback(fn) {
     ]);
 }
 
-},{"react":"21dqq","./useCommittedRef":"25PfY","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"25PfY":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","./useCommittedRef":"25PfY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"25PfY":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -23814,7 +23823,7 @@ var _react = require("react");
 }
 exports.default = useCommittedRef;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"dpn1g":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"dpn1g":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -23824,7 +23833,7 @@ const context = /*#__PURE__*/ _react.createContext(null);
 context.displayName = 'NavbarContext';
 exports.default = context;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"ew05W":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ew05W":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -23844,7 +23853,7 @@ const NavItem = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Comp
 NavItem.displayName = 'NavItem';
 exports.default = NavItem;
 
-},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"7geL8":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7geL8":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -23876,7 +23885,7 @@ const NavLink = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, as: Comp
 NavLink.displayName = 'NavLink';
 exports.default = NavLink;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","@restart/ui/NavItem":"2cGYS","@restart/ui/SelectableContext":"8zLqy","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"cQOWi":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","@restart/ui/NavItem":"2cGYS","@restart/ui/SelectableContext":"8zLqy","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cQOWi":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isTrivialHref", ()=>isTrivialHref);
@@ -23925,7 +23934,7 @@ function isTrivialHref(href) {
 Anchor.displayName = 'Anchor';
 exports.default = Anchor;
 
-},{"react":"21dqq","@restart/hooks":"jnLsW","./Button":"8YUbR","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"jnLsW":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@restart/hooks":"jnLsW","./Button":"8YUbR","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jnLsW":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCallbackRef", ()=>(0, _useCallbackRefDefault.default));
@@ -23968,7 +23977,7 @@ var _useImageDefault = parcelHelpers.interopDefault(_useImage);
 var _useResizeObserver = require("./useResizeObserver");
 var _useResizeObserverDefault = parcelHelpers.interopDefault(_useResizeObserver);
 
-},{"./useCallbackRef":"apXCo","./useCommittedRef":"25PfY","./useEventCallback":"62akH","./useEventListener":"keplv","./useGlobalListener":"b6kFx","./useInterval":"5yrTp","./useRafInterval":"5RMTE","./useMergeState":"lkzgb","./useMergeStateFromProps":"b1w8a","./useMounted":"19pt2","./usePrevious":"3cAeg","./useImage":"cszQi","./useResizeObserver":"b9c8N","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"apXCo":[function(require,module,exports,__globalThis) {
+},{"./useCallbackRef":"apXCo","./useCommittedRef":"25PfY","./useEventCallback":"62akH","./useEventListener":"keplv","./useGlobalListener":"b6kFx","./useInterval":"5yrTp","./useRafInterval":"5RMTE","./useMergeState":"lkzgb","./useMergeStateFromProps":"b1w8a","./useMounted":"19pt2","./usePrevious":"3cAeg","./useImage":"cszQi","./useResizeObserver":"b9c8N","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"apXCo":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useCallbackRef);
@@ -23977,7 +23986,7 @@ function useCallbackRef() {
     return (0, _react.useState)(null);
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"keplv":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"keplv":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useEventListener);
@@ -23995,7 +24004,7 @@ function useEventListener(eventTarget, event, listener, capture = false) {
     ]);
 }
 
-},{"react":"21dqq","./useEventCallback":"62akH","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"b6kFx":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","./useEventCallback":"62akH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b6kFx":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useGlobalListener);
@@ -24007,7 +24016,7 @@ function useGlobalListener(event, handler, capture = false) {
     return (0, _useEventListenerDefault.default)(documentTarget, event, handler, capture);
 }
 
-},{"./useEventListener":"keplv","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"5yrTp":[function(require,module,exports,__globalThis) {
+},{"./useEventListener":"keplv","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5yrTp":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -24093,7 +24102,7 @@ var _useCommittedRefDefault = parcelHelpers.interopDefault(_useCommittedRef);
 }
 exports.default = useInterval;
 
-},{"react":"21dqq","./useCommittedRef":"25PfY","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"5RMTE":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","./useCommittedRef":"25PfY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5RMTE":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -24124,7 +24133,7 @@ function useRafInterval(fn, ms, paused = false) {
 }
 exports.default = useRafInterval;
 
-},{"react":"21dqq","./useCommittedRef":"25PfY","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"lkzgb":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","./useCommittedRef":"25PfY","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lkzgb":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useMergeState);
@@ -24147,7 +24156,7 @@ function useMergeState(initialState) {
     ];
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"b1w8a":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b1w8a":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useMergeStateFromProps);
@@ -24163,7 +24172,7 @@ function useMergeStateFromProps(props, gDSFP, initialState) {
     ];
 }
 
-},{"./useMergeState":"lkzgb","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"19pt2":[function(require,module,exports,__globalThis) {
+},{"./useMergeState":"lkzgb","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"19pt2":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useMounted);
@@ -24180,7 +24189,7 @@ function useMounted() {
     return isMounted.current;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"3cAeg":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"3cAeg":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>usePrevious);
@@ -24193,7 +24202,7 @@ function usePrevious(value) {
     return ref.current;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"cszQi":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cszQi":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useImage);
@@ -24245,7 +24254,7 @@ function useImage(imageOrUrl, crossOrigin) {
     return state;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"b9c8N":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"b9c8N":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useResizeObserver);
@@ -24281,7 +24290,7 @@ function useResizeObserver(element) {
     return rect;
 }
 
-},{"react":"21dqq","./useIsomorphicEffect":"ckGdv","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"ckGdv":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","./useIsomorphicEffect":"ckGdv","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"ckGdv":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -24299,7 +24308,7 @@ const isDOM = typeof document !== 'undefined';
  * @category effects
  */ exports.default = isDOM || isReactNative ? (0, _react.useLayoutEffect) : (0, _react.useEffect);
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"1mHjo":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"1mHjo":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -24376,7 +24385,7 @@ exports.default = Object.assign(Navbar, {
     Toggle: (0, _navbarToggleDefault.default)
 });
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/SelectableContext":"8zLqy","uncontrollable":"b3yWY","./NavbarBrand":"iOo4v","./NavbarCollapse":"eNSCC","./NavbarToggle":"7vOXv","./NavbarOffcanvas":"fOxoE","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","./NavbarText":"76xFa","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"iOo4v":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/SelectableContext":"8zLqy","uncontrollable":"b3yWY","./NavbarBrand":"iOo4v","./NavbarCollapse":"eNSCC","./NavbarToggle":"7vOXv","./NavbarOffcanvas":"fOxoE","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","./NavbarText":"76xFa","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"iOo4v":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -24397,7 +24406,7 @@ const NavbarBrand = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, as, 
 NavbarBrand.displayName = 'NavbarBrand';
 exports.default = NavbarBrand;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"eNSCC":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eNSCC":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -24424,7 +24433,7 @@ const NavbarCollapse = /*#__PURE__*/ _react.forwardRef(({ children, bsPrefix, ..
 NavbarCollapse.displayName = 'NavbarCollapse';
 exports.default = NavbarCollapse;
 
-},{"react":"21dqq","./Collapse":"acuzI","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"7vOXv":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","./Collapse":"acuzI","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7vOXv":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -24460,7 +24469,7 @@ as: Component = 'button', onClick, ...props }, ref)=>{
 NavbarToggle.displayName = 'NavbarToggle';
 exports.default = NavbarToggle;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"7ONdq":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7ONdq":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useEventCallback);
@@ -24476,7 +24485,7 @@ function useEventCallback(fn) {
     ]);
 }
 
-},{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"g5BYG":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"g5BYG":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -24499,7 +24508,7 @@ var _react = require("react");
 }
 exports.default = useCommittedRef;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"fOxoE":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fOxoE":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -24528,7 +24537,7 @@ const NavbarOffcanvas = /*#__PURE__*/ _react.forwardRef(({ onHide, ...props }, r
 NavbarOffcanvas.displayName = 'NavbarOffcanvas';
 exports.default = NavbarOffcanvas;
 
-},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./Offcanvas":"eC3RS","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"eC3RS":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./Offcanvas":"eC3RS","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eC3RS":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -24662,7 +24671,7 @@ exports.default = Object.assign(Offcanvas, {
     Title: (0, _offcanvasTitleDefault.default)
 });
 
-},{"classnames":"jocGM","@restart/hooks/useBreakpoint":"2c4de","@restart/hooks/useEventCallback":"7ONdq","react":"21dqq","@restart/ui/Modal":"crj1M","./Fade":"aH18S","./OffcanvasBody":"fX7Bo","./OffcanvasToggling":"eGvzt","./ModalContext":"2U4Zk","./OffcanvasHeader":"a6xAh","./OffcanvasTitle":"77qdX","./ThemeProvider":"dVixI","./BootstrapModalManager":"lr1Yp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"2c4de":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","@restart/hooks/useBreakpoint":"2c4de","@restart/hooks/useEventCallback":"7ONdq","react":"21dqq","@restart/ui/Modal":"crj1M","./Fade":"aH18S","./OffcanvasBody":"fX7Bo","./OffcanvasToggling":"eGvzt","./ModalContext":"2U4Zk","./OffcanvasHeader":"a6xAh","./OffcanvasTitle":"77qdX","./ThemeProvider":"dVixI","./BootstrapModalManager":"lr1Yp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2c4de":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -24773,7 +24782,7 @@ const useBreakpoint = createBreakpointHook({
 });
 exports.default = useBreakpoint;
 
-},{"./useMediaQuery":"etGLg","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"etGLg":[function(require,module,exports,__globalThis) {
+},{"./useMediaQuery":"etGLg","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"etGLg":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useMediaQuery);
@@ -24818,7 +24827,7 @@ function useMediaQuery(query, targetWindow = typeof window === 'undefined' ? und
     return matches;
 }
 
-},{"./useIsomorphicEffect":"e8blq","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"e8blq":[function(require,module,exports,__globalThis) {
+},{"./useIsomorphicEffect":"e8blq","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"e8blq":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -24836,7 +24845,7 @@ const isDOM = typeof document !== 'undefined';
  * @category effects
  */ exports.default = isDOM || isReactNative ? (0, _react.useLayoutEffect) : (0, _react.useEffect);
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"crj1M":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"crj1M":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /* eslint-disable @typescript-eslint/no-use-before-define, react/prop-types */ var _activeElement = require("dom-helpers/activeElement");
@@ -25084,7 +25093,7 @@ exports.default = Object.assign(Modal, {
     Manager: (0, _modalManagerDefault.default)
 });
 
-},{"dom-helpers/activeElement":"5ShA6","dom-helpers/contains":"KpRFS","dom-helpers/canUseDOM":"9AwUB","dom-helpers/listen":"1i4e7","react":"21dqq","react-dom":"j6uA9","@restart/hooks/useMounted":"19pt2","@restart/hooks/useWillUnmount":"345zs","@restart/hooks/usePrevious":"3cAeg","@restart/hooks/useEventCallback":"62akH","./ModalManager":"5alMm","./useWaitForDOMRef":"83lRQ","./useWindow":"4AsJ2","./ImperativeTransition":"j0Jao","./utils":"2Fmci","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"5ShA6":[function(require,module,exports,__globalThis) {
+},{"dom-helpers/activeElement":"5ShA6","dom-helpers/contains":"KpRFS","dom-helpers/canUseDOM":"9AwUB","dom-helpers/listen":"1i4e7","react":"21dqq","react-dom":"j6uA9","@restart/hooks/useMounted":"19pt2","@restart/hooks/useWillUnmount":"345zs","@restart/hooks/usePrevious":"3cAeg","@restart/hooks/useEventCallback":"62akH","./ModalManager":"5alMm","./useWaitForDOMRef":"83lRQ","./useWindow":"4AsJ2","./ImperativeTransition":"j0Jao","./utils":"2Fmci","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5ShA6":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>activeElement);
@@ -25104,7 +25113,7 @@ function activeElement(doc) {
     }
 }
 
-},{"./ownerDocument":"2WpOk","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"KpRFS":[function(require,module,exports,__globalThis) {
+},{"./ownerDocument":"2WpOk","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"KpRFS":[function(require,module,exports,__globalThis) {
 /* eslint-disable no-bitwise, no-cond-assign */ /**
  * Checks if an element contains another given element.
  * 
@@ -25120,7 +25129,7 @@ function contains(context, node) {
     if (context.compareDocumentPosition) return context === node || !!(context.compareDocumentPosition(node) & 16);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"345zs":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"345zs":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useWillUnmount);
@@ -25132,7 +25141,7 @@ function useWillUnmount(fn) {
     (0, _react.useEffect)(()=>()=>onUnmount.current(), []);
 }
 
-},{"./useUpdatedRef":"4tLsa","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"4tLsa":[function(require,module,exports,__globalThis) {
+},{"./useUpdatedRef":"4tLsa","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4tLsa":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useUpdatedRef);
@@ -25143,7 +25152,7 @@ function useUpdatedRef(value) {
     return valueRef;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"5alMm":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"5alMm":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "OPEN_DATA_ATTRIBUTE", ()=>OPEN_DATA_ATTRIBUTE);
@@ -25232,7 +25241,7 @@ const OPEN_DATA_ATTRIBUTE = (0, _dataKey.dataAttr)('modal-open');
 }
 exports.default = ModalManager;
 
-},{"dom-helpers/css":"klmhr","./DataKey":"9vwZh","./getScrollbarWidth":"9IxEN","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"9IxEN":[function(require,module,exports,__globalThis) {
+},{"dom-helpers/css":"klmhr","./DataKey":"9vwZh","./getScrollbarWidth":"9IxEN","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9IxEN":[function(require,module,exports,__globalThis) {
 /**
  * Get the width of the vertical window scrollbar if it's visible
  */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -25243,7 +25252,7 @@ function getBodyScrollbarWidth(ownerDocument = document) {
     return Math.abs(window.innerWidth - ownerDocument.documentElement.clientWidth);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"83lRQ":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"83lRQ":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "resolveContainerRef", ()=>resolveContainerRef);
@@ -25286,7 +25295,7 @@ function useWaitForDOMRef(ref, onResolved) {
     return resolvedRef;
 }
 
-},{"dom-helpers/ownerDocument":"2WpOk","dom-helpers/canUseDOM":"9AwUB","react":"21dqq","./useWindow":"4AsJ2","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"4AsJ2":[function(require,module,exports,__globalThis) {
+},{"dom-helpers/ownerDocument":"2WpOk","dom-helpers/canUseDOM":"9AwUB","react":"21dqq","./useWindow":"4AsJ2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"4AsJ2":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "WindowProvider", ()=>WindowProvider);
@@ -25300,7 +25309,7 @@ function useWindow() {
     return (0, _react.useContext)(Context);
 }
 
-},{"react":"21dqq","dom-helpers/canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"j0Jao":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","dom-helpers/canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"j0Jao":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useTransition", ()=>useTransition);
@@ -25385,7 +25394,7 @@ function renderTransition(component, runTransition, props) {
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _noopTransitionDefault.default), Object.assign({}, props));
 }
 
-},{"@restart/hooks/useMergedRefs":"1Tfc6","@restart/hooks/useEventCallback":"62akH","@restart/hooks/useIsomorphicEffect":"ckGdv","react":"21dqq","./NoopTransition":"cwnaj","./RTGTransition":"IPK9l","./utils":"2Fmci","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"cwnaj":[function(require,module,exports,__globalThis) {
+},{"@restart/hooks/useMergedRefs":"1Tfc6","@restart/hooks/useEventCallback":"62akH","@restart/hooks/useIsomorphicEffect":"ckGdv","react":"21dqq","./NoopTransition":"cwnaj","./RTGTransition":"IPK9l","./utils":"2Fmci","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cwnaj":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _useEventCallback = require("@restart/hooks/useEventCallback");
@@ -25416,7 +25425,7 @@ function NoopTransition({ children, in: inProp, onExited, mountOnEnter, unmountO
 }
 exports.default = NoopTransition;
 
-},{"@restart/hooks/useEventCallback":"62akH","@restart/hooks/useMergedRefs":"1Tfc6","react":"21dqq","./utils":"2Fmci","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"IPK9l":[function(require,module,exports,__globalThis) {
+},{"@restart/hooks/useEventCallback":"62akH","@restart/hooks/useMergedRefs":"1Tfc6","react":"21dqq","./utils":"2Fmci","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"IPK9l":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -25445,7 +25454,7 @@ const RTGTransition = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
 });
 exports.default = RTGTransition;
 
-},{"react":"21dqq","./useRTGTransitionProps":"gtjjK","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"gtjjK":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","./useRTGTransitionProps":"gtjjK","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gtjjK":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useRTGTransitionProps);
@@ -25526,7 +25535,7 @@ function useRTGTransitionProps(_ref) {
     });
 }
 
-},{"react":"21dqq","@restart/hooks/useMergedRefs":"1Tfc6","./utils":"2Fmci","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"fX7Bo":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@restart/hooks/useMergedRefs":"1Tfc6","./utils":"2Fmci","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"fX7Bo":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -25546,7 +25555,7 @@ const OffcanvasBody = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as
 OffcanvasBody.displayName = 'OffcanvasBody';
 exports.default = OffcanvasBody;
 
-},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"eGvzt":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eGvzt":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -25585,7 +25594,7 @@ const OffcanvasToggling = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className
 OffcanvasToggling.displayName = 'OffcanvasToggling';
 exports.default = OffcanvasToggling;
 
-},{"classnames":"jocGM","react":"21dqq","react-transition-group/Transition":"cKsrS","@restart/ui/utils":"2Fmci","./transitionEndListener":"68oh7","./TransitionWrapper":"jKUqZ","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"2U4Zk":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","react-transition-group/Transition":"cKsrS","@restart/ui/utils":"2Fmci","./transitionEndListener":"68oh7","./TransitionWrapper":"jKUqZ","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2U4Zk":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -25596,7 +25605,7 @@ const ModalContext = /*#__PURE__*/ _react.createContext({
 });
 exports.default = ModalContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"a6xAh":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"a6xAh":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -25620,7 +25629,7 @@ const OffcanvasHeader = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, 
 OffcanvasHeader.displayName = 'OffcanvasHeader';
 exports.default = OffcanvasHeader;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AbstractModalHeader":"hPF8S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"hPF8S":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AbstractModalHeader":"hPF8S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"hPF8S":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -25653,7 +25662,7 @@ const AbstractModalHeader = /*#__PURE__*/ _react.forwardRef(({ closeLabel = 'Clo
 });
 exports.default = AbstractModalHeader;
 
-},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./CloseButton":"1wmVl","./ModalContext":"2U4Zk","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"77qdX":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./CloseButton":"1wmVl","./ModalContext":"2U4Zk","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"77qdX":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -25676,7 +25685,7 @@ const OffcanvasTitle = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, a
 OffcanvasTitle.displayName = 'OffcanvasTitle';
 exports.default = OffcanvasTitle;
 
-},{"react":"21dqq","classnames":"jocGM","./divWithClassName":"eDg7t","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"lr1Yp":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","./divWithClassName":"eDg7t","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lr1Yp":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getSharedManager", ()=>getSharedManager);
@@ -25743,7 +25752,7 @@ function getSharedManager(options) {
 }
 exports.default = BootstrapModalManager;
 
-},{"dom-helpers/addClass":"7dIIz","dom-helpers/css":"klmhr","dom-helpers/querySelectorAll":"g5Sx6","dom-helpers/removeClass":"66hgg","@restart/ui/ModalManager":"5alMm","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"7dIIz":[function(require,module,exports,__globalThis) {
+},{"dom-helpers/addClass":"7dIIz","dom-helpers/css":"klmhr","dom-helpers/querySelectorAll":"g5Sx6","dom-helpers/removeClass":"66hgg","@restart/ui/ModalManager":"5alMm","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"7dIIz":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addClass);
@@ -25757,7 +25766,7 @@ function addClass(element, className) {
     }
 }
 
-},{"./hasClass":"6sJz4","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"6sJz4":[function(require,module,exports,__globalThis) {
+},{"./hasClass":"6sJz4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"6sJz4":[function(require,module,exports,__globalThis) {
 /**
  * Checks if a given element has a CSS class.
  * 
@@ -25771,7 +25780,7 @@ function hasClass(element, className) {
     return (" " + (element.className.baseVal || element.className) + " ").indexOf(" " + className + " ") !== -1;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"66hgg":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"66hgg":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>removeClass);
@@ -25784,7 +25793,7 @@ function removeClass(element, className) {
     else element.setAttribute('class', replaceClassName(element.className && element.className.baseVal || '', className));
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"76xFa":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"76xFa":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -25804,7 +25813,7 @@ const NavbarText = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: C
 NavbarText.displayName = 'NavbarText';
 exports.default = NavbarText;
 
-},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"cMC39":[function(require,module,exports,__globalThis) {
+},{"react":"21dqq","classnames":"jocGM","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"cMC39":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -25838,9 +25847,9 @@ as: Component = 'div', ...props }, ref)=>{
 Row.displayName = 'Row';
 exports.default = Row;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"2era4":[function() {},{}],"dXVwI":[function(require,module,exports,__globalThis) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"2era4":[function() {},{}],"dXVwI":[function(require,module,exports,__globalThis) {
 /**
- * react-router v7.4.1
+ * react-router v7.6.2
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -25850,125 +25859,130 @@ exports.default = Row;
  * @license MIT
  */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "Await", ()=>(0, _chunkXJI4KG32Mjs.Await));
-parcelHelpers.export(exports, "BrowserRouter", ()=>(0, _chunkXJI4KG32Mjs.BrowserRouter));
-parcelHelpers.export(exports, "Form", ()=>(0, _chunkXJI4KG32Mjs.Form));
-parcelHelpers.export(exports, "HashRouter", ()=>(0, _chunkXJI4KG32Mjs.HashRouter));
-parcelHelpers.export(exports, "IDLE_BLOCKER", ()=>(0, _chunkXJI4KG32Mjs.IDLE_BLOCKER));
-parcelHelpers.export(exports, "IDLE_FETCHER", ()=>(0, _chunkXJI4KG32Mjs.IDLE_FETCHER));
-parcelHelpers.export(exports, "IDLE_NAVIGATION", ()=>(0, _chunkXJI4KG32Mjs.IDLE_NAVIGATION));
-parcelHelpers.export(exports, "Link", ()=>(0, _chunkXJI4KG32Mjs.Link));
-parcelHelpers.export(exports, "Links", ()=>(0, _chunkXJI4KG32Mjs.Links));
-parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _chunkXJI4KG32Mjs.MemoryRouter));
-parcelHelpers.export(exports, "Meta", ()=>(0, _chunkXJI4KG32Mjs.Meta));
-parcelHelpers.export(exports, "NavLink", ()=>(0, _chunkXJI4KG32Mjs.NavLink));
-parcelHelpers.export(exports, "Navigate", ()=>(0, _chunkXJI4KG32Mjs.Navigate));
-parcelHelpers.export(exports, "NavigationType", ()=>(0, _chunkXJI4KG32Mjs.Action));
-parcelHelpers.export(exports, "Outlet", ()=>(0, _chunkXJI4KG32Mjs.Outlet));
-parcelHelpers.export(exports, "PrefetchPageLinks", ()=>(0, _chunkXJI4KG32Mjs.PrefetchPageLinks));
-parcelHelpers.export(exports, "Route", ()=>(0, _chunkXJI4KG32Mjs.Route));
-parcelHelpers.export(exports, "Router", ()=>(0, _chunkXJI4KG32Mjs.Router));
-parcelHelpers.export(exports, "RouterProvider", ()=>(0, _chunkXJI4KG32Mjs.RouterProvider));
-parcelHelpers.export(exports, "Routes", ()=>(0, _chunkXJI4KG32Mjs.Routes));
-parcelHelpers.export(exports, "Scripts", ()=>(0, _chunkXJI4KG32Mjs.Scripts));
-parcelHelpers.export(exports, "ScrollRestoration", ()=>(0, _chunkXJI4KG32Mjs.ScrollRestoration));
-parcelHelpers.export(exports, "ServerRouter", ()=>(0, _chunkXJI4KG32Mjs.ServerRouter));
-parcelHelpers.export(exports, "StaticRouter", ()=>(0, _chunkXJI4KG32Mjs.StaticRouter));
-parcelHelpers.export(exports, "StaticRouterProvider", ()=>(0, _chunkXJI4KG32Mjs.StaticRouterProvider));
-parcelHelpers.export(exports, "UNSAFE_DataRouterContext", ()=>(0, _chunkXJI4KG32Mjs.DataRouterContext));
-parcelHelpers.export(exports, "UNSAFE_DataRouterStateContext", ()=>(0, _chunkXJI4KG32Mjs.DataRouterStateContext));
-parcelHelpers.export(exports, "UNSAFE_ErrorResponseImpl", ()=>(0, _chunkXJI4KG32Mjs.ErrorResponseImpl));
-parcelHelpers.export(exports, "UNSAFE_FetchersContext", ()=>(0, _chunkXJI4KG32Mjs.FetchersContext));
-parcelHelpers.export(exports, "UNSAFE_FrameworkContext", ()=>(0, _chunkXJI4KG32Mjs.FrameworkContext));
-parcelHelpers.export(exports, "UNSAFE_LocationContext", ()=>(0, _chunkXJI4KG32Mjs.LocationContext));
-parcelHelpers.export(exports, "UNSAFE_NavigationContext", ()=>(0, _chunkXJI4KG32Mjs.NavigationContext));
-parcelHelpers.export(exports, "UNSAFE_RemixErrorBoundary", ()=>(0, _chunkXJI4KG32Mjs.RemixErrorBoundary));
-parcelHelpers.export(exports, "UNSAFE_RouteContext", ()=>(0, _chunkXJI4KG32Mjs.RouteContext));
-parcelHelpers.export(exports, "UNSAFE_ServerMode", ()=>(0, _chunkXJI4KG32Mjs.ServerMode));
-parcelHelpers.export(exports, "UNSAFE_SingleFetchRedirectSymbol", ()=>(0, _chunkXJI4KG32Mjs.SingleFetchRedirectSymbol));
-parcelHelpers.export(exports, "UNSAFE_ViewTransitionContext", ()=>(0, _chunkXJI4KG32Mjs.ViewTransitionContext));
-parcelHelpers.export(exports, "UNSAFE_createBrowserHistory", ()=>(0, _chunkXJI4KG32Mjs.createBrowserHistory));
-parcelHelpers.export(exports, "UNSAFE_createClientRoutes", ()=>(0, _chunkXJI4KG32Mjs.createClientRoutes));
-parcelHelpers.export(exports, "UNSAFE_createClientRoutesWithHMRRevalidationOptOut", ()=>(0, _chunkXJI4KG32Mjs.createClientRoutesWithHMRRevalidationOptOut));
-parcelHelpers.export(exports, "UNSAFE_createRouter", ()=>(0, _chunkXJI4KG32Mjs.createRouter));
-parcelHelpers.export(exports, "UNSAFE_decodeViaTurboStream", ()=>(0, _chunkXJI4KG32Mjs.decodeViaTurboStream));
-parcelHelpers.export(exports, "UNSAFE_deserializeErrors", ()=>(0, _chunkXJI4KG32Mjs.deserializeErrors));
-parcelHelpers.export(exports, "UNSAFE_getPatchRoutesOnNavigationFunction", ()=>(0, _chunkXJI4KG32Mjs.getPatchRoutesOnNavigationFunction));
-parcelHelpers.export(exports, "UNSAFE_getSingleFetchDataStrategy", ()=>(0, _chunkXJI4KG32Mjs.getSingleFetchDataStrategy));
-parcelHelpers.export(exports, "UNSAFE_invariant", ()=>(0, _chunkXJI4KG32Mjs.invariant));
-parcelHelpers.export(exports, "UNSAFE_mapRouteProperties", ()=>(0, _chunkXJI4KG32Mjs.mapRouteProperties));
-parcelHelpers.export(exports, "UNSAFE_shouldHydrateRouteLoader", ()=>(0, _chunkXJI4KG32Mjs.shouldHydrateRouteLoader));
-parcelHelpers.export(exports, "UNSAFE_useFogOFWarDiscovery", ()=>(0, _chunkXJI4KG32Mjs.useFogOFWarDiscovery));
-parcelHelpers.export(exports, "UNSAFE_useScrollRestoration", ()=>(0, _chunkXJI4KG32Mjs.useScrollRestoration));
-parcelHelpers.export(exports, "createBrowserRouter", ()=>(0, _chunkXJI4KG32Mjs.createBrowserRouter));
-parcelHelpers.export(exports, "createCookie", ()=>(0, _chunkXJI4KG32Mjs.createCookie));
-parcelHelpers.export(exports, "createCookieSessionStorage", ()=>(0, _chunkXJI4KG32Mjs.createCookieSessionStorage));
-parcelHelpers.export(exports, "createHashRouter", ()=>(0, _chunkXJI4KG32Mjs.createHashRouter));
-parcelHelpers.export(exports, "createMemoryRouter", ()=>(0, _chunkXJI4KG32Mjs.createMemoryRouter));
-parcelHelpers.export(exports, "createMemorySessionStorage", ()=>(0, _chunkXJI4KG32Mjs.createMemorySessionStorage));
-parcelHelpers.export(exports, "createPath", ()=>(0, _chunkXJI4KG32Mjs.createPath));
-parcelHelpers.export(exports, "createRequestHandler", ()=>(0, _chunkXJI4KG32Mjs.createRequestHandler));
-parcelHelpers.export(exports, "createRoutesFromChildren", ()=>(0, _chunkXJI4KG32Mjs.createRoutesFromChildren));
-parcelHelpers.export(exports, "createRoutesFromElements", ()=>(0, _chunkXJI4KG32Mjs.createRoutesFromElements));
-parcelHelpers.export(exports, "createRoutesStub", ()=>(0, _chunkXJI4KG32Mjs.createRoutesStub));
-parcelHelpers.export(exports, "createSearchParams", ()=>(0, _chunkXJI4KG32Mjs.createSearchParams));
-parcelHelpers.export(exports, "createSession", ()=>(0, _chunkXJI4KG32Mjs.createSession));
-parcelHelpers.export(exports, "createSessionStorage", ()=>(0, _chunkXJI4KG32Mjs.createSessionStorage));
-parcelHelpers.export(exports, "createStaticHandler", ()=>(0, _chunkXJI4KG32Mjs.createStaticHandler));
-parcelHelpers.export(exports, "createStaticRouter", ()=>(0, _chunkXJI4KG32Mjs.createStaticRouter));
-parcelHelpers.export(exports, "data", ()=>(0, _chunkXJI4KG32Mjs.data));
-parcelHelpers.export(exports, "generatePath", ()=>(0, _chunkXJI4KG32Mjs.generatePath));
-parcelHelpers.export(exports, "href", ()=>(0, _chunkXJI4KG32Mjs.href));
-parcelHelpers.export(exports, "isCookie", ()=>(0, _chunkXJI4KG32Mjs.isCookie));
-parcelHelpers.export(exports, "isRouteErrorResponse", ()=>(0, _chunkXJI4KG32Mjs.isRouteErrorResponse));
-parcelHelpers.export(exports, "isSession", ()=>(0, _chunkXJI4KG32Mjs.isSession));
-parcelHelpers.export(exports, "matchPath", ()=>(0, _chunkXJI4KG32Mjs.matchPath));
-parcelHelpers.export(exports, "matchRoutes", ()=>(0, _chunkXJI4KG32Mjs.matchRoutes));
-parcelHelpers.export(exports, "parsePath", ()=>(0, _chunkXJI4KG32Mjs.parsePath));
-parcelHelpers.export(exports, "redirect", ()=>(0, _chunkXJI4KG32Mjs.redirect));
-parcelHelpers.export(exports, "redirectDocument", ()=>(0, _chunkXJI4KG32Mjs.redirectDocument));
-parcelHelpers.export(exports, "renderMatches", ()=>(0, _chunkXJI4KG32Mjs.renderMatches));
-parcelHelpers.export(exports, "replace", ()=>(0, _chunkXJI4KG32Mjs.replace));
-parcelHelpers.export(exports, "resolvePath", ()=>(0, _chunkXJI4KG32Mjs.resolvePath));
-parcelHelpers.export(exports, "unstable_HistoryRouter", ()=>(0, _chunkXJI4KG32Mjs.HistoryRouter));
-parcelHelpers.export(exports, "unstable_RouterContextProvider", ()=>(0, _chunkXJI4KG32Mjs.unstable_RouterContextProvider));
-parcelHelpers.export(exports, "unstable_createContext", ()=>(0, _chunkXJI4KG32Mjs.unstable_createContext));
-parcelHelpers.export(exports, "unstable_setDevServerHooks", ()=>(0, _chunkXJI4KG32Mjs.setDevServerHooks));
-parcelHelpers.export(exports, "unstable_usePrompt", ()=>(0, _chunkXJI4KG32Mjs.usePrompt));
-parcelHelpers.export(exports, "useActionData", ()=>(0, _chunkXJI4KG32Mjs.useActionData));
-parcelHelpers.export(exports, "useAsyncError", ()=>(0, _chunkXJI4KG32Mjs.useAsyncError));
-parcelHelpers.export(exports, "useAsyncValue", ()=>(0, _chunkXJI4KG32Mjs.useAsyncValue));
-parcelHelpers.export(exports, "useBeforeUnload", ()=>(0, _chunkXJI4KG32Mjs.useBeforeUnload));
-parcelHelpers.export(exports, "useBlocker", ()=>(0, _chunkXJI4KG32Mjs.useBlocker));
-parcelHelpers.export(exports, "useFetcher", ()=>(0, _chunkXJI4KG32Mjs.useFetcher));
-parcelHelpers.export(exports, "useFetchers", ()=>(0, _chunkXJI4KG32Mjs.useFetchers));
-parcelHelpers.export(exports, "useFormAction", ()=>(0, _chunkXJI4KG32Mjs.useFormAction));
-parcelHelpers.export(exports, "useHref", ()=>(0, _chunkXJI4KG32Mjs.useHref));
-parcelHelpers.export(exports, "useInRouterContext", ()=>(0, _chunkXJI4KG32Mjs.useInRouterContext));
-parcelHelpers.export(exports, "useLinkClickHandler", ()=>(0, _chunkXJI4KG32Mjs.useLinkClickHandler));
-parcelHelpers.export(exports, "useLoaderData", ()=>(0, _chunkXJI4KG32Mjs.useLoaderData));
-parcelHelpers.export(exports, "useLocation", ()=>(0, _chunkXJI4KG32Mjs.useLocation));
-parcelHelpers.export(exports, "useMatch", ()=>(0, _chunkXJI4KG32Mjs.useMatch));
-parcelHelpers.export(exports, "useMatches", ()=>(0, _chunkXJI4KG32Mjs.useMatches));
-parcelHelpers.export(exports, "useNavigate", ()=>(0, _chunkXJI4KG32Mjs.useNavigate));
-parcelHelpers.export(exports, "useNavigation", ()=>(0, _chunkXJI4KG32Mjs.useNavigation));
-parcelHelpers.export(exports, "useNavigationType", ()=>(0, _chunkXJI4KG32Mjs.useNavigationType));
-parcelHelpers.export(exports, "useOutlet", ()=>(0, _chunkXJI4KG32Mjs.useOutlet));
-parcelHelpers.export(exports, "useOutletContext", ()=>(0, _chunkXJI4KG32Mjs.useOutletContext));
-parcelHelpers.export(exports, "useParams", ()=>(0, _chunkXJI4KG32Mjs.useParams));
-parcelHelpers.export(exports, "useResolvedPath", ()=>(0, _chunkXJI4KG32Mjs.useResolvedPath));
-parcelHelpers.export(exports, "useRevalidator", ()=>(0, _chunkXJI4KG32Mjs.useRevalidator));
-parcelHelpers.export(exports, "useRouteError", ()=>(0, _chunkXJI4KG32Mjs.useRouteError));
-parcelHelpers.export(exports, "useRouteLoaderData", ()=>(0, _chunkXJI4KG32Mjs.useRouteLoaderData));
-parcelHelpers.export(exports, "useRoutes", ()=>(0, _chunkXJI4KG32Mjs.useRoutes));
-parcelHelpers.export(exports, "useSearchParams", ()=>(0, _chunkXJI4KG32Mjs.useSearchParams));
-parcelHelpers.export(exports, "useSubmit", ()=>(0, _chunkXJI4KG32Mjs.useSubmit));
-parcelHelpers.export(exports, "useViewTransitionState", ()=>(0, _chunkXJI4KG32Mjs.useViewTransitionState));
-var _chunkXJI4KG32Mjs = require("./chunk-XJI4KG32.mjs");
+parcelHelpers.export(exports, "Await", ()=>(0, _chunkNL6KNZEEMjs.Await));
+parcelHelpers.export(exports, "BrowserRouter", ()=>(0, _chunkNL6KNZEEMjs.BrowserRouter));
+parcelHelpers.export(exports, "Form", ()=>(0, _chunkNL6KNZEEMjs.Form));
+parcelHelpers.export(exports, "HashRouter", ()=>(0, _chunkNL6KNZEEMjs.HashRouter));
+parcelHelpers.export(exports, "IDLE_BLOCKER", ()=>(0, _chunkNL6KNZEEMjs.IDLE_BLOCKER));
+parcelHelpers.export(exports, "IDLE_FETCHER", ()=>(0, _chunkNL6KNZEEMjs.IDLE_FETCHER));
+parcelHelpers.export(exports, "IDLE_NAVIGATION", ()=>(0, _chunkNL6KNZEEMjs.IDLE_NAVIGATION));
+parcelHelpers.export(exports, "Link", ()=>(0, _chunkNL6KNZEEMjs.Link));
+parcelHelpers.export(exports, "Links", ()=>(0, _chunkNL6KNZEEMjs.Links));
+parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _chunkNL6KNZEEMjs.MemoryRouter));
+parcelHelpers.export(exports, "Meta", ()=>(0, _chunkNL6KNZEEMjs.Meta));
+parcelHelpers.export(exports, "NavLink", ()=>(0, _chunkNL6KNZEEMjs.NavLink));
+parcelHelpers.export(exports, "Navigate", ()=>(0, _chunkNL6KNZEEMjs.Navigate));
+parcelHelpers.export(exports, "NavigationType", ()=>(0, _chunkNL6KNZEEMjs.Action));
+parcelHelpers.export(exports, "Outlet", ()=>(0, _chunkNL6KNZEEMjs.Outlet));
+parcelHelpers.export(exports, "PrefetchPageLinks", ()=>(0, _chunkNL6KNZEEMjs.PrefetchPageLinks));
+parcelHelpers.export(exports, "Route", ()=>(0, _chunkNL6KNZEEMjs.Route));
+parcelHelpers.export(exports, "Router", ()=>(0, _chunkNL6KNZEEMjs.Router));
+parcelHelpers.export(exports, "RouterProvider", ()=>(0, _chunkNL6KNZEEMjs.RouterProvider));
+parcelHelpers.export(exports, "Routes", ()=>(0, _chunkNL6KNZEEMjs.Routes));
+parcelHelpers.export(exports, "Scripts", ()=>(0, _chunkNL6KNZEEMjs.Scripts));
+parcelHelpers.export(exports, "ScrollRestoration", ()=>(0, _chunkNL6KNZEEMjs.ScrollRestoration));
+parcelHelpers.export(exports, "ServerRouter", ()=>(0, _chunkNL6KNZEEMjs.ServerRouter));
+parcelHelpers.export(exports, "StaticRouter", ()=>(0, _chunkNL6KNZEEMjs.StaticRouter));
+parcelHelpers.export(exports, "StaticRouterProvider", ()=>(0, _chunkNL6KNZEEMjs.StaticRouterProvider));
+parcelHelpers.export(exports, "UNSAFE_DataRouterContext", ()=>(0, _chunkNL6KNZEEMjs.DataRouterContext));
+parcelHelpers.export(exports, "UNSAFE_DataRouterStateContext", ()=>(0, _chunkNL6KNZEEMjs.DataRouterStateContext));
+parcelHelpers.export(exports, "UNSAFE_ErrorResponseImpl", ()=>(0, _chunkNL6KNZEEMjs.ErrorResponseImpl));
+parcelHelpers.export(exports, "UNSAFE_FetchersContext", ()=>(0, _chunkNL6KNZEEMjs.FetchersContext));
+parcelHelpers.export(exports, "UNSAFE_FrameworkContext", ()=>(0, _chunkNL6KNZEEMjs.FrameworkContext));
+parcelHelpers.export(exports, "UNSAFE_LocationContext", ()=>(0, _chunkNL6KNZEEMjs.LocationContext));
+parcelHelpers.export(exports, "UNSAFE_NavigationContext", ()=>(0, _chunkNL6KNZEEMjs.NavigationContext));
+parcelHelpers.export(exports, "UNSAFE_RemixErrorBoundary", ()=>(0, _chunkNL6KNZEEMjs.RemixErrorBoundary));
+parcelHelpers.export(exports, "UNSAFE_RouteContext", ()=>(0, _chunkNL6KNZEEMjs.RouteContext));
+parcelHelpers.export(exports, "UNSAFE_ServerMode", ()=>(0, _chunkNL6KNZEEMjs.ServerMode));
+parcelHelpers.export(exports, "UNSAFE_SingleFetchRedirectSymbol", ()=>(0, _chunkNL6KNZEEMjs.SingleFetchRedirectSymbol));
+parcelHelpers.export(exports, "UNSAFE_ViewTransitionContext", ()=>(0, _chunkNL6KNZEEMjs.ViewTransitionContext));
+parcelHelpers.export(exports, "UNSAFE_createBrowserHistory", ()=>(0, _chunkNL6KNZEEMjs.createBrowserHistory));
+parcelHelpers.export(exports, "UNSAFE_createClientRoutes", ()=>(0, _chunkNL6KNZEEMjs.createClientRoutes));
+parcelHelpers.export(exports, "UNSAFE_createClientRoutesWithHMRRevalidationOptOut", ()=>(0, _chunkNL6KNZEEMjs.createClientRoutesWithHMRRevalidationOptOut));
+parcelHelpers.export(exports, "UNSAFE_createRouter", ()=>(0, _chunkNL6KNZEEMjs.createRouter));
+parcelHelpers.export(exports, "UNSAFE_decodeViaTurboStream", ()=>(0, _chunkNL6KNZEEMjs.decodeViaTurboStream));
+parcelHelpers.export(exports, "UNSAFE_deserializeErrors", ()=>(0, _chunkNL6KNZEEMjs.deserializeErrors));
+parcelHelpers.export(exports, "UNSAFE_getHydrationData", ()=>(0, _chunkNL6KNZEEMjs.getHydrationData));
+parcelHelpers.export(exports, "UNSAFE_getPatchRoutesOnNavigationFunction", ()=>(0, _chunkNL6KNZEEMjs.getPatchRoutesOnNavigationFunction));
+parcelHelpers.export(exports, "UNSAFE_getTurboStreamSingleFetchDataStrategy", ()=>(0, _chunkNL6KNZEEMjs.getTurboStreamSingleFetchDataStrategy));
+parcelHelpers.export(exports, "UNSAFE_hydrationRouteProperties", ()=>(0, _chunkNL6KNZEEMjs.hydrationRouteProperties));
+parcelHelpers.export(exports, "UNSAFE_invariant", ()=>(0, _chunkNL6KNZEEMjs.invariant));
+parcelHelpers.export(exports, "UNSAFE_mapRouteProperties", ()=>(0, _chunkNL6KNZEEMjs.mapRouteProperties));
+parcelHelpers.export(exports, "UNSAFE_shouldHydrateRouteLoader", ()=>(0, _chunkNL6KNZEEMjs.shouldHydrateRouteLoader));
+parcelHelpers.export(exports, "UNSAFE_useFogOFWarDiscovery", ()=>(0, _chunkNL6KNZEEMjs.useFogOFWarDiscovery));
+parcelHelpers.export(exports, "UNSAFE_useScrollRestoration", ()=>(0, _chunkNL6KNZEEMjs.useScrollRestoration));
+parcelHelpers.export(exports, "UNSAFE_withComponentProps", ()=>(0, _chunkNL6KNZEEMjs.withComponentProps));
+parcelHelpers.export(exports, "UNSAFE_withErrorBoundaryProps", ()=>(0, _chunkNL6KNZEEMjs.withErrorBoundaryProps));
+parcelHelpers.export(exports, "UNSAFE_withHydrateFallbackProps", ()=>(0, _chunkNL6KNZEEMjs.withHydrateFallbackProps));
+parcelHelpers.export(exports, "createBrowserRouter", ()=>(0, _chunkNL6KNZEEMjs.createBrowserRouter));
+parcelHelpers.export(exports, "createCookie", ()=>(0, _chunkNL6KNZEEMjs.createCookie));
+parcelHelpers.export(exports, "createCookieSessionStorage", ()=>(0, _chunkNL6KNZEEMjs.createCookieSessionStorage));
+parcelHelpers.export(exports, "createHashRouter", ()=>(0, _chunkNL6KNZEEMjs.createHashRouter));
+parcelHelpers.export(exports, "createMemoryRouter", ()=>(0, _chunkNL6KNZEEMjs.createMemoryRouter));
+parcelHelpers.export(exports, "createMemorySessionStorage", ()=>(0, _chunkNL6KNZEEMjs.createMemorySessionStorage));
+parcelHelpers.export(exports, "createPath", ()=>(0, _chunkNL6KNZEEMjs.createPath));
+parcelHelpers.export(exports, "createRequestHandler", ()=>(0, _chunkNL6KNZEEMjs.createRequestHandler));
+parcelHelpers.export(exports, "createRoutesFromChildren", ()=>(0, _chunkNL6KNZEEMjs.createRoutesFromChildren));
+parcelHelpers.export(exports, "createRoutesFromElements", ()=>(0, _chunkNL6KNZEEMjs.createRoutesFromElements));
+parcelHelpers.export(exports, "createRoutesStub", ()=>(0, _chunkNL6KNZEEMjs.createRoutesStub));
+parcelHelpers.export(exports, "createSearchParams", ()=>(0, _chunkNL6KNZEEMjs.createSearchParams));
+parcelHelpers.export(exports, "createSession", ()=>(0, _chunkNL6KNZEEMjs.createSession));
+parcelHelpers.export(exports, "createSessionStorage", ()=>(0, _chunkNL6KNZEEMjs.createSessionStorage));
+parcelHelpers.export(exports, "createStaticHandler", ()=>(0, _chunkNL6KNZEEMjs.createStaticHandler));
+parcelHelpers.export(exports, "createStaticRouter", ()=>(0, _chunkNL6KNZEEMjs.createStaticRouter));
+parcelHelpers.export(exports, "data", ()=>(0, _chunkNL6KNZEEMjs.data));
+parcelHelpers.export(exports, "generatePath", ()=>(0, _chunkNL6KNZEEMjs.generatePath));
+parcelHelpers.export(exports, "href", ()=>(0, _chunkNL6KNZEEMjs.href));
+parcelHelpers.export(exports, "isCookie", ()=>(0, _chunkNL6KNZEEMjs.isCookie));
+parcelHelpers.export(exports, "isRouteErrorResponse", ()=>(0, _chunkNL6KNZEEMjs.isRouteErrorResponse));
+parcelHelpers.export(exports, "isSession", ()=>(0, _chunkNL6KNZEEMjs.isSession));
+parcelHelpers.export(exports, "matchPath", ()=>(0, _chunkNL6KNZEEMjs.matchPath));
+parcelHelpers.export(exports, "matchRoutes", ()=>(0, _chunkNL6KNZEEMjs.matchRoutes));
+parcelHelpers.export(exports, "parsePath", ()=>(0, _chunkNL6KNZEEMjs.parsePath));
+parcelHelpers.export(exports, "redirect", ()=>(0, _chunkNL6KNZEEMjs.redirect));
+parcelHelpers.export(exports, "redirectDocument", ()=>(0, _chunkNL6KNZEEMjs.redirectDocument));
+parcelHelpers.export(exports, "renderMatches", ()=>(0, _chunkNL6KNZEEMjs.renderMatches));
+parcelHelpers.export(exports, "replace", ()=>(0, _chunkNL6KNZEEMjs.replace));
+parcelHelpers.export(exports, "resolvePath", ()=>(0, _chunkNL6KNZEEMjs.resolvePath));
+parcelHelpers.export(exports, "unstable_HistoryRouter", ()=>(0, _chunkNL6KNZEEMjs.HistoryRouter));
+parcelHelpers.export(exports, "unstable_RouterContextProvider", ()=>(0, _chunkNL6KNZEEMjs.unstable_RouterContextProvider));
+parcelHelpers.export(exports, "unstable_createContext", ()=>(0, _chunkNL6KNZEEMjs.unstable_createContext));
+parcelHelpers.export(exports, "unstable_setDevServerHooks", ()=>(0, _chunkNL6KNZEEMjs.setDevServerHooks));
+parcelHelpers.export(exports, "unstable_usePrompt", ()=>(0, _chunkNL6KNZEEMjs.usePrompt));
+parcelHelpers.export(exports, "useActionData", ()=>(0, _chunkNL6KNZEEMjs.useActionData));
+parcelHelpers.export(exports, "useAsyncError", ()=>(0, _chunkNL6KNZEEMjs.useAsyncError));
+parcelHelpers.export(exports, "useAsyncValue", ()=>(0, _chunkNL6KNZEEMjs.useAsyncValue));
+parcelHelpers.export(exports, "useBeforeUnload", ()=>(0, _chunkNL6KNZEEMjs.useBeforeUnload));
+parcelHelpers.export(exports, "useBlocker", ()=>(0, _chunkNL6KNZEEMjs.useBlocker));
+parcelHelpers.export(exports, "useFetcher", ()=>(0, _chunkNL6KNZEEMjs.useFetcher));
+parcelHelpers.export(exports, "useFetchers", ()=>(0, _chunkNL6KNZEEMjs.useFetchers));
+parcelHelpers.export(exports, "useFormAction", ()=>(0, _chunkNL6KNZEEMjs.useFormAction));
+parcelHelpers.export(exports, "useHref", ()=>(0, _chunkNL6KNZEEMjs.useHref));
+parcelHelpers.export(exports, "useInRouterContext", ()=>(0, _chunkNL6KNZEEMjs.useInRouterContext));
+parcelHelpers.export(exports, "useLinkClickHandler", ()=>(0, _chunkNL6KNZEEMjs.useLinkClickHandler));
+parcelHelpers.export(exports, "useLoaderData", ()=>(0, _chunkNL6KNZEEMjs.useLoaderData));
+parcelHelpers.export(exports, "useLocation", ()=>(0, _chunkNL6KNZEEMjs.useLocation));
+parcelHelpers.export(exports, "useMatch", ()=>(0, _chunkNL6KNZEEMjs.useMatch));
+parcelHelpers.export(exports, "useMatches", ()=>(0, _chunkNL6KNZEEMjs.useMatches));
+parcelHelpers.export(exports, "useNavigate", ()=>(0, _chunkNL6KNZEEMjs.useNavigate));
+parcelHelpers.export(exports, "useNavigation", ()=>(0, _chunkNL6KNZEEMjs.useNavigation));
+parcelHelpers.export(exports, "useNavigationType", ()=>(0, _chunkNL6KNZEEMjs.useNavigationType));
+parcelHelpers.export(exports, "useOutlet", ()=>(0, _chunkNL6KNZEEMjs.useOutlet));
+parcelHelpers.export(exports, "useOutletContext", ()=>(0, _chunkNL6KNZEEMjs.useOutletContext));
+parcelHelpers.export(exports, "useParams", ()=>(0, _chunkNL6KNZEEMjs.useParams));
+parcelHelpers.export(exports, "useResolvedPath", ()=>(0, _chunkNL6KNZEEMjs.useResolvedPath));
+parcelHelpers.export(exports, "useRevalidator", ()=>(0, _chunkNL6KNZEEMjs.useRevalidator));
+parcelHelpers.export(exports, "useRouteError", ()=>(0, _chunkNL6KNZEEMjs.useRouteError));
+parcelHelpers.export(exports, "useRouteLoaderData", ()=>(0, _chunkNL6KNZEEMjs.useRouteLoaderData));
+parcelHelpers.export(exports, "useRoutes", ()=>(0, _chunkNL6KNZEEMjs.useRoutes));
+parcelHelpers.export(exports, "useSearchParams", ()=>(0, _chunkNL6KNZEEMjs.useSearchParams));
+parcelHelpers.export(exports, "useSubmit", ()=>(0, _chunkNL6KNZEEMjs.useSubmit));
+parcelHelpers.export(exports, "useViewTransitionState", ()=>(0, _chunkNL6KNZEEMjs.useViewTransitionState));
+var _chunkNL6KNZEEMjs = require("./chunk-NL6KNZEE.mjs");
 
-},{"./chunk-XJI4KG32.mjs":"lWOnO","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"lWOnO":[function(require,module,exports,__globalThis) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./chunk-NL6KNZEE.mjs":"g9VTl"}],"g9VTl":[function(require,module,exports,__globalThis) {
 /**
- * react-router v7.4.1
+ * react-router v7.6.2
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -26028,6 +26042,7 @@ parcelHelpers.export(exports, "useAsyncValue", ()=>useAsyncValue);
 parcelHelpers.export(exports, "useAsyncError", ()=>useAsyncError);
 parcelHelpers.export(exports, "useBlocker", ()=>useBlocker);
 parcelHelpers.export(exports, "mapRouteProperties", ()=>mapRouteProperties);
+parcelHelpers.export(exports, "hydrationRouteProperties", ()=>hydrationRouteProperties);
 parcelHelpers.export(exports, "createMemoryRouter", ()=>createMemoryRouter);
 parcelHelpers.export(exports, "RouterProvider", ()=>RouterProvider);
 parcelHelpers.export(exports, "MemoryRouter", ()=>MemoryRouter);
@@ -26040,9 +26055,12 @@ parcelHelpers.export(exports, "Await", ()=>Await);
 parcelHelpers.export(exports, "createRoutesFromChildren", ()=>createRoutesFromChildren);
 parcelHelpers.export(exports, "createRoutesFromElements", ()=>createRoutesFromElements);
 parcelHelpers.export(exports, "renderMatches", ()=>renderMatches);
+parcelHelpers.export(exports, "withComponentProps", ()=>withComponentProps);
+parcelHelpers.export(exports, "withHydrateFallbackProps", ()=>withHydrateFallbackProps);
+parcelHelpers.export(exports, "withErrorBoundaryProps", ()=>withErrorBoundaryProps);
 parcelHelpers.export(exports, "createSearchParams", ()=>createSearchParams);
 parcelHelpers.export(exports, "SingleFetchRedirectSymbol", ()=>SingleFetchRedirectSymbol);
-parcelHelpers.export(exports, "getSingleFetchDataStrategy", ()=>getSingleFetchDataStrategy);
+parcelHelpers.export(exports, "getTurboStreamSingleFetchDataStrategy", ()=>getTurboStreamSingleFetchDataStrategy);
 parcelHelpers.export(exports, "decodeViaTurboStream", ()=>decodeViaTurboStream);
 parcelHelpers.export(exports, "RemixErrorBoundary", ()=>RemixErrorBoundary);
 parcelHelpers.export(exports, "createClientRoutesWithHMRRevalidationOptOut", ()=>createClientRoutesWithHMRRevalidationOptOut);
@@ -26092,16 +26110,17 @@ parcelHelpers.export(exports, "createCookieSessionStorage", ()=>createCookieSess
 parcelHelpers.export(exports, "createMemorySessionStorage", ()=>createMemorySessionStorage);
 parcelHelpers.export(exports, "href", ()=>href);
 parcelHelpers.export(exports, "deserializeErrors", ()=>deserializeErrors2);
+parcelHelpers.export(exports, "getHydrationData", ()=>getHydrationData);
 // lib/components.tsx
 var _react = require("react");
-var _turboStream = require("turbo-stream");
 // lib/server-runtime/cookies.ts
 var _cookie = require("cookie");
 // lib/server-runtime/headers.ts
 var _setCookieParser = require("set-cookie-parser");
-var $b3cd3ce59e60f1be$import_meta = Object.assign(Object.create(null), {
-    url: "file:///node_modules/react-router/dist/development/chunk-XJI4KG32.mjs"
+var $4781157aecdfc4af$import_meta = Object.assign(Object.create(null), {
+    url: "file:///node_modules/react-router/dist/development/chunk-NL6KNZEE.mjs"
 });
+var process = require("6ff87c7dfc99d7be");
 var global = arguments[3];
 var __typeError = (msg)=>{
     throw TypeError(msg);
@@ -26366,11 +26385,7 @@ function getUrlBasedHistory(getLocation, createHref2, validateLocation, options 
         });
     }
     function createURL(to) {
-        let base = window2.location.origin !== "null" ? window2.location.origin : window2.location.href;
-        let href2 = typeof to === "string" ? to : createPath(to);
-        href2 = href2.replace(/ $/, "%20");
-        invariant(base, `No window.location.(origin|href) available to create URL for href: ${href2}`);
-        return new URL(href2, base);
+        return createBrowserURLImpl(to);
     }
     let history = {
         get action () {
@@ -26408,6 +26423,15 @@ function getUrlBasedHistory(getLocation, createHref2, validateLocation, options 
     };
     return history;
 }
+function createBrowserURLImpl(to, isAbsolute = false) {
+    let base = "http://localhost";
+    if (typeof window !== "undefined") base = window.location.origin !== "null" ? window.location.origin : window.location.href;
+    invariant(base, "No window.location.(origin|href) available to create URL");
+    let href2 = typeof to === "string" ? to : createPath(to);
+    href2 = href2.replace(/ $/, "%20");
+    if (!isAbsolute && href2.startsWith("//")) href2 = base + href2;
+    return new URL(href2, base);
+}
 // lib/router/utils.ts
 function unstable_createContext(defaultValue) {
     return {
@@ -26430,6 +26454,17 @@ var unstable_RouterContextProvider = class {
     }
 };
 _map = new WeakMap();
+var unsupportedLazyRouteObjectKeys = /* @__PURE__ */ new Set([
+    "lazy",
+    "caseSensitive",
+    "path",
+    "id",
+    "index",
+    "children"
+]);
+function isUnsupportedLazyRouteObjectKey(key) {
+    return unsupportedLazyRouteObjectKeys.has(key);
+}
 var unsupportedLazyRouteFunctionKeys = /* @__PURE__ */ new Set([
     "lazy",
     "caseSensitive",
@@ -26437,9 +26472,11 @@ var unsupportedLazyRouteFunctionKeys = /* @__PURE__ */ new Set([
     "id",
     "index",
     "unstable_middleware",
-    "unstable_lazyMiddleware",
     "children"
 ]);
+function isUnsupportedLazyRouteFunctionKey(key) {
+    return unsupportedLazyRouteFunctionKeys.has(key);
+}
 function isIndexRoute(route) {
     return route.index === true;
 }
@@ -26632,19 +26669,19 @@ function generatePath(originalPath, params = {}) {
         path = path.replace(/\*$/, "/*");
     }
     const prefix = path.startsWith("/") ? "/" : "";
-    const stringify = (p)=>p == null ? "" : typeof p === "string" ? p : String(p);
+    const stringify2 = (p)=>p == null ? "" : typeof p === "string" ? p : String(p);
     const segments = path.split(/\/+/).map((segment, index, array)=>{
         const isLastSegment = index === array.length - 1;
         if (isLastSegment && segment === "*") {
             const star = "*";
-            return stringify(params[star]);
+            return stringify2(params[star]);
         }
         const keyMatch = segment.match(/^:([\w-]+)(\??)$/);
         if (keyMatch) {
             const [, key, optional] = keyMatch;
             let param = params[key];
             invariant(optional === "?" || param != null, `Missing ":${key}" param`);
-            return stringify(param);
+            return stringify2(param);
         }
         return segment.replace(/\?$/g, "");
     }).filter((segment)=>!!segment);
@@ -26893,6 +26930,7 @@ function createRouter(init) {
     const routerWindow = init.window ? init.window : typeof window !== "undefined" ? window : void 0;
     const isBrowser2 = typeof routerWindow !== "undefined" && typeof routerWindow.document !== "undefined" && typeof routerWindow.document.createElement !== "undefined";
     invariant(init.routes.length > 0, "You must provide a non-empty routes array to createRouter");
+    let hydrationRouteProperties2 = init.hydrationRouteProperties || [];
     let mapRouteProperties2 = init.mapRouteProperties || defaultMapRouteProperties;
     let manifest = {};
     let dataRoutes = convertRoutesToDataRoutes(init.routes, mapRouteProperties2, void 0, manifest);
@@ -26912,38 +26950,40 @@ function createRouter(init) {
     let initialMatches = matchRoutes(dataRoutes, init.history.location, basename);
     let initialMatchesIsFOW = false;
     let initialErrors = null;
+    let initialized;
     if (initialMatches == null && !init.patchRoutesOnNavigation) {
         let error = getInternalRouterError(404, {
             pathname: init.history.location.pathname
         });
         let { matches, route } = getShortCircuitMatches(dataRoutes);
+        initialized = true;
         initialMatches = matches;
         initialErrors = {
             [route.id]: error
         };
-    }
-    if (initialMatches && !init.hydrationData) {
-        let fogOfWar = checkFogOfWar(initialMatches, dataRoutes, init.history.location.pathname);
-        if (fogOfWar.active) initialMatches = null;
-    }
-    let initialized;
-    if (!initialMatches) {
-        initialized = false;
-        initialMatches = [];
-        let fogOfWar = checkFogOfWar(null, dataRoutes, init.history.location.pathname);
-        if (fogOfWar.active && fogOfWar.matches) {
-            initialMatchesIsFOW = true;
-            initialMatches = fogOfWar.matches;
+    } else {
+        if (initialMatches && !init.hydrationData) {
+            let fogOfWar = checkFogOfWar(initialMatches, dataRoutes, init.history.location.pathname);
+            if (fogOfWar.active) initialMatches = null;
         }
-    } else if (initialMatches.some((m)=>m.route.lazy)) initialized = false;
-    else if (!initialMatches.some((m)=>m.route.loader)) initialized = true;
-    else {
-        let loaderData = init.hydrationData ? init.hydrationData.loaderData : null;
-        let errors = init.hydrationData ? init.hydrationData.errors : null;
-        if (errors) {
-            let idx = initialMatches.findIndex((m)=>errors[m.route.id] !== void 0);
-            initialized = initialMatches.slice(0, idx + 1).every((m)=>!shouldLoadRouteOnHydration(m.route, loaderData, errors));
-        } else initialized = initialMatches.every((m)=>!shouldLoadRouteOnHydration(m.route, loaderData, errors));
+        if (!initialMatches) {
+            initialized = false;
+            initialMatches = [];
+            let fogOfWar = checkFogOfWar(null, dataRoutes, init.history.location.pathname);
+            if (fogOfWar.active && fogOfWar.matches) {
+                initialMatchesIsFOW = true;
+                initialMatches = fogOfWar.matches;
+            }
+        } else if (initialMatches.some((m)=>m.route.lazy)) initialized = false;
+        else if (!initialMatches.some((m)=>m.route.loader)) initialized = true;
+        else {
+            let loaderData = init.hydrationData ? init.hydrationData.loaderData : null;
+            let errors = init.hydrationData ? init.hydrationData.errors : null;
+            if (errors) {
+                let idx = initialMatches.findIndex((m)=>errors[m.route.id] !== void 0);
+                initialized = initialMatches.slice(0, idx + 1).every((m)=>!shouldLoadRouteOnHydration(m.route, loaderData, errors));
+            } else initialized = initialMatches.every((m)=>!shouldLoadRouteOnHydration(m.route, loaderData, errors));
+        }
     }
     let router;
     let state = {
@@ -27274,7 +27314,7 @@ function createRouter(init) {
             }
         ];
         else if (opts && opts.submission && isMutationMethod(opts.submission.formMethod)) {
-            let actionResult = await handleAction(request, location, opts.submission, matches, scopedContext, fogOfWar.active, {
+            let actionResult = await handleAction(request, location, opts.submission, matches, scopedContext, fogOfWar.active, opts && opts.initialHydration === true, {
                 replace: opts.replace,
                 flushSync
             });
@@ -27310,7 +27350,7 @@ function createRouter(init) {
             errors
         });
     }
-    async function handleAction(request, location, submission, matches, scopedContext, isFogOfWar, opts = {}) {
+    async function handleAction(request, location, submission, matches, scopedContext, isFogOfWar, initialHydration, opts = {}) {
         interruptActiveLoads();
         let navigation = getSubmittingNavigation(location, submission);
         updateState({
@@ -27360,9 +27400,8 @@ function createRouter(init) {
             })
         };
         else {
-            let results = await callDataStrategy("action", request, [
-                actionMatch
-            ], matches, scopedContext, null);
+            let dsMatches = getTargetedDataStrategyMatches(mapRouteProperties2, manifest, request, matches, actionMatch, initialHydration ? [] : hydrationRouteProperties2, scopedContext);
+            let results = await callDataStrategy(request, dsMatches, scopedContext, null);
             result = results[actionMatch.route.id];
             if (!result) {
                 for (let match of matches)if (results[match.route.id]) {
@@ -27396,7 +27435,8 @@ function createRouter(init) {
                 matches,
                 pendingActionResult: [
                     boundaryMatch.route.id,
-                    result
+                    result,
+                    actionMatch.route.id
                 ]
             };
         }
@@ -27449,9 +27489,9 @@ function createRouter(init) {
             } else matches = discoverResult.matches;
         }
         let routesToUse = inFlightDataRoutes || dataRoutes;
-        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, activeSubmission, location, initialHydration === true, isRevalidationRequired, cancelledFetcherLoads, fetchersQueuedForDeletion, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionResult);
+        let { dsMatches, revalidatingFetchers } = getMatchesToLoad(request, scopedContext, mapRouteProperties2, manifest, init.history, state, matches, activeSubmission, location, initialHydration ? [] : hydrationRouteProperties2, initialHydration === true, isRevalidationRequired, cancelledFetcherLoads, fetchersQueuedForDeletion, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, init.patchRoutesOnNavigation != null, pendingActionResult);
         pendingNavigationLoadId = ++incrementingLoadId;
-        if (matchesToLoad.length === 0 && revalidatingFetchers.length === 0) {
+        if (!init.dataStrategy && !dsMatches.some((m)=>m.shouldLoad) && revalidatingFetchers.length === 0) {
             let updatedFetchers2 = markFetchRedirectsDone();
             completeNavigation(location, {
                 matches,
@@ -27489,7 +27529,7 @@ function createRouter(init) {
         });
         let abortPendingFetchRevalidations = ()=>revalidatingFetchers.forEach((f)=>abortFetcher(f.key));
         if (pendingNavigationController) pendingNavigationController.signal.addEventListener("abort", abortPendingFetchRevalidations);
-        let { loaderResults, fetcherResults } = await callLoadersAndMaybeResolveData(matches, matchesToLoad, revalidatingFetchers, request, scopedContext);
+        let { loaderResults, fetcherResults } = await callLoadersAndMaybeResolveData(dsMatches, revalidatingFetchers, request, scopedContext);
         if (request.signal.aborted) return {
             shortCircuited: true
         };
@@ -27631,9 +27671,8 @@ function createRouter(init) {
         }
         fetchControllers.set(key, abortController);
         let originatingLoadId = incrementingLoadId;
-        let actionResults = await callDataStrategy("action", fetchRequest, [
-            match
-        ], requestMatches, scopedContext, key);
+        let fetchMatches = getTargetedDataStrategyMatches(mapRouteProperties2, manifest, fetchRequest, requestMatches, match, hydrationRouteProperties2, scopedContext);
+        let actionResults = await callDataStrategy(fetchRequest, fetchMatches, scopedContext, key);
         let actionResult = actionResults[match.route.id];
         if (fetchRequest.signal.aborted) {
             if (fetchControllers.get(key) === abortController) fetchControllers.delete(key);
@@ -27673,7 +27712,7 @@ function createRouter(init) {
         fetchReloadIds.set(key, loadId);
         let loadFetcher = getLoadingFetcher(submission, actionResult.data);
         state.fetchers.set(key, loadFetcher);
-        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, submission, nextLocation, false, isRevalidationRequired, cancelledFetcherLoads, fetchersQueuedForDeletion, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, [
+        let { dsMatches, revalidatingFetchers } = getMatchesToLoad(revalidationRequest, scopedContext, mapRouteProperties2, manifest, init.history, state, matches, submission, nextLocation, hydrationRouteProperties2, false, isRevalidationRequired, cancelledFetcherLoads, fetchersQueuedForDeletion, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, init.patchRoutesOnNavigation != null, [
             match.route.id,
             actionResult
         ]);
@@ -27690,12 +27729,16 @@ function createRouter(init) {
         });
         let abortPendingFetchRevalidations = ()=>revalidatingFetchers.forEach((rf)=>abortFetcher(rf.key));
         abortController.signal.addEventListener("abort", abortPendingFetchRevalidations);
-        let { loaderResults, fetcherResults } = await callLoadersAndMaybeResolveData(matches, matchesToLoad, revalidatingFetchers, revalidationRequest, scopedContext);
+        let { loaderResults, fetcherResults } = await callLoadersAndMaybeResolveData(dsMatches, revalidatingFetchers, revalidationRequest, scopedContext);
         if (abortController.signal.aborted) return;
         abortController.signal.removeEventListener("abort", abortPendingFetchRevalidations);
         fetchReloadIds.delete(key);
         fetchControllers.delete(key);
         revalidatingFetchers.forEach((r)=>fetchControllers.delete(r.key));
+        if (state.fetchers.has(key)) {
+            let doneFetcher = getDoneFetcher(actionResult.data);
+            state.fetchers.set(key, doneFetcher);
+        }
         let redirect2 = findRedirect(loaderResults);
         if (redirect2) return startRedirectNavigation(revalidationRequest, redirect2.result, false, {
             preventScrollReset
@@ -27708,10 +27751,6 @@ function createRouter(init) {
             });
         }
         let { loaderData, errors } = processLoaderData(state, matches, loaderResults, void 0, revalidatingFetchers, fetcherResults);
-        if (state.fetchers.has(key)) {
-            let doneFetcher = getDoneFetcher(actionResult.data);
-            state.fetchers.set(key, doneFetcher);
-        }
         abortStaleFetchLoads(loadId);
         if (state.navigation.state === "loading" && loadId > pendingNavigationLoadId) {
             invariant(pendingAction, "Expected pending action");
@@ -27760,9 +27799,8 @@ function createRouter(init) {
         }
         fetchControllers.set(key, abortController);
         let originatingLoadId = incrementingLoadId;
-        let results = await callDataStrategy("loader", fetchRequest, [
-            match
-        ], matches, scopedContext, key);
+        let dsMatches = getTargetedDataStrategyMatches(mapRouteProperties2, manifest, fetchRequest, matches, match, hydrationRouteProperties2, scopedContext);
+        let results = await callDataStrategy(fetchRequest, dsMatches, scopedContext, key);
         let result = results[match.route.id];
         if (fetchControllers.get(key) === abortController) fetchControllers.delete(key);
         if (fetchRequest.signal.aborted) return;
@@ -27800,7 +27838,7 @@ function createRouter(init) {
             let isDocumentReload = false;
             if (redirect2.response.headers.has("X-Remix-Reload-Document")) isDocumentReload = true;
             else if (ABSOLUTE_URL_REGEX.test(location)) {
-                const url = init.history.createURL(location);
+                const url = createBrowserURLImpl(location, true);
                 isDocumentReload = url.origin !== routerWindow.location.origin || // Hard reload if it's an absolute URL that does not match our basename
                 stripBasename(url.pathname, basename) == null;
             }
@@ -27836,13 +27874,13 @@ function createRouter(init) {
             });
         }
     }
-    async function callDataStrategy(type, request, matchesToLoad, matches, scopedContext, fetcherKey) {
+    async function callDataStrategy(request, matches, scopedContext, fetcherKey) {
         let results;
         let dataResults = {};
         try {
-            results = await callDataStrategyImpl(dataStrategyImpl, type, request, matchesToLoad, matches, fetcherKey, manifest, mapRouteProperties2, scopedContext);
+            results = await callDataStrategyImpl(dataStrategyImpl, request, matches, fetcherKey, scopedContext, false);
         } catch (e) {
-            matchesToLoad.forEach((m)=>{
+            matches.filter((m)=>m.shouldLoad).forEach((m)=>{
                 dataResults[m.route.id] = {
                     type: "error" /* error */ ,
                     error: e
@@ -27850,6 +27888,7 @@ function createRouter(init) {
             });
             return dataResults;
         }
+        if (request.signal.aborted) return dataResults;
         for (let [routeId, result] of Object.entries(results))if (isRedirectDataStrategyResult(result)) {
             let response = result.result;
             dataResults[routeId] = {
@@ -27859,13 +27898,11 @@ function createRouter(init) {
         } else dataResults[routeId] = await convertDataStrategyResultToDataResult(result);
         return dataResults;
     }
-    async function callLoadersAndMaybeResolveData(matches, matchesToLoad, fetchersToLoad, request, scopedContext) {
-        let loaderResultsPromise = callDataStrategy("loader", request, matchesToLoad, matches, scopedContext, null);
+    async function callLoadersAndMaybeResolveData(matches, fetchersToLoad, request, scopedContext) {
+        let loaderResultsPromise = callDataStrategy(request, matches, scopedContext, null);
         let fetcherResultsPromise = Promise.all(fetchersToLoad.map(async (f)=>{
-            if (f.matches && f.match && f.controller) {
-                let results = await callDataStrategy("loader", createClientSideRequest(init.history, f.path, f.controller.signal), [
-                    f.match
-                ], f.matches, scopedContext, f.key);
+            if (f.matches && f.match && f.request && f.controller) {
+                let results = await callDataStrategy(f.request, f.matches, scopedContext, f.key);
                 let result = results[f.match.route.id];
                 return {
                     [f.key]: result
@@ -28236,10 +28273,10 @@ function createStaticHandler(routes, opts) {
             };
             return respond ? respond(staticContext) : staticContext;
         }
-        if (respond && matches.some((m)=>m.route.unstable_middleware || m.route.unstable_lazyMiddleware)) {
+        if (respond && matches.some((m)=>m.route.unstable_middleware || typeof m.route.lazy === "object" && m.route.lazy.unstable_middleware)) {
             invariant(requestContext instanceof unstable_RouterContextProvider, "When using middleware in `staticHandler.query()`, any provided `requestContext` must be an instance of `unstable_RouterContextProvider`");
             try {
-                await loadLazyMiddlewareForMatches(matches, manifest);
+                await loadLazyMiddlewareForMatches(matches, manifest, mapRouteProperties2);
                 let renderedStaticContext;
                 let response = await runMiddlewarePipeline({
                     request,
@@ -28262,10 +28299,9 @@ function createStaticHandler(routes, opts) {
                     if (isResponse(error)) return error;
                     if (renderedStaticContext) {
                         if (routeId in renderedStaticContext.loaderData) renderedStaticContext.loaderData[routeId] = void 0;
-                        return respond(getStaticContextFromError(dataRoutes, renderedStaticContext, error, findNearestBoundary(matches, routeId).route.id));
+                        return respond(getStaticContextFromError(dataRoutes, renderedStaticContext, error, skipLoaderErrorBubbling ? routeId : findNearestBoundary(matches, routeId).route.id));
                     } else {
-                        let loaderIdx = matches.findIndex((m)=>m.route.loader);
-                        let boundary = loaderIdx >= 0 ? findNearestBoundary(matches, matches[loaderIdx].route.id) : findNearestBoundary(matches);
+                        let boundaryRouteId = skipLoaderErrorBubbling ? routeId : findNearestBoundary(matches, matches.find((m)=>m.route.id === routeId || m.route.loader)?.route.id || routeId).route.id;
                         return respond({
                             matches,
                             location,
@@ -28273,7 +28309,7 @@ function createStaticHandler(routes, opts) {
                             loaderData: {},
                             actionData: null,
                             errors: {
-                                [boundary.route.id]: error
+                                [boundaryRouteId]: error
                             },
                             statusCode: isRouteErrorResponse(error) ? error.status : 500,
                             actionHeaders: {},
@@ -28316,9 +28352,9 @@ function createStaticHandler(routes, opts) {
         else if (!match) throw getInternalRouterError(404, {
             pathname: location.pathname
         });
-        if (respond && matches.some((m)=>m.route.unstable_middleware || m.route.unstable_lazyMiddleware)) {
+        if (respond && matches.some((m)=>m.route.unstable_middleware || typeof m.route.lazy === "object" && m.route.lazy.unstable_middleware)) {
             invariant(requestContext instanceof unstable_RouterContextProvider, "When using middleware in `staticHandler.queryRoute()`, any provided `requestContext` must be an instance of `unstable_RouterContextProvider`");
-            await loadLazyMiddlewareForMatches(matches, manifest);
+            await loadLazyMiddlewareForMatches(matches, manifest, mapRouteProperties2);
             let response = await runMiddlewarePipeline({
                 request,
                 matches,
@@ -28386,9 +28422,8 @@ function createStaticHandler(routes, opts) {
                 error
             };
         } else {
-            let results = await callDataStrategy("action", request, [
-                actionMatch
-            ], matches, isRouteRequest, requestContext, dataStrategy);
+            let dsMatches = getTargetedDataStrategyMatches(mapRouteProperties2, manifest, request, matches, actionMatch, [], requestContext);
+            let results = await callDataStrategy(request, dsMatches, isRouteRequest, requestContext, dataStrategy);
             result = results[actionMatch.route.id];
             if (request.signal.aborted) throwStaticHandlerAbortedError(request, isRouteRequest);
         }
@@ -28492,36 +28527,35 @@ function createStaticHandler(routes, opts) {
             pathname: new URL(request.url).pathname,
             routeId: routeMatch?.route.id
         });
-        let requestMatches = routeMatch ? [
-            routeMatch
-        ] : pendingActionResult && isErrorResult(pendingActionResult[1]) ? getLoaderMatchesUntilBoundary(matches, pendingActionResult[0]) : matches;
-        let matchesToLoad = requestMatches.filter((m)=>(m.route.loader || m.route.lazy) && (!filterMatchesToLoad || filterMatchesToLoad(m)));
-        if (matchesToLoad.length === 0) return {
+        let dsMatches;
+        if (routeMatch) dsMatches = getTargetedDataStrategyMatches(mapRouteProperties2, manifest, request, matches, routeMatch, [], requestContext);
+        else {
+            let maxIdx = pendingActionResult && isErrorResult(pendingActionResult[1]) ? // Up to but not including the boundary
+            matches.findIndex((m)=>m.route.id === pendingActionResult[0]) - 1 : void 0;
+            dsMatches = matches.map((match, index)=>{
+                if (maxIdx != null && index > maxIdx) return getDataStrategyMatch(mapRouteProperties2, manifest, request, match, [], requestContext, false);
+                return getDataStrategyMatch(mapRouteProperties2, manifest, request, match, [], requestContext, (match.route.loader || match.route.lazy) != null && (!filterMatchesToLoad || filterMatchesToLoad(match)));
+            });
+        }
+        if (!dataStrategy && !dsMatches.some((m)=>m.shouldLoad)) return {
             matches,
-            // Add a null for all matched routes for proper revalidation on the client
-            loaderData: matches.reduce((acc, m)=>Object.assign(acc, {
-                    [m.route.id]: null
-                }), {}),
+            loaderData: {},
             errors: pendingActionResult && isErrorResult(pendingActionResult[1]) ? {
                 [pendingActionResult[0]]: pendingActionResult[1].error
             } : null,
             statusCode: 200,
             loaderHeaders: {}
         };
-        let results = await callDataStrategy("loader", request, matchesToLoad, matches, isRouteRequest, requestContext, dataStrategy);
+        let results = await callDataStrategy(request, dsMatches, isRouteRequest, requestContext, dataStrategy);
         if (request.signal.aborted) throwStaticHandlerAbortedError(request, isRouteRequest);
         let handlerContext = processRouteLoaderData(matches, results, pendingActionResult, true, skipLoaderErrorBubbling);
-        let executedLoaders = new Set(matchesToLoad.map((match)=>match.route.id));
-        matches.forEach((match)=>{
-            if (!executedLoaders.has(match.route.id)) handlerContext.loaderData[match.route.id] = null;
-        });
         return {
             ...handlerContext,
             matches
         };
     }
-    async function callDataStrategy(type, request, matchesToLoad, matches, isRouteRequest, requestContext, dataStrategy) {
-        let results = await callDataStrategyImpl(dataStrategy || defaultDataStrategy, type, request, matchesToLoad, matches, null, manifest, mapRouteProperties2, requestContext);
+    async function callDataStrategy(request, matches, isRouteRequest, requestContext, dataStrategy) {
+        let results = await callDataStrategyImpl(dataStrategy || defaultDataStrategy, request, matches, null, requestContext, true);
         let dataResults = {};
         await Promise.all(matches.map(async (match)=>{
             if (!(match.route.id in results)) return;
@@ -28695,92 +28729,103 @@ function normalizeNavigateOptions(isFetcher, path, opts) {
         submission
     };
 }
-function getLoaderMatchesUntilBoundary(matches, boundaryId, includeBoundary = false) {
-    let index = matches.findIndex((m)=>m.route.id === boundaryId);
-    if (index >= 0) return matches.slice(0, includeBoundary ? index + 1 : index);
-    return matches;
-}
-function getMatchesToLoad(history, state, matches, submission, location, initialHydration, isRevalidationRequired, cancelledFetcherLoads, fetchersQueuedForDeletion, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionResult) {
+function getMatchesToLoad(request, scopedContext, mapRouteProperties2, manifest, history, state, matches, submission, location, lazyRoutePropertiesToSkip, initialHydration, isRevalidationRequired, cancelledFetcherLoads, fetchersQueuedForDeletion, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, hasPatchRoutesOnNavigation, pendingActionResult) {
     let actionResult = pendingActionResult ? isErrorResult(pendingActionResult[1]) ? pendingActionResult[1].error : pendingActionResult[1].data : void 0;
     let currentUrl = history.createURL(state.location);
     let nextUrl = history.createURL(location);
-    let boundaryMatches = matches;
-    if (initialHydration && state.errors) boundaryMatches = getLoaderMatchesUntilBoundary(matches, Object.keys(state.errors)[0], true);
-    else if (pendingActionResult && isErrorResult(pendingActionResult[1])) boundaryMatches = getLoaderMatchesUntilBoundary(matches, pendingActionResult[0]);
+    let maxIdx;
+    if (initialHydration && state.errors) {
+        let boundaryId = Object.keys(state.errors)[0];
+        maxIdx = matches.findIndex((m)=>m.route.id === boundaryId);
+    } else if (pendingActionResult && isErrorResult(pendingActionResult[1])) {
+        let boundaryId = pendingActionResult[0];
+        maxIdx = matches.findIndex((m)=>m.route.id === boundaryId) - 1;
+    }
     let actionStatus = pendingActionResult ? pendingActionResult[1].statusCode : void 0;
     let shouldSkipRevalidation = actionStatus && actionStatus >= 400;
-    let navigationMatches = boundaryMatches.filter((match, index)=>{
+    let baseShouldRevalidateArgs = {
+        currentUrl,
+        currentParams: state.matches[0]?.params || {},
+        nextUrl,
+        nextParams: matches[0].params,
+        ...submission,
+        actionResult,
+        actionStatus
+    };
+    let dsMatches = matches.map((match, index)=>{
         let { route } = match;
-        if (route.lazy) return true;
-        if (route.loader == null) return false;
-        if (initialHydration) return shouldLoadRouteOnHydration(route, state.loaderData, state.errors);
-        if (isNewLoader(state.loaderData, state.matches[index], match)) return true;
-        let currentRouteMatch = state.matches[index];
-        let nextRouteMatch = match;
-        return shouldRevalidateLoader(match, {
-            currentUrl,
-            currentParams: currentRouteMatch.params,
-            nextUrl,
-            nextParams: nextRouteMatch.params,
-            ...submission,
-            actionResult,
-            actionStatus,
-            defaultShouldRevalidate: shouldSkipRevalidation ? false : // Forced revalidation due to submission, useRevalidator, or X-Remix-Revalidate
-            isRevalidationRequired || currentUrl.pathname + currentUrl.search === nextUrl.pathname + nextUrl.search || // Search params affect all loaders
-            currentUrl.search !== nextUrl.search || isNewRouteInstance(currentRouteMatch, nextRouteMatch)
-        });
+        let forceShouldLoad = null;
+        if (maxIdx != null && index > maxIdx) forceShouldLoad = false;
+        else if (route.lazy) forceShouldLoad = true;
+        else if (route.loader == null) forceShouldLoad = false;
+        else if (initialHydration) forceShouldLoad = shouldLoadRouteOnHydration(route, state.loaderData, state.errors);
+        else if (isNewLoader(state.loaderData, state.matches[index], match)) forceShouldLoad = true;
+        if (forceShouldLoad !== null) return getDataStrategyMatch(mapRouteProperties2, manifest, request, match, lazyRoutePropertiesToSkip, scopedContext, forceShouldLoad);
+        let defaultShouldRevalidate = shouldSkipRevalidation ? false : // Forced revalidation due to submission, useRevalidator, or X-Remix-Revalidate
+        isRevalidationRequired || currentUrl.pathname + currentUrl.search === nextUrl.pathname + nextUrl.search || // Search params affect all loaders
+        currentUrl.search !== nextUrl.search || isNewRouteInstance(state.matches[index], match);
+        let shouldRevalidateArgs = {
+            ...baseShouldRevalidateArgs,
+            defaultShouldRevalidate
+        };
+        let shouldLoad = shouldRevalidateLoader(match, shouldRevalidateArgs);
+        return getDataStrategyMatch(mapRouteProperties2, manifest, request, match, lazyRoutePropertiesToSkip, scopedContext, shouldLoad, shouldRevalidateArgs);
     });
     let revalidatingFetchers = [];
     fetchLoadMatches.forEach((f, key)=>{
         if (initialHydration || !matches.some((m)=>m.route.id === f.routeId) || fetchersQueuedForDeletion.has(key)) return;
+        let fetcher = state.fetchers.get(key);
+        let isMidInitialLoad = fetcher && fetcher.state !== "idle" && fetcher.data === void 0;
         let fetcherMatches = matchRoutes(routesToUse, f.path, basename);
         if (!fetcherMatches) {
+            if (hasPatchRoutesOnNavigation && isMidInitialLoad) return;
             revalidatingFetchers.push({
                 key,
                 routeId: f.routeId,
                 path: f.path,
                 matches: null,
                 match: null,
+                request: null,
                 controller: null
             });
             return;
         }
-        let fetcher = state.fetchers.get(key);
+        if (fetchRedirectIds.has(key)) return;
         let fetcherMatch = getTargetMatch(fetcherMatches, f.path);
-        let shouldRevalidate = false;
-        if (fetchRedirectIds.has(key)) shouldRevalidate = false;
-        else if (cancelledFetcherLoads.has(key)) {
+        let fetchController = new AbortController();
+        let fetchRequest = createClientSideRequest(history, f.path, fetchController.signal);
+        let fetcherDsMatches = null;
+        if (cancelledFetcherLoads.has(key)) {
             cancelledFetcherLoads.delete(key);
-            shouldRevalidate = true;
-        } else if (fetcher && fetcher.state !== "idle" && fetcher.data === void 0) shouldRevalidate = isRevalidationRequired;
-        else shouldRevalidate = shouldRevalidateLoader(fetcherMatch, {
-            currentUrl,
-            currentParams: state.matches[state.matches.length - 1].params,
-            nextUrl,
-            nextParams: matches[matches.length - 1].params,
-            ...submission,
-            actionResult,
-            actionStatus,
-            defaultShouldRevalidate: shouldSkipRevalidation ? false : isRevalidationRequired
-        });
-        if (shouldRevalidate) revalidatingFetchers.push({
+            fetcherDsMatches = getTargetedDataStrategyMatches(mapRouteProperties2, manifest, fetchRequest, fetcherMatches, fetcherMatch, lazyRoutePropertiesToSkip, scopedContext);
+        } else if (isMidInitialLoad) {
+            if (isRevalidationRequired) fetcherDsMatches = getTargetedDataStrategyMatches(mapRouteProperties2, manifest, fetchRequest, fetcherMatches, fetcherMatch, lazyRoutePropertiesToSkip, scopedContext);
+        } else {
+            let shouldRevalidateArgs = {
+                ...baseShouldRevalidateArgs,
+                defaultShouldRevalidate: shouldSkipRevalidation ? false : isRevalidationRequired
+            };
+            if (shouldRevalidateLoader(fetcherMatch, shouldRevalidateArgs)) fetcherDsMatches = getTargetedDataStrategyMatches(mapRouteProperties2, manifest, fetchRequest, fetcherMatches, fetcherMatch, lazyRoutePropertiesToSkip, scopedContext, shouldRevalidateArgs);
+        }
+        if (fetcherDsMatches) revalidatingFetchers.push({
             key,
             routeId: f.routeId,
             path: f.path,
-            matches: fetcherMatches,
+            matches: fetcherDsMatches,
             match: fetcherMatch,
-            controller: new AbortController()
+            request: fetchRequest,
+            controller: fetchController
         });
     });
-    return [
-        navigationMatches,
+    return {
+        dsMatches,
         revalidatingFetchers
-    ];
+    };
 }
 function shouldLoadRouteOnHydration(route, loaderData, errors) {
     if (route.lazy) return true;
     if (!route.loader) return false;
-    let hasData = loaderData != null && loaderData[route.id] !== void 0;
+    let hasData = loaderData != null && route.id in loaderData;
     let hasError = errors != null && errors[route.id] !== void 0;
     if (!hasData && hasError) return false;
     if (typeof route.loader === "function" && route.loader.hydrate === true) return true;
@@ -28829,53 +28874,128 @@ function isSameRoute(newRoute, existingRoute) {
     if ((!newRoute.children || newRoute.children.length === 0) && (!existingRoute.children || existingRoute.children.length === 0)) return true;
     return newRoute.children.every((aChild, i)=>existingRoute.children?.some((bChild)=>isSameRoute(aChild, bChild)));
 }
-var lazyRouteFunctionCache = /* @__PURE__ */ new WeakMap();
-async function loadLazyRouteModule(route, mapRouteProperties2, manifest) {
+var lazyRoutePropertyCache = /* @__PURE__ */ new WeakMap();
+var loadLazyRouteProperty = ({ key, route, manifest, mapRouteProperties: mapRouteProperties2 })=>{
     let routeToUpdate = manifest[route.id];
     invariant(routeToUpdate, "No route found in manifest");
-    if (!route.lazy) return;
-    let cachedPromise = lazyRouteFunctionCache.get(routeToUpdate);
-    if (cachedPromise) {
-        await cachedPromise;
-        return;
+    if (!routeToUpdate.lazy || typeof routeToUpdate.lazy !== "object") return;
+    let lazyFn = routeToUpdate.lazy[key];
+    if (!lazyFn) return;
+    let cache = lazyRoutePropertyCache.get(routeToUpdate);
+    if (!cache) {
+        cache = {};
+        lazyRoutePropertyCache.set(routeToUpdate, cache);
     }
-    let lazyRoutePromise = route.lazy().then((lazyRoute)=>{
-        let routeUpdates = {};
-        for(let lazyRouteProperty in lazyRoute){
-            let staticRouteValue = routeToUpdate[lazyRouteProperty];
-            let isPropertyStaticallyDefined = staticRouteValue !== void 0 && // This property isn't static since it should always be updated based
-            // on the route updates
-            lazyRouteProperty !== "hasErrorBoundary";
-            warning(!isPropertyStaticallyDefined, `Route "${routeToUpdate.id}" has a static property "${lazyRouteProperty}" defined but its lazy function is also returning a value for this property. The lazy route property "${lazyRouteProperty}" will be ignored.`);
-            warning(!unsupportedLazyRouteFunctionKeys.has(lazyRouteProperty), "Route property " + lazyRouteProperty + " is not a supported property to be returned from a lazy route function. This property will be ignored.");
-            if (!isPropertyStaticallyDefined && !unsupportedLazyRouteFunctionKeys.has(lazyRouteProperty)) routeUpdates[lazyRouteProperty] = lazyRoute[lazyRouteProperty];
+    let cachedPromise = cache[key];
+    if (cachedPromise) return cachedPromise;
+    let propertyPromise = (async ()=>{
+        let isUnsupported = isUnsupportedLazyRouteObjectKey(key);
+        let staticRouteValue = routeToUpdate[key];
+        let isStaticallyDefined = staticRouteValue !== void 0 && key !== "hasErrorBoundary";
+        if (isUnsupported) {
+            warning(!isUnsupported, "Route property " + key + " is not a supported lazy route property. This property will be ignored.");
+            cache[key] = Promise.resolve();
+        } else if (isStaticallyDefined) warning(false, `Route "${routeToUpdate.id}" has a static property "${key}" defined. The lazy property will be ignored.`);
+        else {
+            let value = await lazyFn();
+            if (value != null) {
+                Object.assign(routeToUpdate, {
+                    [key]: value
+                });
+                Object.assign(routeToUpdate, mapRouteProperties2(routeToUpdate));
+            }
         }
-        Object.assign(routeToUpdate, routeUpdates);
-        Object.assign(routeToUpdate, {
-            // To keep things framework agnostic, we use the provided `mapRouteProperties`
-            // function to set the framework-aware properties (`element`/`hasErrorBoundary`)
-            // since the logic will differ between frameworks.
-            ...mapRouteProperties2(routeToUpdate),
-            lazy: void 0
-        });
-    });
-    lazyRouteFunctionCache.set(routeToUpdate, lazyRoutePromise);
-    await lazyRoutePromise;
-}
-async function loadLazyMiddleware(route, manifest) {
-    if (!route.unstable_lazyMiddleware) return;
+        if (typeof routeToUpdate.lazy === "object") {
+            routeToUpdate.lazy[key] = void 0;
+            if (Object.values(routeToUpdate.lazy).every((value)=>value === void 0)) routeToUpdate.lazy = void 0;
+        }
+    })();
+    cache[key] = propertyPromise;
+    return propertyPromise;
+};
+var lazyRouteFunctionCache = /* @__PURE__ */ new WeakMap();
+function loadLazyRoute(route, type, manifest, mapRouteProperties2, lazyRoutePropertiesToSkip) {
     let routeToUpdate = manifest[route.id];
     invariant(routeToUpdate, "No route found in manifest");
-    if (routeToUpdate.unstable_middleware) warning(false, `Route "${routeToUpdate.id}" has a static property "unstable_middleware" defined. The "unstable_lazyMiddleware" function will be ignored.`);
-    else {
-        let middleware = await route.unstable_lazyMiddleware();
-        if (!route.unstable_lazyMiddleware) return;
-        if (!routeToUpdate.unstable_middleware) routeToUpdate.unstable_middleware = middleware;
+    if (!route.lazy) return {
+        lazyRoutePromise: void 0,
+        lazyHandlerPromise: void 0
+    };
+    if (typeof route.lazy === "function") {
+        let cachedPromise = lazyRouteFunctionCache.get(routeToUpdate);
+        if (cachedPromise) return {
+            lazyRoutePromise: cachedPromise,
+            lazyHandlerPromise: cachedPromise
+        };
+        let lazyRoutePromise2 = (async ()=>{
+            invariant(typeof route.lazy === "function", "No lazy route function found");
+            let lazyRoute = await route.lazy();
+            let routeUpdates = {};
+            for(let lazyRouteProperty in lazyRoute){
+                let lazyValue = lazyRoute[lazyRouteProperty];
+                if (lazyValue === void 0) continue;
+                let isUnsupported = isUnsupportedLazyRouteFunctionKey(lazyRouteProperty);
+                let staticRouteValue = routeToUpdate[lazyRouteProperty];
+                let isStaticallyDefined = staticRouteValue !== void 0 && // This property isn't static since it should always be updated based
+                // on the route updates
+                lazyRouteProperty !== "hasErrorBoundary";
+                if (isUnsupported) warning(!isUnsupported, "Route property " + lazyRouteProperty + " is not a supported property to be returned from a lazy route function. This property will be ignored.");
+                else if (isStaticallyDefined) warning(!isStaticallyDefined, `Route "${routeToUpdate.id}" has a static property "${lazyRouteProperty}" defined but its lazy function is also returning a value for this property. The lazy route property "${lazyRouteProperty}" will be ignored.`);
+                else routeUpdates[lazyRouteProperty] = lazyValue;
+            }
+            Object.assign(routeToUpdate, routeUpdates);
+            Object.assign(routeToUpdate, {
+                // To keep things framework agnostic, we use the provided `mapRouteProperties`
+                // function to set the framework-aware properties (`element`/`hasErrorBoundary`)
+                // since the logic will differ between frameworks.
+                ...mapRouteProperties2(routeToUpdate),
+                lazy: void 0
+            });
+        })();
+        lazyRouteFunctionCache.set(routeToUpdate, lazyRoutePromise2);
+        lazyRoutePromise2.catch(()=>{});
+        return {
+            lazyRoutePromise: lazyRoutePromise2,
+            lazyHandlerPromise: lazyRoutePromise2
+        };
     }
-    routeToUpdate.unstable_lazyMiddleware = void 0;
+    let lazyKeys = Object.keys(route.lazy);
+    let lazyPropertyPromises = [];
+    let lazyHandlerPromise = void 0;
+    for (let key of lazyKeys){
+        if (lazyRoutePropertiesToSkip && lazyRoutePropertiesToSkip.includes(key)) continue;
+        let promise = loadLazyRouteProperty({
+            key,
+            route,
+            manifest,
+            mapRouteProperties: mapRouteProperties2
+        });
+        if (promise) {
+            lazyPropertyPromises.push(promise);
+            if (key === type) lazyHandlerPromise = promise;
+        }
+    }
+    let lazyRoutePromise = lazyPropertyPromises.length > 0 ? Promise.all(lazyPropertyPromises).then(()=>{}) : void 0;
+    lazyRoutePromise?.catch(()=>{});
+    lazyHandlerPromise?.catch(()=>{});
+    return {
+        lazyRoutePromise,
+        lazyHandlerPromise
+    };
 }
-function loadLazyMiddlewareForMatches(matches, manifest) {
-    let promises = matches.map((m)=>m.route.unstable_lazyMiddleware ? loadLazyMiddleware(m.route, manifest) : void 0).filter(Boolean);
+function isNonNullable(value) {
+    return value !== void 0;
+}
+function loadLazyMiddlewareForMatches(matches, manifest, mapRouteProperties2) {
+    let promises = matches.map(({ route })=>{
+        if (typeof route.lazy !== "object" || !route.lazy.unstable_middleware) return void 0;
+        return loadLazyRouteProperty({
+            key: "unstable_middleware",
+            route,
+            manifest,
+            mapRouteProperties: mapRouteProperties2
+        });
+    }).filter(isNonNullable);
     return promises.length > 0 ? Promise.all(promises) : void 0;
 }
 async function defaultDataStrategy(args) {
@@ -28964,41 +29084,112 @@ async function callRouteMiddleware(args, middlewares, propagateResult, middlewar
         throw error;
     }
 }
-async function callDataStrategyImpl(dataStrategyImpl, type, request, matchesToLoad, matches, fetcherKey, manifest, mapRouteProperties2, scopedContext) {
-    let loadMiddlewarePromise = loadLazyMiddlewareForMatches(matches, manifest);
-    let loadRouteDefinitionsPromises = matches.map((m)=>m.route.lazy ? loadLazyRouteModule(m.route, mapRouteProperties2, manifest) : void 0);
-    if (loadMiddlewarePromise) await loadMiddlewarePromise;
-    let dsMatches = matches.map((match, i)=>{
-        let loadRoutePromise = loadRouteDefinitionsPromises[i];
-        let shouldLoad = matchesToLoad.some((m)=>m.route.id === match.route.id);
-        let resolve = async (handlerOverride)=>{
-            if (handlerOverride && request.method === "GET" && (match.route.lazy || match.route.loader)) shouldLoad = true;
-            return shouldLoad ? callLoaderOrAction(type, request, match, loadRoutePromise, handlerOverride, scopedContext) : Promise.resolve({
+function getDataStrategyMatchLazyPromises(mapRouteProperties2, manifest, request, match, lazyRoutePropertiesToSkip) {
+    let lazyMiddlewarePromise = loadLazyRouteProperty({
+        key: "unstable_middleware",
+        route: match.route,
+        manifest,
+        mapRouteProperties: mapRouteProperties2
+    });
+    let lazyRoutePromises = loadLazyRoute(match.route, isMutationMethod(request.method) ? "action" : "loader", manifest, mapRouteProperties2, lazyRoutePropertiesToSkip);
+    return {
+        middleware: lazyMiddlewarePromise,
+        route: lazyRoutePromises.lazyRoutePromise,
+        handler: lazyRoutePromises.lazyHandlerPromise
+    };
+}
+function getDataStrategyMatch(mapRouteProperties2, manifest, request, match, lazyRoutePropertiesToSkip, scopedContext, shouldLoad, unstable_shouldRevalidateArgs = null) {
+    let isUsingNewApi = false;
+    let _lazyPromises = getDataStrategyMatchLazyPromises(mapRouteProperties2, manifest, request, match, lazyRoutePropertiesToSkip);
+    return {
+        ...match,
+        _lazyPromises,
+        shouldLoad,
+        unstable_shouldRevalidateArgs,
+        unstable_shouldCallHandler (defaultShouldRevalidate) {
+            isUsingNewApi = true;
+            if (!unstable_shouldRevalidateArgs) return shouldLoad;
+            if (typeof defaultShouldRevalidate === "boolean") return shouldRevalidateLoader(match, {
+                ...unstable_shouldRevalidateArgs,
+                defaultShouldRevalidate
+            });
+            return shouldRevalidateLoader(match, unstable_shouldRevalidateArgs);
+        },
+        resolve (handlerOverride) {
+            if (isUsingNewApi || shouldLoad || handlerOverride && request.method === "GET" && (match.route.lazy || match.route.loader)) return callLoaderOrAction({
+                request,
+                match,
+                lazyHandlerPromise: _lazyPromises?.handler,
+                lazyRoutePromise: _lazyPromises?.route,
+                handlerOverride,
+                scopedContext
+            });
+            return Promise.resolve({
                 type: "data" /* data */ ,
                 result: void 0
             });
-        };
-        return {
+        }
+    };
+}
+function getTargetedDataStrategyMatches(mapRouteProperties2, manifest, request, matches, targetMatch, lazyRoutePropertiesToSkip, scopedContext, shouldRevalidateArgs = null) {
+    return matches.map((match)=>{
+        if (match.route.id !== targetMatch.route.id) return {
             ...match,
-            shouldLoad,
-            resolve
+            shouldLoad: false,
+            unstable_shouldRevalidateArgs: shouldRevalidateArgs,
+            unstable_shouldCallHandler: ()=>false,
+            _lazyPromises: getDataStrategyMatchLazyPromises(mapRouteProperties2, manifest, request, match, lazyRoutePropertiesToSkip),
+            resolve: ()=>Promise.resolve({
+                    type: "data",
+                    result: void 0
+                })
         };
+        return getDataStrategyMatch(mapRouteProperties2, manifest, request, match, lazyRoutePropertiesToSkip, scopedContext, true, shouldRevalidateArgs);
     });
-    let results = await dataStrategyImpl({
-        matches: dsMatches,
+}
+async function callDataStrategyImpl(dataStrategyImpl, request, matches, fetcherKey, scopedContext, isStaticHandler) {
+    if (matches.some((m)=>m._lazyPromises?.middleware)) await Promise.all(matches.map((m)=>m._lazyPromises?.middleware));
+    let dataStrategyArgs = {
         request,
         params: matches[0].params,
+        context: scopedContext,
+        matches
+    };
+    let unstable_runClientMiddleware = isStaticHandler ? ()=>{
+        throw new Error("You cannot call `unstable_runClientMiddleware()` from a static handler `dataStrategy`. Middleware is run outside of `dataStrategy` during SSR in order to bubble up the Response.  You can enable middleware via the `respond` API in `query`/`queryRoute`");
+    } : (cb)=>{
+        let typedDataStrategyArgs = dataStrategyArgs;
+        return runMiddlewarePipeline(typedDataStrategyArgs, false, ()=>cb({
+                ...typedDataStrategyArgs,
+                fetcherKey,
+                unstable_runClientMiddleware: ()=>{
+                    throw new Error("Cannot call `unstable_runClientMiddleware()` from within an `unstable_runClientMiddleware` handler");
+                }
+            }), (error, routeId)=>({
+                [routeId]: {
+                    type: "error",
+                    result: error
+                }
+            }));
+    };
+    let results = await dataStrategyImpl({
+        ...dataStrategyArgs,
         fetcherKey,
-        context: scopedContext
+        unstable_runClientMiddleware
     });
     try {
-        await Promise.all(loadRouteDefinitionsPromises);
+        await Promise.all(matches.flatMap((m)=>[
+                m._lazyPromises?.handler,
+                m._lazyPromises?.route
+            ]));
     } catch (e) {}
     return results;
 }
-async function callLoaderOrAction(type, request, match, loadRoutePromise, handlerOverride, scopedContext) {
+async function callLoaderOrAction({ request, match, lazyHandlerPromise, lazyRoutePromise, handlerOverride, scopedContext }) {
     let result;
     let onReject;
+    let isAction = isMutationMethod(request.method);
+    let type = isAction ? "action" : "loader";
     let runHandler = (handler)=>{
         let reject;
         let abortPromise = new Promise((_, r)=>reject = r);
@@ -29034,8 +29225,8 @@ async function callLoaderOrAction(type, request, match, loadRoutePromise, handle
         ]);
     };
     try {
-        let handler = match.route[type];
-        if (loadRoutePromise) {
+        let handler = isAction ? match.route.action : match.route.loader;
+        if (lazyHandlerPromise || lazyRoutePromise) {
             if (handler) {
                 let handlerError;
                 let [value] = await Promise.all([
@@ -29045,14 +29236,19 @@ async function callLoaderOrAction(type, request, match, loadRoutePromise, handle
                     runHandler(handler).catch((e)=>{
                         handlerError = e;
                     }),
-                    loadRoutePromise
+                    // Ensure all lazy route promises are resolved before continuing
+                    lazyHandlerPromise,
+                    lazyRoutePromise
                 ]);
                 if (handlerError !== void 0) throw handlerError;
                 result = value;
             } else {
-                await loadRoutePromise;
-                handler = match.route[type];
-                if (handler) result = await runHandler(handler);
+                await lazyHandlerPromise;
+                let handler2 = isAction ? match.route.action : match.route.loader;
+                if (handler2) [result] = await Promise.all([
+                    runHandler(handler2),
+                    lazyRoutePromise
+                ]);
                 else if (type === "action") {
                     let url = new URL(request.url);
                     let pathname = url.pathname + url.search;
@@ -29232,7 +29428,7 @@ function processRouteLoaderData(matches, results, pendingActionResult, isStaticH
         errors = {
             [pendingActionResult[0]]: pendingError
         };
-        loaderData[pendingActionResult[0]] = void 0;
+        if (pendingActionResult[2]) loaderData[pendingActionResult[2]] = void 0;
     }
     return {
         loaderData,
@@ -29243,7 +29439,7 @@ function processRouteLoaderData(matches, results, pendingActionResult, isStaticH
 }
 function processLoaderData(state, matches, results, pendingActionResult, revalidatingFetchers, fetcherResults) {
     let { loaderData, errors } = processRouteLoaderData(matches, results, pendingActionResult);
-    revalidatingFetchers.forEach((rf)=>{
+    revalidatingFetchers.filter((f)=>!f.matches || f.matches.some((m)=>m.shouldLoad)).forEach((rf)=>{
         let { key, match, controller } = rf;
         let result = fetcherResults[key];
         invariant(result, "Did not find corresponding fetcher result");
@@ -29591,7 +29787,7 @@ function useHref(to, { relative } = {}) {
     invariant(useInRouterContext(), // TODO: This error is probably because they somehow have 2 versions of the
     // router loaded. We can help them understand how to avoid that.
     `useHref() may be used only in the context of a <Router> component.`);
-    let { basename, navigator: navigator2 } = _react.useContext(NavigationContext);
+    let { basename, navigator } = _react.useContext(NavigationContext);
     let { hash, pathname, search } = useResolvedPath(to, {
         relative
     });
@@ -29600,7 +29796,7 @@ function useHref(to, { relative } = {}) {
         basename,
         pathname
     ]);
-    return navigator2.createHref({
+    return navigator.createHref({
         pathname: joinedPathname,
         search,
         hash
@@ -29642,7 +29838,7 @@ function useNavigateUnstable() {
     // router loaded. We can help them understand how to avoid that.
     `useNavigate() may be used only in the context of a <Router> component.`);
     let dataRouterContext = _react.useContext(DataRouterContext);
-    let { basename, navigator: navigator2 } = _react.useContext(NavigationContext);
+    let { basename, navigator } = _react.useContext(NavigationContext);
     let { matches } = _react.useContext(RouteContext);
     let { pathname: locationPathname } = useLocation();
     let routePathnamesJson = JSON.stringify(getResolveToMatches(matches));
@@ -29654,7 +29850,7 @@ function useNavigateUnstable() {
         warning(activeRef.current, navigateEffectWarning);
         if (!activeRef.current) return;
         if (typeof to === "number") {
-            navigator2.go(to);
+            navigator.go(to);
             return;
         }
         let path = resolveTo(to, JSON.parse(routePathnamesJson), locationPathname, options.relative === "path");
@@ -29662,10 +29858,10 @@ function useNavigateUnstable() {
             basename,
             path.pathname
         ]);
-        (!!options.replace ? navigator2.replace : navigator2.push)(path, options.state, options);
+        (!!options.replace ? navigator.replace : navigator.push)(path, options.state, options);
     }, [
         basename,
-        navigator2,
+        navigator,
         routePathnamesJson,
         locationPathname,
         dataRouterContext
@@ -29706,7 +29902,7 @@ function useRoutesImpl(routes, locationArg, dataRouterState, future) {
     invariant(useInRouterContext(), // TODO: This error is probably because they somehow have 2 versions of the
     // router loaded. We can help them understand how to avoid that.
     `useRoutes() may be used only in the context of a <Router> component.`);
-    let { navigator: navigator2, static: isStatic } = _react.useContext(NavigationContext);
+    let { navigator } = _react.useContext(NavigationContext);
     let { matches: parentMatches } = _react.useContext(RouteContext);
     let routeMatch = parentMatches[parentMatches.length - 1];
     let parentParams = routeMatch ? routeMatch.params : {};
@@ -29733,7 +29929,7 @@ Please change the parent <Route path="${parentPath}"> to <Route path="${parentPa
         let segments = pathname.replace(/^\//, "").split("/");
         remainingPathname = "/" + segments.slice(parentSegments.length).join("/");
     }
-    let matches = !isStatic && dataRouterState && dataRouterState.matches && dataRouterState.matches.length > 0 ? dataRouterState.matches : matchRoutes(routes, {
+    let matches = matchRoutes(routes, {
         pathname: remainingPathname
     });
     if (ENABLE_DEV_WARNINGS) {
@@ -29745,12 +29941,12 @@ Please change the parent <Route path="${parentPath}"> to <Route path="${parentPa
             pathname: joinPaths([
                 parentPathnameBase,
                 // Re-encode pathnames that were decoded inside matchRoutes
-                navigator2.encodeLocation ? navigator2.encodeLocation(match.pathname).pathname : match.pathname
+                navigator.encodeLocation ? navigator.encodeLocation(match.pathname).pathname : match.pathname
             ]),
             pathnameBase: match.pathnameBase === "/" ? parentPathnameBase : joinPaths([
                 parentPathnameBase,
                 // Re-encode pathnames that were decoded inside matchRoutes
-                navigator2.encodeLocation ? navigator2.encodeLocation(match.pathnameBase).pathname : match.pathnameBase
+                navigator.encodeLocation ? navigator.encodeLocation(match.pathnameBase).pathname : match.pathnameBase
             ])
         })), parentMatches, dataRouterState, future);
     if (locationArg && renderedMatches) return /* @__PURE__ */ _react.createElement(LocationContext.Provider, {
@@ -29961,13 +30157,16 @@ function useNavigation() {
 function useRevalidator() {
     let dataRouterContext = useDataRouterContext("useRevalidator" /* UseRevalidator */ );
     let state = useDataRouterState("useRevalidator" /* UseRevalidator */ );
+    let revalidate = _react.useCallback(async ()=>{
+        await dataRouterContext.router.revalidate();
+    }, [
+        dataRouterContext.router
+    ]);
     return _react.useMemo(()=>({
-            async revalidate () {
-                await dataRouterContext.router.revalidate();
-            },
+            revalidate,
             state: state.revalidation
         }), [
-        dataRouterContext.router,
+        revalidate,
         state.revalidation
     ]);
 }
@@ -30084,7 +30283,6 @@ function warnOnce(condition, message) {
     }
 }
 // lib/components.tsx
-var ENABLE_DEV_WARNINGS2 = true;
 function mapRouteProperties(route) {
     let updates = {
         // Note: this check also occurs in createRoutesFromChildren so update
@@ -30092,7 +30290,7 @@ function mapRouteProperties(route) {
         hasErrorBoundary: route.hasErrorBoundary || route.ErrorBoundary != null || route.errorElement != null
     };
     if (route.Component) {
-        if (ENABLE_DEV_WARNINGS2) {
+        if (ENABLE_DEV_WARNINGS) {
             if (route.element) warning(false, "You should not include both `Component` and `element` on your route - `Component` will be used.");
         }
         Object.assign(updates, {
@@ -30101,7 +30299,7 @@ function mapRouteProperties(route) {
         });
     }
     if (route.HydrateFallback) {
-        if (ENABLE_DEV_WARNINGS2) {
+        if (ENABLE_DEV_WARNINGS) {
             if (route.hydrateFallbackElement) warning(false, "You should not include both `HydrateFallback` and `hydrateFallbackElement` on your route - `HydrateFallback` will be used.");
         }
         Object.assign(updates, {
@@ -30110,7 +30308,7 @@ function mapRouteProperties(route) {
         });
     }
     if (route.ErrorBoundary) {
-        if (ENABLE_DEV_WARNINGS2) {
+        if (ENABLE_DEV_WARNINGS) {
             if (route.errorElement) warning(false, "You should not include both `ErrorBoundary` and `errorElement` on your route - `ErrorBoundary` will be used.");
         }
         Object.assign(updates, {
@@ -30120,6 +30318,10 @@ function mapRouteProperties(route) {
     }
     return updates;
 }
+var hydrationRouteProperties = [
+    "HydrateFallback",
+    "hydrateFallbackElement"
+];
 function createMemoryRouter(routes, opts) {
     return createRouter({
         basename: opts?.basename,
@@ -30131,6 +30333,7 @@ function createMemoryRouter(routes, opts) {
         }),
         hydrationData: opts?.hydrationData,
         routes,
+        hydrationRouteProperties,
         mapRouteProperties,
         dataStrategy: opts?.dataStrategy,
         patchRoutesOnNavigation: opts?.patchRoutesOnNavigation
@@ -30285,7 +30488,7 @@ function RouterProvider({ router, flushSync: reactDomFlushSyncImpl }) {
         vtContext.isTransitioning,
         interruption
     ]);
-    let navigator2 = _react.useMemo(()=>{
+    let navigator = _react.useMemo(()=>{
         return {
             createHref: router.createHref,
             encodeLocation: router.encodeLocation,
@@ -30306,12 +30509,12 @@ function RouterProvider({ router, flushSync: reactDomFlushSyncImpl }) {
     let basename = router.basename || "/";
     let dataRouterContext = _react.useMemo(()=>({
             router,
-            navigator: navigator2,
+            navigator,
             static: false,
             basename
         }), [
         router,
-        navigator2,
+        navigator,
         basename
     ]);
     return /* @__PURE__ */ _react.createElement(_react.Fragment, null, /* @__PURE__ */ _react.createElement(DataRouterContext.Provider, {
@@ -30326,7 +30529,7 @@ function RouterProvider({ router, flushSync: reactDomFlushSyncImpl }) {
         basename,
         location: state.location,
         navigationType: state.historyAction,
-        navigator: navigator2
+        navigator
     }, /* @__PURE__ */ _react.createElement(MemoizedDataRoutes, {
         routes: router.routes,
         future: router.future,
@@ -30398,17 +30601,17 @@ function Outlet(props) {
 function Route(_props) {
     invariant(false, `A <Route> is only ever to be used as the child of <Routes> element, never rendered directly. Please wrap your <Route> in a <Routes>.`);
 }
-function Router({ basename: basenameProp = "/", children = null, location: locationProp, navigationType = "POP" /* Pop */ , navigator: navigator2, static: staticProp = false }) {
+function Router({ basename: basenameProp = "/", children = null, location: locationProp, navigationType = "POP" /* Pop */ , navigator, static: staticProp = false }) {
     invariant(!useInRouterContext(), `You cannot render a <Router> inside another <Router>. You should never have more than one in your app.`);
     let basename = basenameProp.replace(/^\/*/, "/");
     let navigationContext = _react.useMemo(()=>({
             basename,
-            navigator: navigator2,
+            navigator,
             static: staticProp,
             future: {}
         }), [
         basename,
-        navigator2,
+        navigator,
         staticProp
     ]);
     if (typeof locationProp === "string") locationProp = parsePath(locationProp);
@@ -30563,6 +30766,38 @@ var createRoutesFromElements = createRoutesFromChildren;
 function renderMatches(matches) {
     return _renderMatches(matches);
 }
+function withComponentProps(Component4) {
+    return function WithComponentProps() {
+        const props = {
+            params: useParams(),
+            loaderData: useLoaderData(),
+            actionData: useActionData(),
+            matches: useMatches()
+        };
+        return _react.createElement(Component4, props);
+    };
+}
+function withHydrateFallbackProps(HydrateFallback) {
+    return function WithHydrateFallbackProps() {
+        const props = {
+            params: useParams(),
+            loaderData: useLoaderData(),
+            actionData: useActionData()
+        };
+        return _react.createElement(HydrateFallback, props);
+    };
+}
+function withErrorBoundaryProps(ErrorBoundary) {
+    return function WithErrorBoundaryProps() {
+        const props = {
+            params: useParams(),
+            loaderData: useLoaderData(),
+            actionData: useActionData(),
+            error: useRouteError()
+        };
+        return _react.createElement(ErrorBoundary, props);
+    };
+}
 // lib/dom/dom.ts
 var defaultMethod = "get";
 var defaultEncType = "application/x-www-form-urlencoded";
@@ -30694,7 +30929,7 @@ async function loadRouteModule(route, routeModulesCache) {
         console.error(`Error loading route module \`${route.module}\`, reloading page...`);
         console.error(error);
         if (window.__reactRouterContext && window.__reactRouterContext.isSpaMode && // @ts-expect-error
-        $b3cd3ce59e60f1be$import_meta.hot) throw error;
+        $4781157aecdfc4af$import_meta.hot) throw error;
         window.location.reload();
         return new Promise(()=>{});
     }
@@ -30883,6 +31118,580 @@ function createHtml(html) {
         __html: html
     };
 }
+// vendor/turbo-stream-v2/utils.ts
+var HOLE = -1;
+var NAN = -2;
+var NEGATIVE_INFINITY = -3;
+var NEGATIVE_ZERO = -4;
+var NULL = -5;
+var POSITIVE_INFINITY = -6;
+var UNDEFINED = -7;
+var TYPE_BIGINT = "B";
+var TYPE_DATE = "D";
+var TYPE_ERROR = "E";
+var TYPE_MAP = "M";
+var TYPE_NULL_OBJECT = "N";
+var TYPE_PROMISE = "P";
+var TYPE_REGEXP = "R";
+var TYPE_SET = "S";
+var TYPE_SYMBOL = "Y";
+var TYPE_URL = "U";
+var TYPE_PREVIOUS_RESOLVED = "Z";
+var Deferred2 = class {
+    constructor(){
+        this.promise = new Promise((resolve, reject)=>{
+            this.resolve = resolve;
+            this.reject = reject;
+        });
+    }
+};
+function createLineSplittingTransform() {
+    const decoder = new TextDecoder();
+    let leftover = "";
+    return new TransformStream({
+        transform (chunk, controller) {
+            const str = decoder.decode(chunk, {
+                stream: true
+            });
+            const parts = (leftover + str).split("\n");
+            leftover = parts.pop() || "";
+            for (const part of parts)controller.enqueue(part);
+        },
+        flush (controller) {
+            if (leftover) controller.enqueue(leftover);
+        }
+    });
+}
+// vendor/turbo-stream-v2/flatten.ts
+function flatten(input) {
+    const { indices } = this;
+    const existing = indices.get(input);
+    if (existing) return [
+        existing
+    ];
+    if (input === void 0) return UNDEFINED;
+    if (input === null) return NULL;
+    if (Number.isNaN(input)) return NAN;
+    if (input === Number.POSITIVE_INFINITY) return POSITIVE_INFINITY;
+    if (input === Number.NEGATIVE_INFINITY) return NEGATIVE_INFINITY;
+    if (input === 0 && 1 / input < 0) return NEGATIVE_ZERO;
+    const index = this.index++;
+    indices.set(input, index);
+    stringify.call(this, input, index);
+    return index;
+}
+function stringify(input, index) {
+    const { deferred, plugins, postPlugins } = this;
+    const str = this.stringified;
+    const stack = [
+        [
+            input,
+            index
+        ]
+    ];
+    while(stack.length > 0){
+        const [input2, index2] = stack.pop();
+        const partsForObj = (obj)=>Object.keys(obj).map((k)=>`"_${flatten.call(this, k)}":${flatten.call(this, obj[k])}`).join(",");
+        let error = null;
+        switch(typeof input2){
+            case "boolean":
+            case "number":
+            case "string":
+                str[index2] = JSON.stringify(input2);
+                break;
+            case "bigint":
+                str[index2] = `["${TYPE_BIGINT}","${input2}"]`;
+                break;
+            case "symbol":
+                {
+                    const keyFor = Symbol.keyFor(input2);
+                    if (!keyFor) error = new Error("Cannot encode symbol unless created with Symbol.for()");
+                    else str[index2] = `["${TYPE_SYMBOL}",${JSON.stringify(keyFor)}]`;
+                    break;
+                }
+            case "object":
+                {
+                    if (!input2) {
+                        str[index2] = `${NULL}`;
+                        break;
+                    }
+                    const isArray = Array.isArray(input2);
+                    let pluginHandled = false;
+                    if (!isArray && plugins) for (const plugin of plugins){
+                        const pluginResult = plugin(input2);
+                        if (Array.isArray(pluginResult)) {
+                            pluginHandled = true;
+                            const [pluginIdentifier, ...rest] = pluginResult;
+                            str[index2] = `[${JSON.stringify(pluginIdentifier)}`;
+                            if (rest.length > 0) str[index2] += `,${rest.map((v)=>flatten.call(this, v)).join(",")}`;
+                            str[index2] += "]";
+                            break;
+                        }
+                    }
+                    if (!pluginHandled) {
+                        let result = isArray ? "[" : "{";
+                        if (isArray) {
+                            for(let i = 0; i < input2.length; i++)result += (i ? "," : "") + (i in input2 ? flatten.call(this, input2[i]) : HOLE);
+                            str[index2] = `${result}]`;
+                        } else if (input2 instanceof Date) str[index2] = `["${TYPE_DATE}",${input2.getTime()}]`;
+                        else if (input2 instanceof URL) str[index2] = `["${TYPE_URL}",${JSON.stringify(input2.href)}]`;
+                        else if (input2 instanceof RegExp) str[index2] = `["${TYPE_REGEXP}",${JSON.stringify(input2.source)},${JSON.stringify(input2.flags)}]`;
+                        else if (input2 instanceof Set) {
+                            if (input2.size > 0) str[index2] = `["${TYPE_SET}",${[
+                                ...input2
+                            ].map((val)=>flatten.call(this, val)).join(",")}]`;
+                            else str[index2] = `["${TYPE_SET}"]`;
+                        } else if (input2 instanceof Map) {
+                            if (input2.size > 0) str[index2] = `["${TYPE_MAP}",${[
+                                ...input2
+                            ].flatMap(([k, v])=>[
+                                    flatten.call(this, k),
+                                    flatten.call(this, v)
+                                ]).join(",")}]`;
+                            else str[index2] = `["${TYPE_MAP}"]`;
+                        } else if (input2 instanceof Promise) {
+                            str[index2] = `["${TYPE_PROMISE}",${index2}]`;
+                            deferred[index2] = input2;
+                        } else if (input2 instanceof Error) {
+                            str[index2] = `["${TYPE_ERROR}",${JSON.stringify(input2.message)}`;
+                            if (input2.name !== "Error") str[index2] += `,${JSON.stringify(input2.name)}`;
+                            str[index2] += "]";
+                        } else if (Object.getPrototypeOf(input2) === null) str[index2] = `["${TYPE_NULL_OBJECT}",{${partsForObj(input2)}}]`;
+                        else if (isPlainObject(input2)) str[index2] = `{${partsForObj(input2)}}`;
+                        else error = new Error("Cannot encode object with prototype");
+                    }
+                    break;
+                }
+            default:
+                {
+                    const isArray = Array.isArray(input2);
+                    let pluginHandled = false;
+                    if (!isArray && plugins) for (const plugin of plugins){
+                        const pluginResult = plugin(input2);
+                        if (Array.isArray(pluginResult)) {
+                            pluginHandled = true;
+                            const [pluginIdentifier, ...rest] = pluginResult;
+                            str[index2] = `[${JSON.stringify(pluginIdentifier)}`;
+                            if (rest.length > 0) str[index2] += `,${rest.map((v)=>flatten.call(this, v)).join(",")}`;
+                            str[index2] += "]";
+                            break;
+                        }
+                    }
+                    if (!pluginHandled) error = new Error("Cannot encode function or unexpected type");
+                }
+        }
+        if (error) {
+            let pluginHandled = false;
+            if (postPlugins) for (const plugin of postPlugins){
+                const pluginResult = plugin(input2);
+                if (Array.isArray(pluginResult)) {
+                    pluginHandled = true;
+                    const [pluginIdentifier, ...rest] = pluginResult;
+                    str[index2] = `[${JSON.stringify(pluginIdentifier)}`;
+                    if (rest.length > 0) str[index2] += `,${rest.map((v)=>flatten.call(this, v)).join(",")}`;
+                    str[index2] += "]";
+                    break;
+                }
+            }
+            if (!pluginHandled) throw error;
+        }
+    }
+}
+var objectProtoNames = Object.getOwnPropertyNames(Object.prototype).sort().join("\0");
+function isPlainObject(thing) {
+    const proto = Object.getPrototypeOf(thing);
+    return proto === Object.prototype || proto === null || Object.getOwnPropertyNames(proto).sort().join("\0") === objectProtoNames;
+}
+// vendor/turbo-stream-v2/unflatten.ts
+var globalObj = typeof window !== "undefined" ? window : typeof globalThis !== "undefined" ? globalThis : void 0;
+function unflatten(parsed) {
+    const { hydrated, values } = this;
+    if (typeof parsed === "number") return hydrate.call(this, parsed);
+    if (!Array.isArray(parsed) || !parsed.length) throw new SyntaxError();
+    const startIndex = values.length;
+    for (const value of parsed)values.push(value);
+    hydrated.length = values.length;
+    return hydrate.call(this, startIndex);
+}
+function hydrate(index) {
+    const { hydrated, values, deferred, plugins } = this;
+    let result;
+    const stack = [
+        [
+            index,
+            (v)=>{
+                result = v;
+            }
+        ]
+    ];
+    let postRun = [];
+    while(stack.length > 0){
+        const [index2, set] = stack.pop();
+        switch(index2){
+            case UNDEFINED:
+                set(void 0);
+                continue;
+            case NULL:
+                set(null);
+                continue;
+            case NAN:
+                set(NaN);
+                continue;
+            case POSITIVE_INFINITY:
+                set(Infinity);
+                continue;
+            case NEGATIVE_INFINITY:
+                set(-Infinity);
+                continue;
+            case NEGATIVE_ZERO:
+                set(-0);
+                continue;
+        }
+        if (hydrated[index2]) {
+            set(hydrated[index2]);
+            continue;
+        }
+        const value = values[index2];
+        if (!value || typeof value !== "object") {
+            hydrated[index2] = value;
+            set(value);
+            continue;
+        }
+        if (Array.isArray(value)) {
+            if (typeof value[0] === "string") {
+                const [type, b, c] = value;
+                switch(type){
+                    case TYPE_DATE:
+                        set(hydrated[index2] = new Date(b));
+                        continue;
+                    case TYPE_URL:
+                        set(hydrated[index2] = new URL(b));
+                        continue;
+                    case TYPE_BIGINT:
+                        set(hydrated[index2] = BigInt(b));
+                        continue;
+                    case TYPE_REGEXP:
+                        set(hydrated[index2] = new RegExp(b, c));
+                        continue;
+                    case TYPE_SYMBOL:
+                        set(hydrated[index2] = Symbol.for(b));
+                        continue;
+                    case TYPE_SET:
+                        const newSet = /* @__PURE__ */ new Set();
+                        hydrated[index2] = newSet;
+                        for(let i = value.length - 1; i > 0; i--)stack.push([
+                            value[i],
+                            (v)=>{
+                                newSet.add(v);
+                            }
+                        ]);
+                        set(newSet);
+                        continue;
+                    case TYPE_MAP:
+                        const map = /* @__PURE__ */ new Map();
+                        hydrated[index2] = map;
+                        for(let i = value.length - 2; i > 0; i -= 2){
+                            const r = [];
+                            stack.push([
+                                value[i + 1],
+                                (v)=>{
+                                    r[1] = v;
+                                }
+                            ]);
+                            stack.push([
+                                value[i],
+                                (k)=>{
+                                    r[0] = k;
+                                }
+                            ]);
+                            postRun.push(()=>{
+                                map.set(r[0], r[1]);
+                            });
+                        }
+                        set(map);
+                        continue;
+                    case TYPE_NULL_OBJECT:
+                        const obj = /* @__PURE__ */ Object.create(null);
+                        hydrated[index2] = obj;
+                        for (const key of Object.keys(b).reverse()){
+                            const r = [];
+                            stack.push([
+                                b[key],
+                                (v)=>{
+                                    r[1] = v;
+                                }
+                            ]);
+                            stack.push([
+                                Number(key.slice(1)),
+                                (k)=>{
+                                    r[0] = k;
+                                }
+                            ]);
+                            postRun.push(()=>{
+                                obj[r[0]] = r[1];
+                            });
+                        }
+                        set(obj);
+                        continue;
+                    case TYPE_PROMISE:
+                        if (hydrated[b]) set(hydrated[index2] = hydrated[b]);
+                        else {
+                            const d = new Deferred2();
+                            deferred[b] = d;
+                            set(hydrated[index2] = d.promise);
+                        }
+                        continue;
+                    case TYPE_ERROR:
+                        const [, message, errorType] = value;
+                        let error = errorType && globalObj && globalObj[errorType] ? new globalObj[errorType](message) : new Error(message);
+                        hydrated[index2] = error;
+                        set(error);
+                        continue;
+                    case TYPE_PREVIOUS_RESOLVED:
+                        set(hydrated[index2] = hydrated[b]);
+                        continue;
+                    default:
+                        if (Array.isArray(plugins)) {
+                            const r = [];
+                            const vals = value.slice(1);
+                            for(let i = 0; i < vals.length; i++){
+                                const v = vals[i];
+                                stack.push([
+                                    v,
+                                    (v2)=>{
+                                        r[i] = v2;
+                                    }
+                                ]);
+                            }
+                            postRun.push(()=>{
+                                for (const plugin of plugins){
+                                    const result2 = plugin(value[0], ...r);
+                                    if (result2) {
+                                        set(hydrated[index2] = result2.value);
+                                        return;
+                                    }
+                                }
+                                throw new SyntaxError();
+                            });
+                            continue;
+                        }
+                        throw new SyntaxError();
+                }
+            } else {
+                const array = [];
+                hydrated[index2] = array;
+                for(let i = 0; i < value.length; i++){
+                    const n = value[i];
+                    if (n !== HOLE) stack.push([
+                        n,
+                        (v)=>{
+                            array[i] = v;
+                        }
+                    ]);
+                }
+                set(array);
+                continue;
+            }
+        } else {
+            const object = {};
+            hydrated[index2] = object;
+            for (const key of Object.keys(value).reverse()){
+                const r = [];
+                stack.push([
+                    value[key],
+                    (v)=>{
+                        r[1] = v;
+                    }
+                ]);
+                stack.push([
+                    Number(key.slice(1)),
+                    (k)=>{
+                        r[0] = k;
+                    }
+                ]);
+                postRun.push(()=>{
+                    object[r[0]] = r[1];
+                });
+            }
+            set(object);
+            continue;
+        }
+    }
+    while(postRun.length > 0)postRun.pop()();
+    return result;
+}
+// vendor/turbo-stream-v2/turbo-stream.ts
+async function decode(readable, options) {
+    const { plugins } = options ?? {};
+    const done = new Deferred2();
+    const reader = readable.pipeThrough(createLineSplittingTransform()).getReader();
+    const decoder = {
+        values: [],
+        hydrated: [],
+        deferred: {},
+        plugins
+    };
+    const decoded = await decodeInitial.call(decoder, reader);
+    let donePromise = done.promise;
+    if (decoded.done) done.resolve();
+    else donePromise = decodeDeferred.call(decoder, reader).then(done.resolve).catch((reason)=>{
+        for (const deferred of Object.values(decoder.deferred))deferred.reject(reason);
+        done.reject(reason);
+    });
+    return {
+        done: donePromise.then(()=>reader.closed),
+        value: decoded.value
+    };
+}
+async function decodeInitial(reader) {
+    const read = await reader.read();
+    if (!read.value) throw new SyntaxError();
+    let line;
+    try {
+        line = JSON.parse(read.value);
+    } catch (reason) {
+        throw new SyntaxError();
+    }
+    return {
+        done: read.done,
+        value: unflatten.call(this, line)
+    };
+}
+async function decodeDeferred(reader) {
+    let read = await reader.read();
+    while(!read.done){
+        if (!read.value) continue;
+        const line = read.value;
+        switch(line[0]){
+            case TYPE_PROMISE:
+                {
+                    const colonIndex = line.indexOf(":");
+                    const deferredId = Number(line.slice(1, colonIndex));
+                    const deferred = this.deferred[deferredId];
+                    if (!deferred) throw new Error(`Deferred ID ${deferredId} not found in stream`);
+                    const lineData = line.slice(colonIndex + 1);
+                    let jsonLine;
+                    try {
+                        jsonLine = JSON.parse(lineData);
+                    } catch (reason) {
+                        throw new SyntaxError();
+                    }
+                    const value = unflatten.call(this, jsonLine);
+                    deferred.resolve(value);
+                    break;
+                }
+            case TYPE_ERROR:
+                {
+                    const colonIndex = line.indexOf(":");
+                    const deferredId = Number(line.slice(1, colonIndex));
+                    const deferred = this.deferred[deferredId];
+                    if (!deferred) throw new Error(`Deferred ID ${deferredId} not found in stream`);
+                    const lineData = line.slice(colonIndex + 1);
+                    let jsonLine;
+                    try {
+                        jsonLine = JSON.parse(lineData);
+                    } catch (reason) {
+                        throw new SyntaxError();
+                    }
+                    const value = unflatten.call(this, jsonLine);
+                    deferred.reject(value);
+                    break;
+                }
+            default:
+                throw new SyntaxError();
+        }
+        read = await reader.read();
+    }
+}
+function encode(input, options) {
+    const { plugins, postPlugins, signal } = options ?? {};
+    const encoder2 = {
+        deferred: {},
+        index: 0,
+        indices: /* @__PURE__ */ new Map(),
+        stringified: [],
+        plugins,
+        postPlugins,
+        signal
+    };
+    const textEncoder = new TextEncoder();
+    let lastSentIndex = 0;
+    const readable = new ReadableStream({
+        async start (controller) {
+            const id = flatten.call(encoder2, input);
+            if (Array.isArray(id)) throw new Error("This should never happen");
+            if (id < 0) controller.enqueue(textEncoder.encode(`${id}
+`));
+            else {
+                controller.enqueue(textEncoder.encode(`[${encoder2.stringified.join(",")}]
+`));
+                lastSentIndex = encoder2.stringified.length - 1;
+            }
+            const seenPromises = /* @__PURE__ */ new WeakSet();
+            if (Object.keys(encoder2.deferred).length) {
+                let raceDone;
+                const racePromise = new Promise((resolve, reject)=>{
+                    raceDone = resolve;
+                    if (signal) {
+                        const rejectPromise = ()=>reject(signal.reason || new Error("Signal was aborted."));
+                        if (signal.aborted) rejectPromise();
+                        else signal.addEventListener("abort", (event)=>{
+                            rejectPromise();
+                        });
+                    }
+                });
+                while(Object.keys(encoder2.deferred).length > 0){
+                    for (const [deferredId, deferred] of Object.entries(encoder2.deferred)){
+                        if (seenPromises.has(deferred)) continue;
+                        seenPromises.add(// biome-ignore lint/suspicious/noAssignInExpressions: <explanation>
+                        encoder2.deferred[Number(deferredId)] = Promise.race([
+                            racePromise,
+                            deferred
+                        ]).then((resolved)=>{
+                            const id2 = flatten.call(encoder2, resolved);
+                            if (Array.isArray(id2)) {
+                                controller.enqueue(textEncoder.encode(`${TYPE_PROMISE}${deferredId}:[["${TYPE_PREVIOUS_RESOLVED}",${id2[0]}]]
+`));
+                                encoder2.index++;
+                                lastSentIndex++;
+                            } else if (id2 < 0) controller.enqueue(textEncoder.encode(`${TYPE_PROMISE}${deferredId}:${id2}
+`));
+                            else {
+                                const values = encoder2.stringified.slice(lastSentIndex + 1).join(",");
+                                controller.enqueue(textEncoder.encode(`${TYPE_PROMISE}${deferredId}:[${values}]
+`));
+                                lastSentIndex = encoder2.stringified.length - 1;
+                            }
+                        }, (reason)=>{
+                            if (!reason || typeof reason !== "object" || !(reason instanceof Error)) reason = new Error("An unknown error occurred");
+                            const id2 = flatten.call(encoder2, reason);
+                            if (Array.isArray(id2)) {
+                                controller.enqueue(textEncoder.encode(`${TYPE_ERROR}${deferredId}:[["${TYPE_PREVIOUS_RESOLVED}",${id2[0]}]]
+`));
+                                encoder2.index++;
+                                lastSentIndex++;
+                            } else if (id2 < 0) controller.enqueue(textEncoder.encode(`${TYPE_ERROR}${deferredId}:${id2}
+`));
+                            else {
+                                const values = encoder2.stringified.slice(lastSentIndex + 1).join(",");
+                                controller.enqueue(textEncoder.encode(`${TYPE_ERROR}${deferredId}:[${values}]
+`));
+                                lastSentIndex = encoder2.stringified.length - 1;
+                            }
+                        }).finally(()=>{
+                            delete encoder2.deferred[Number(deferredId)];
+                        }));
+                    }
+                    await Promise.race(Object.values(encoder2.deferred));
+                }
+                raceDone();
+            }
+            await Promise.all(Object.values(encoder2.deferred));
+            controller.close();
+        }
+    });
+    return readable;
+}
 // lib/dom/ssr/data.ts
 async function createRequestInit(request) {
     let init = {
@@ -30908,6 +31717,15 @@ async function createRequestInit(request) {
 }
 // lib/dom/ssr/single-fetch.tsx
 var SingleFetchRedirectSymbol = Symbol("SingleFetchRedirect");
+var SingleFetchNoResultError = class extends Error {
+};
+var SINGLE_FETCH_REDIRECT_STATUS = 202;
+var NO_BODY_STATUS_CODES = /* @__PURE__ */ new Set([
+    100,
+    101,
+    204,
+    205
+]);
 function StreamTransfer({ context, identifier, reader, textDecoder, nonce }) {
     if (!context.renderMeta || !context.renderMeta.didRenderScripts) return null;
     if (!context.renderMeta.streamCache) context.renderMeta.streamCache = {};
@@ -30946,41 +31764,48 @@ function StreamTransfer({ context, identifier, reader, textDecoder, nonce }) {
         nonce
     })));
 }
-function handleMiddlewareError(error, routeId) {
-    return {
-        [routeId]: {
-            type: "error",
-            result: error
-        }
-    };
+function getTurboStreamSingleFetchDataStrategy(getRouter, manifest, routeModules, ssr, basename) {
+    let dataStrategy = getSingleFetchDataStrategyImpl(getRouter, (match)=>{
+        let manifestRoute = manifest.routes[match.route.id];
+        invariant2(manifestRoute, "Route not found in manifest");
+        let routeModule = routeModules[match.route.id];
+        return {
+            hasLoader: manifestRoute.hasLoader,
+            hasClientLoader: manifestRoute.hasClientLoader,
+            hasShouldRevalidate: Boolean(routeModule?.shouldRevalidate)
+        };
+    }, fetchAndDecodeViaTurboStream, ssr, basename);
+    return async (args)=>args.unstable_runClientMiddleware(dataStrategy);
 }
-function getSingleFetchDataStrategy(manifest, routeModules, ssr, basename, getRouter) {
+function getSingleFetchDataStrategyImpl(getRouter, getRouteInfo, fetchAndDecode, ssr, basename) {
     return async (args)=>{
         let { request, matches, fetcherKey } = args;
-        if (request.method !== "GET") return runMiddlewarePipeline(args, false, ()=>singleFetchActionStrategy(request, matches, basename), handleMiddlewareError);
-        if (!ssr) {
-            let foundRevalidatingServerLoader = matches.some((m)=>m.shouldLoad && manifest.routes[m.route.id]?.hasLoader && !manifest.routes[m.route.id]?.hasClientLoader);
-            if (!foundRevalidatingServerLoader) return runMiddlewarePipeline(args, false, ()=>nonSsrStrategy(manifest, request, matches, basename), handleMiddlewareError);
-        }
-        if (fetcherKey) return runMiddlewarePipeline(args, false, ()=>singleFetchLoaderFetcherStrategy(request, matches, basename), handleMiddlewareError);
-        return runMiddlewarePipeline(args, false, ()=>singleFetchLoaderNavigationStrategy(manifest, routeModules, ssr, getRouter(), request, matches, basename), handleMiddlewareError);
+        let router = getRouter();
+        if (request.method !== "GET") return singleFetchActionStrategy(args, fetchAndDecode, basename);
+        let foundRevalidatingServerLoader = matches.some((m)=>{
+            let { hasLoader, hasClientLoader } = getRouteInfo(m);
+            return m.unstable_shouldCallHandler() && hasLoader && !hasClientLoader;
+        });
+        if (!ssr && !foundRevalidatingServerLoader) return nonSsrStrategy(args, getRouteInfo, fetchAndDecode, basename);
+        if (fetcherKey) return singleFetchLoaderFetcherStrategy(args, fetchAndDecode, basename);
+        return singleFetchLoaderNavigationStrategy(args, router, getRouteInfo, fetchAndDecode, ssr, basename);
     };
 }
-async function singleFetchActionStrategy(request, matches, basename) {
-    let actionMatch = matches.find((m)=>m.shouldLoad);
+async function singleFetchActionStrategy(args, fetchAndDecode, basename) {
+    let actionMatch = args.matches.find((m)=>m.unstable_shouldCallHandler());
     invariant2(actionMatch, "No action match found");
     let actionStatus = void 0;
     let result = await actionMatch.resolve(async (handler)=>{
         let result2 = await handler(async ()=>{
-            let url = singleFetchUrl(request.url, basename);
-            let init = await createRequestInit(request);
-            let { data: data2, status } = await fetchAndDecode(url, init);
+            let { data: data2, status } = await fetchAndDecode(args, basename, [
+                actionMatch.route.id
+            ]);
             actionStatus = status;
             return unwrapSingleFetchResult(data2, actionMatch.route.id);
         });
         return result2;
     });
-    if (isResponse(result.result) || isRouteErrorResponse(result.result)) return {
+    if (isResponse(result.result) || isRouteErrorResponse(result.result) || isDataWithResponseInit(result.result)) return {
         [actionMatch.route.id]: result
     };
     return {
@@ -30990,14 +31815,19 @@ async function singleFetchActionStrategy(request, matches, basename) {
         }
     };
 }
-async function nonSsrStrategy(manifest, request, matches, basename) {
-    let matchesToLoad = matches.filter((m)=>m.shouldLoad);
-    let url = stripIndexParam(singleFetchUrl(request.url, basename));
-    let init = await createRequestInit(request);
+async function nonSsrStrategy(args, getRouteInfo, fetchAndDecode, basename) {
+    let matchesToLoad = args.matches.filter((m)=>m.unstable_shouldCallHandler());
     let results = {};
     await Promise.all(matchesToLoad.map((m)=>m.resolve(async (handler)=>{
             try {
-                let result = manifest.routes[m.route.id]?.hasClientLoader ? await fetchSingleLoader(handler, url, init, m.route.id) : await handler();
+                let { hasClientLoader } = getRouteInfo(m);
+                let routeId = m.route.id;
+                let result = hasClientLoader ? await handler(async ()=>{
+                    let { data: data2 } = await fetchAndDecode(args, basename, [
+                        routeId
+                    ]);
+                    return unwrapSingleFetchResult(data2, routeId);
+                }) : await handler();
                 results[m.route.id] = {
                     type: "data",
                     result
@@ -31011,89 +31841,113 @@ async function nonSsrStrategy(manifest, request, matches, basename) {
         })));
     return results;
 }
-async function singleFetchLoaderNavigationStrategy(manifest, routeModules, ssr, router, request, matches, basename) {
+async function singleFetchLoaderNavigationStrategy(args, router, getRouteInfo, fetchAndDecode, ssr, basename) {
     let routesParams = /* @__PURE__ */ new Set();
     let foundOptOutRoute = false;
-    let routeDfds = matches.map(()=>createDeferred2());
-    let routesLoadedPromise = Promise.all(routeDfds.map((d)=>d.promise));
+    let routeDfds = args.matches.map(()=>createDeferred2());
     let singleFetchDfd = createDeferred2();
-    let url = stripIndexParam(singleFetchUrl(request.url, basename));
-    let init = await createRequestInit(request);
     let results = {};
-    let resolvePromise = Promise.all(matches.map(async (m, i)=>m.resolve(async (handler)=>{
+    let resolvePromise = Promise.all(args.matches.map(async (m, i)=>m.resolve(async (handler)=>{
             routeDfds[i].resolve();
-            let manifestRoute = manifest.routes[m.route.id];
-            if (!m.shouldLoad) {
-                if (!router.state.initialized) return;
-                if (m.route.id in router.state.loaderData && manifestRoute && m.route.shouldRevalidate) {
-                    if (manifestRoute.hasLoader) foundOptOutRoute = true;
-                    return;
-                }
+            let routeId = m.route.id;
+            let { hasLoader, hasClientLoader, hasShouldRevalidate } = getRouteInfo(m);
+            let defaultShouldRevalidate = !m.unstable_shouldRevalidateArgs || m.unstable_shouldRevalidateArgs.actionStatus == null || m.unstable_shouldRevalidateArgs.actionStatus < 400;
+            let shouldCall = m.unstable_shouldCallHandler(defaultShouldRevalidate);
+            if (!shouldCall) {
+                foundOptOutRoute || (foundOptOutRoute = m.unstable_shouldRevalidateArgs != null && // This is a revalidation,
+                hasLoader && // for a route with a server loader,
+                hasShouldRevalidate === true);
+                return;
             }
-            if (manifestRoute && manifestRoute.hasClientLoader) {
-                if (manifestRoute.hasLoader) foundOptOutRoute = true;
+            if (hasClientLoader) {
+                if (hasLoader) foundOptOutRoute = true;
                 try {
-                    let result = await fetchSingleLoader(handler, url, init, m.route.id);
-                    results[m.route.id] = {
+                    let result = await handler(async ()=>{
+                        let { data: data2 } = await fetchAndDecode(args, basename, [
+                            routeId
+                        ]);
+                        return unwrapSingleFetchResult(data2, routeId);
+                    });
+                    results[routeId] = {
                         type: "data",
                         result
                     };
                 } catch (e) {
-                    results[m.route.id] = {
+                    results[routeId] = {
                         type: "error",
                         result: e
                     };
                 }
                 return;
             }
-            if (manifestRoute && manifestRoute.hasLoader) routesParams.add(m.route.id);
+            if (hasLoader) routesParams.add(routeId);
             try {
                 let result = await handler(async ()=>{
                     let data2 = await singleFetchDfd.promise;
-                    return unwrapSingleFetchResults(data2, m.route.id);
+                    return unwrapSingleFetchResult(data2, routeId);
                 });
-                results[m.route.id] = {
+                results[routeId] = {
                     type: "data",
                     result
                 };
             } catch (e) {
-                results[m.route.id] = {
+                results[routeId] = {
                     type: "error",
                     result: e
                 };
             }
         })));
-    await routesLoadedPromise;
-    if ((!router.state.initialized || routesParams.size === 0) && !window.__reactRouterHdrActive) singleFetchDfd.resolve({});
-    else try {
-        if (ssr && foundOptOutRoute && routesParams.size > 0) url.searchParams.set("_routes", matches.filter((m)=>routesParams.has(m.route.id)).map((m)=>m.route.id).join(","));
-        let data2 = await fetchAndDecode(url, init);
-        singleFetchDfd.resolve(data2.data);
-    } catch (e) {
-        singleFetchDfd.reject(e);
+    await Promise.all(routeDfds.map((d)=>d.promise));
+    let isInitialLoad = !router.state.initialized && router.state.navigation.state === "idle";
+    if ((isInitialLoad || routesParams.size === 0) && !window.__reactRouterHdrActive) singleFetchDfd.resolve({
+        routes: {}
+    });
+    else {
+        let targetRoutes = ssr && foundOptOutRoute && routesParams.size > 0 ? [
+            ...routesParams.keys()
+        ] : void 0;
+        try {
+            let data2 = await fetchAndDecode(args, basename, targetRoutes);
+            singleFetchDfd.resolve(data2.data);
+        } catch (e) {
+            singleFetchDfd.reject(e);
+        }
     }
     await resolvePromise;
+    await bubbleMiddlewareErrors(singleFetchDfd.promise, args.matches, routesParams, results);
     return results;
 }
-async function singleFetchLoaderFetcherStrategy(request, matches, basename) {
-    let fetcherMatch = matches.find((m)=>m.shouldLoad);
+async function bubbleMiddlewareErrors(singleFetchPromise, matches, routesParams, results) {
+    try {
+        let middlewareError;
+        let fetchedData = await singleFetchPromise;
+        if ("routes" in fetchedData) {
+            for (let match of matches)if (match.route.id in fetchedData.routes) {
+                let routeResult = fetchedData.routes[match.route.id];
+                if ("error" in routeResult) {
+                    middlewareError = routeResult.error;
+                    break;
+                }
+            }
+        }
+        if (middlewareError !== void 0) Array.from(routesParams.values()).forEach((routeId)=>{
+            if (results[routeId].result instanceof SingleFetchNoResultError) results[routeId].result = middlewareError;
+        });
+    } catch (e) {}
+}
+async function singleFetchLoaderFetcherStrategy(args, fetchAndDecode, basename) {
+    let fetcherMatch = args.matches.find((m)=>m.unstable_shouldCallHandler());
     invariant2(fetcherMatch, "No fetcher match found");
-    let result = await fetcherMatch.resolve(async (handler)=>{
-        let url = stripIndexParam(singleFetchUrl(request.url, basename));
-        let init = await createRequestInit(request);
-        return fetchSingleLoader(handler, url, init, fetcherMatch.route.id);
-    });
+    let routeId = fetcherMatch.route.id;
+    let result = await fetcherMatch.resolve(async (handler)=>handler(async ()=>{
+            let { data: data2 } = await fetchAndDecode(args, basename, [
+                routeId
+            ]);
+            return unwrapSingleFetchResult(data2, routeId);
+        }));
     return {
         [fetcherMatch.route.id]: result
     };
-}
-function fetchSingleLoader(handler, url, init, routeId) {
-    return handler(async ()=>{
-        let singleLoaderUrl = new URL(url);
-        singleLoaderUrl.searchParams.set("_routes", routeId);
-        let { data: data2 } = await fetchAndDecode(singleLoaderUrl, init);
-        return unwrapSingleFetchResults(data2, routeId);
-    });
 }
 function stripIndexParam(url) {
     let indexValues = url.searchParams.getAll("index");
@@ -31112,40 +31966,74 @@ function singleFetchUrl(reqUrl, basename) {
     else url.pathname = `${url.pathname.replace(/\/$/, "")}.data`;
     return url;
 }
-async function fetchAndDecode(url, init) {
-    let res = await fetch(url, init);
+async function fetchAndDecodeViaTurboStream(args, basename, targetRoutes) {
+    let { request } = args;
+    let url = singleFetchUrl(request.url, basename);
+    if (request.method === "GET") {
+        url = stripIndexParam(url);
+        if (targetRoutes) url.searchParams.set("_routes", targetRoutes.join(","));
+    }
+    let res = await fetch(url, await createRequestInit(request));
     if (res.status === 404 && !res.headers.has("X-Remix-Response")) throw new ErrorResponseImpl(404, "Not Found", true);
-    const NO_BODY_STATUS_CODES2 = /* @__PURE__ */ new Set([
-        100,
-        101,
-        204,
-        205
-    ]);
-    if (NO_BODY_STATUS_CODES2.has(res.status)) {
-        if (!init.method || init.method === "GET") return {
-            status: res.status,
-            data: {}
+    if (res.status === 204 && res.headers.has("X-Remix-Redirect")) return {
+        status: SINGLE_FETCH_REDIRECT_STATUS,
+        data: {
+            redirect: {
+                redirect: res.headers.get("X-Remix-Redirect"),
+                status: Number(res.headers.get("X-Remix-Status") || "302"),
+                revalidate: res.headers.get("X-Remix-Revalidate") === "true",
+                reload: res.headers.get("X-Remix-Reload-Document") === "true",
+                replace: res.headers.get("X-Remix-Replace") === "true"
+            }
+        }
+    };
+    if (NO_BODY_STATUS_CODES.has(res.status)) {
+        let routes = {};
+        if (targetRoutes && request.method !== "GET") routes[targetRoutes[0]] = {
+            data: void 0
         };
-        else return {
+        return {
             status: res.status,
             data: {
-                data: void 0
+                routes
             }
         };
     }
     invariant2(res.body, "No response body to decode");
     try {
         let decoded = await decodeViaTurboStream(res.body, window);
+        let data2;
+        if (request.method === "GET") {
+            let typed = decoded.value;
+            if (SingleFetchRedirectSymbol in typed) data2 = {
+                redirect: typed[SingleFetchRedirectSymbol]
+            };
+            else data2 = {
+                routes: typed
+            };
+        } else {
+            let typed = decoded.value;
+            let routeId = targetRoutes?.[0];
+            invariant2(routeId, "No routeId found for single fetch call decoding");
+            if ("redirect" in typed) data2 = {
+                redirect: typed
+            };
+            else data2 = {
+                routes: {
+                    [routeId]: typed
+                }
+            };
+        }
         return {
             status: res.status,
-            data: decoded.value
+            data: data2
         };
     } catch (e) {
         throw new Error("Unable to decode turbo-stream response");
     }
 }
 function decodeViaTurboStream(body, global2) {
-    return (0, _turboStream.decode)(body, {
+    return decode(body, {
         plugins: [
             (type, ...rest)=>{
                 if (type === "SanitizedError") {
@@ -31179,24 +32067,30 @@ function decodeViaTurboStream(body, global2) {
         ]
     });
 }
-function unwrapSingleFetchResults(results, routeId) {
-    let redirect2 = results[SingleFetchRedirectSymbol];
-    if (redirect2) return unwrapSingleFetchResult(redirect2, routeId);
-    return results[routeId] !== void 0 ? unwrapSingleFetchResult(results[routeId], routeId) : null;
-}
 function unwrapSingleFetchResult(result, routeId) {
-    if ("error" in result) throw result.error;
-    else if ("redirect" in result) {
-        let headers = {};
-        if (result.revalidate) headers["X-Remix-Revalidate"] = "yes";
-        if (result.reload) headers["X-Remix-Reload-Document"] = "yes";
-        if (result.replace) headers["X-Remix-Replace"] = "yes";
-        throw redirect(result.redirect, {
-            status: result.status,
-            headers
+    if ("redirect" in result) {
+        let { redirect: location, revalidate, reload, replace: replace2, status } = result.redirect;
+        throw redirect(location, {
+            status,
+            headers: {
+                // Three R's of redirecting (lol Veep)
+                ...revalidate ? {
+                    "X-Remix-Revalidate": "yes"
+                } : null,
+                ...reload ? {
+                    "X-Remix-Reload-Document": "yes"
+                } : null,
+                ...replace2 ? {
+                    "X-Remix-Replace": "yes"
+                } : null
+            }
         });
-    } else if ("data" in result) return result.data;
-    else throw new Error(`No response found for routeId "${routeId}"`);
+    }
+    let routeResult = result.routes[routeId];
+    if (routeResult == null) throw new SingleFetchNoResultError(`No result found for routeId "${routeId}"`);
+    else if ("error" in routeResult) throw routeResult.error;
+    else if ("data" in routeResult) return routeResult.data;
+    else throw new Error(`Invalid response found for routeId "${routeId}"`);
 }
 function createDeferred2() {
     let resolve;
@@ -31260,7 +32154,7 @@ function RemixRootDefaultErrorBoundary({ error, isOutsideRemixApp }) {
         dangerouslySetInnerHTML: {
             __html: `
         console.log(
-          "\u{1F4BF} Hey developer \u{1F44B}. You can provide a way better UX than this when your app throws errors. Check out https://remix.run/guides/errors for more information."
+          "\u{1F4BF} Hey developer \u{1F44B}. You can provide a way better UX than this when your app throws errors. Check out https://reactrouter.com/how-to/error-boundary for more information."
         );
       `
         }
@@ -31271,7 +32165,7 @@ function RemixRootDefaultErrorBoundary({ error, isOutsideRemixApp }) {
         style: {
             fontSize: "24px"
         }
-    }, error.status, " ", error.statusText), heyDeveloper);
+    }, error.status, " ", error.statusText), ENABLE_DEV_WARNINGS ? heyDeveloper : null);
     let errorInstance;
     if (error instanceof Error) errorInstance = error;
     else {
@@ -31315,18 +32209,18 @@ function RemixRootDefaultHydrateFallback() {
     return /* @__PURE__ */ _react.createElement(BoundaryShell, {
         title: "Loading...",
         renderScripts: true
-    }, /* @__PURE__ */ _react.createElement("script", {
+    }, ENABLE_DEV_WARNINGS ? /* @__PURE__ */ _react.createElement("script", {
         dangerouslySetInnerHTML: {
             __html: `
               console.log(
                 "\u{1F4BF} Hey developer \u{1F44B}. You can provide a way better UX than this " +
                 "when your app is loading JS modules and/or running \`clientLoader\` " +
-                "functions. Check out https://remix.run/route/hydrate-fallback " +
+                "functions. Check out https://reactrouter.com/start/framework/route-module#hydratefallback " +
                 "for more information."
               );
             `
         }
-    }));
+    }) : null);
 }
 // lib/dom/ssr/routes.tsx
 function groupRoutesByParentId(manifest) {
@@ -31457,7 +32351,7 @@ function createClientRoutes(manifest, routeModulesCache, initialState, ssr, isSp
                 ...getRouteComponents(route, routeModule, isSpaMode),
                 unstable_middleware: routeModule.unstable_clientMiddleware,
                 handle: routeModule.handle,
-                shouldRevalidate: getShouldRevalidateFunction(routeModule, route, ssr, needsRevalidation)
+                shouldRevalidate: getShouldRevalidateFunction(dataRoute.path, routeModule, route, ssr, needsRevalidation)
             });
             let hasInitialData = initialState && initialState.loaderData && route.id in initialState.loaderData;
             let initialData = hasInitialData ? initialState?.loaderData?.[route.id] : void 0;
@@ -31488,7 +32382,7 @@ function createClientRoutes(manifest, routeModulesCache, initialState, ssr, isSp
                     isHydrationRequest = false;
                 }
             };
-            dataRoute.loader.hydrate = shouldHydrateRouteLoader(route, routeModule, isSpaMode);
+            dataRoute.loader.hydrate = shouldHydrateRouteLoader(route.id, routeModule.clientLoader, route.hasLoader, isSpaMode);
             dataRoute.action = ({ request, params, context }, singleFetch)=>{
                 return prefetchStylesAndCallHandler(async ()=>{
                     invariant2(routeModule, "No `routeModule` available for critical-route action");
@@ -31511,82 +32405,60 @@ function createClientRoutes(manifest, routeModulesCache, initialState, ssr, isSp
             if (!route.hasClientLoader) dataRoute.loader = (_, singleFetch)=>prefetchStylesAndCallHandler(()=>{
                     return fetchServerLoader(singleFetch);
                 });
-            else if (route.clientLoaderModule) dataRoute.loader = async (args, singleFetch)=>{
-                invariant2(route.clientLoaderModule);
-                let { clientLoader } = await require(/* @vite-ignore */ /* webpackIgnore: true */ route.clientLoaderModule);
-                return clientLoader({
-                    ...args,
-                    async serverLoader () {
-                        preventInvalidServerHandlerCall("loader", route);
-                        return fetchServerLoader(singleFetch);
-                    }
-                });
-            };
             if (!route.hasClientAction) dataRoute.action = (_, singleFetch)=>prefetchStylesAndCallHandler(()=>{
                     if (isSpaMode) throw noActionDefinedError("clientAction", route.id);
                     return fetchServerAction(singleFetch);
                 });
-            else if (route.clientActionModule) dataRoute.action = async (args, singleFetch)=>{
-                invariant2(route.clientActionModule);
-                prefetchRouteModuleChunks(route);
-                let { clientAction } = await require(/* @vite-ignore */ /* webpackIgnore: true */ route.clientActionModule);
-                return clientAction({
-                    ...args,
-                    async serverAction () {
-                        preventInvalidServerHandlerCall("action", route);
-                        return fetchServerAction(singleFetch);
-                    }
-                });
-            };
-            if (route.hasClientMiddleware) dataRoute.unstable_lazyMiddleware = async ()=>{
-                invariant2(route);
-                let clientMiddlewareModule = await require(/* @vite-ignore */ /* webpackIgnore: true */ route.clientMiddlewareModule || route.module);
-                invariant2(clientMiddlewareModule?.unstable_clientMiddleware, "No `unstable_clientMiddleware` export in chunk");
-                return clientMiddlewareModule.unstable_clientMiddleware;
-            };
-            dataRoute.lazy = async ()=>{
-                if (route.clientLoaderModule || route.clientActionModule) await new Promise((resolve)=>setTimeout(resolve, 0));
-                let modPromise = loadRouteModuleWithBlockingLinks(route, routeModulesCache);
-                prefetchRouteModuleChunks(route);
-                let mod = await modPromise;
-                let lazyRoute = {
-                    ...mod
-                };
-                if (mod.clientLoader) {
-                    let clientLoader = mod.clientLoader;
-                    lazyRoute.loader = (args, singleFetch)=>clientLoader({
+            let lazyRoutePromise;
+            async function getLazyRoute() {
+                if (lazyRoutePromise) return await lazyRoutePromise;
+                lazyRoutePromise = (async ()=>{
+                    if (route.clientLoaderModule || route.clientActionModule) await new Promise((resolve)=>setTimeout(resolve, 0));
+                    let routeModulePromise = loadRouteModuleWithBlockingLinks(route, routeModulesCache);
+                    prefetchRouteModuleChunks(route);
+                    return await routeModulePromise;
+                })();
+                return await lazyRoutePromise;
+            }
+            dataRoute.lazy = {
+                loader: route.hasClientLoader ? async ()=>{
+                    let { clientLoader } = route.clientLoaderModule ? await require(/* @vite-ignore */ /* webpackIgnore: true */ route.clientLoaderModule) : await getLazyRoute();
+                    invariant2(clientLoader, "No `clientLoader` export found");
+                    return (args, singleFetch)=>clientLoader({
                             ...args,
                             async serverLoader () {
                                 preventInvalidServerHandlerCall("loader", route);
                                 return fetchServerLoader(singleFetch);
                             }
                         });
-                }
-                if (mod.clientAction) {
-                    let clientAction = mod.clientAction;
-                    lazyRoute.action = (args, singleFetch)=>clientAction({
+                } : void 0,
+                action: route.hasClientAction ? async ()=>{
+                    let clientActionPromise = route.clientActionModule ? require(/* @vite-ignore */ /* webpackIgnore: true */ route.clientActionModule) : getLazyRoute();
+                    prefetchRouteModuleChunks(route);
+                    let { clientAction } = await clientActionPromise;
+                    invariant2(clientAction, "No `clientAction` export found");
+                    return (args, singleFetch)=>clientAction({
                             ...args,
                             async serverAction () {
                                 preventInvalidServerHandlerCall("action", route);
                                 return fetchServerAction(singleFetch);
                             }
                         });
-                }
-                return {
-                    ...lazyRoute.loader ? {
-                        loader: lazyRoute.loader
-                    } : {},
-                    ...lazyRoute.action ? {
-                        action: lazyRoute.action
-                    } : {},
-                    hasErrorBoundary: lazyRoute.hasErrorBoundary,
-                    shouldRevalidate: getShouldRevalidateFunction(lazyRoute, route, ssr, needsRevalidation),
-                    handle: lazyRoute.handle,
-                    // No need to wrap these in layout since the root route is never
-                    // loaded via route.lazy()
-                    Component: lazyRoute.Component,
-                    ErrorBoundary: lazyRoute.ErrorBoundary
-                };
+                } : void 0,
+                unstable_middleware: route.hasClientMiddleware ? async ()=>{
+                    let { unstable_clientMiddleware } = route.clientMiddlewareModule ? await require(/* @vite-ignore */ /* webpackIgnore: true */ route.clientMiddlewareModule) : await getLazyRoute();
+                    invariant2(unstable_clientMiddleware, "No `unstable_clientMiddleware` export found");
+                    return unstable_clientMiddleware;
+                } : void 0,
+                shouldRevalidate: async ()=>{
+                    let lazyRoute = await getLazyRoute();
+                    return getShouldRevalidateFunction(dataRoute.path, lazyRoute, route, ssr, needsRevalidation);
+                },
+                handle: async ()=>(await getLazyRoute()).handle,
+                // No need to wrap these in layout since the root route is never
+                // loaded via route.lazy()
+                Component: async ()=>(await getLazyRoute()).Component,
+                ErrorBoundary: route.hasErrorBoundary ? async ()=>(await getLazyRoute()).ErrorBoundary : void 0
             };
         }
         let children = createClientRoutes(manifest, routeModulesCache, initialState, ssr, isSpaMode, route.id, routesByParentId, needsRevalidation);
@@ -31594,16 +32466,18 @@ function createClientRoutes(manifest, routeModulesCache, initialState, ssr, isSp
         return dataRoute;
     });
 }
-function getShouldRevalidateFunction(route, manifestRoute, ssr, needsRevalidation) {
+function getShouldRevalidateFunction(path, route, manifestRoute, ssr, needsRevalidation) {
     if (needsRevalidation) return wrapShouldRevalidateForHdr(manifestRoute.id, route.shouldRevalidate, needsRevalidation);
     if (!ssr && manifestRoute.hasLoader && !manifestRoute.hasClientLoader) {
+        let myParams = path ? compilePath(path)[1].map((p)=>p.paramName) : [];
+        const didParamsChange = (opts)=>myParams.some((p)=>opts.currentParams[p] !== opts.nextParams[p]);
         if (route.shouldRevalidate) {
             let fn = route.shouldRevalidate;
             return (opts)=>fn({
                     ...opts,
-                    defaultShouldRevalidate: false
+                    defaultShouldRevalidate: didParamsChange(opts)
                 });
-        } else return ()=>false;
+        } else return (opts)=>didParamsChange(opts);
     }
     if (ssr && route.shouldRevalidate) {
         let fn = route.shouldRevalidate;
@@ -31649,18 +32523,18 @@ function getRouteModuleComponent(routeModule) {
     let isEmptyObject = typeof routeModule.default === "object" && Object.keys(routeModule.default).length === 0;
     if (!isEmptyObject) return routeModule.default;
 }
-function shouldHydrateRouteLoader(route, routeModule, isSpaMode) {
-    return isSpaMode && route.id !== "root" || routeModule.clientLoader != null && (routeModule.clientLoader.hydrate === true || route.hasLoader !== true);
+function shouldHydrateRouteLoader(routeId, clientLoader, hasLoader, isSpaMode) {
+    return isSpaMode && routeId !== "root" || clientLoader != null && (clientLoader.hydrate === true || hasLoader !== true);
 }
 // lib/dom/ssr/fog-of-war.ts
 var nextPaths = /* @__PURE__ */ new Set();
 var discoveredPathsMaxSize = 1e3;
 var discoveredPaths = /* @__PURE__ */ new Set();
 var URL_LIMIT = 7680;
-function isFogOfWarEnabled(ssr) {
-    return ssr === true;
+function isFogOfWarEnabled(routeDiscovery, ssr) {
+    return routeDiscovery.mode === "lazy" && ssr === true;
 }
-function getPartialManifest(manifest, router) {
+function getPartialManifest({ sri, ...manifest }, router) {
     let routeIds = new Set(router.state.matches.map((m)=>m.route.id));
     let segments = router.state.location.pathname.split("/").filter(Boolean);
     let paths = [
@@ -31682,21 +32556,23 @@ function getPartialManifest(manifest, router) {
         }), {});
     return {
         ...manifest,
-        routes: initialRoutes
+        routes: initialRoutes,
+        sri: sri ? true : void 0
     };
 }
-function getPatchRoutesOnNavigationFunction(manifest, routeModules, ssr, isSpaMode, basename) {
-    if (!isFogOfWarEnabled(ssr)) return void 0;
+function getPatchRoutesOnNavigationFunction(manifest, routeModules, ssr, routeDiscovery, isSpaMode, basename) {
+    if (!isFogOfWarEnabled(routeDiscovery, ssr)) return void 0;
     return async ({ path, patch, signal, fetcherKey })=>{
         if (discoveredPaths.has(path)) return;
         await fetchAndApplyManifestPatches([
             path
-        ], fetcherKey ? window.location.href : path, manifest, routeModules, ssr, isSpaMode, basename, patch, signal);
+        ], fetcherKey ? window.location.href : path, manifest, routeModules, ssr, isSpaMode, basename, routeDiscovery.manifestPath, patch, signal);
     };
 }
-function useFogOFWarDiscovery(router, manifest, routeModules, ssr, isSpaMode) {
+function useFogOFWarDiscovery(router, manifest, routeModules, ssr, routeDiscovery, isSpaMode) {
     _react.useEffect(()=>{
-        if (!isFogOfWarEnabled(ssr) || navigator.connection?.saveData === true) return;
+        if (!isFogOfWarEnabled(routeDiscovery, ssr) || // @ts-expect-error - TS doesn't know about this yet
+        window.navigator?.connection?.saveData === true) return;
         function registerElement(el) {
             let path = el.tagName === "FORM" ? el.getAttribute("action") : el.getAttribute("href");
             if (!path) return;
@@ -31714,7 +32590,7 @@ function useFogOFWarDiscovery(router, manifest, routeModules, ssr, isSpaMode) {
             });
             if (lazyPaths.length === 0) return;
             try {
-                await fetchAndApplyManifestPatches(lazyPaths, null, manifest, routeModules, ssr, isSpaMode, router.basename, router.patchRoutes);
+                await fetchAndApplyManifestPatches(lazyPaths, null, manifest, routeModules, ssr, isSpaMode, router.basename, routeDiscovery.manifestPath, router.patchRoutes);
             } catch (e) {
                 console.error("Failed to fetch manifest patches", e);
             }
@@ -31738,13 +32614,18 @@ function useFogOFWarDiscovery(router, manifest, routeModules, ssr, isSpaMode) {
         isSpaMode,
         manifest,
         routeModules,
-        router
+        router,
+        routeDiscovery
     ]);
 }
+function getManifestPath(_manifestPath, basename) {
+    let manifestPath = _manifestPath || "/__manifest";
+    if (basename == null) return manifestPath;
+    return `${basename}${manifestPath}`.replace(/\/+/g, "/");
+}
 var MANIFEST_VERSION_STORAGE_KEY = "react-router-manifest-version";
-async function fetchAndApplyManifestPatches(paths, errorReloadPath, manifest, routeModules, ssr, isSpaMode, basename, patchRoutes, signal) {
-    let manifestPath = `${basename != null ? basename : "/"}/__manifest`.replace(/\/+/g, "/");
-    let url = new URL(manifestPath, window.location.origin);
+async function fetchAndApplyManifestPatches(paths, errorReloadPath, manifest, routeModules, ssr, isSpaMode, basename, manifestPath, patchRoutes, signal) {
+    let url = new URL(getManifestPath(manifestPath, basename), window.location.origin);
     paths.sort().forEach((path)=>url.searchParams.append("p", path));
     url.searchParams.set("version", manifest.version);
     if (url.toString().length > URL_LIMIT) {
@@ -31768,7 +32649,8 @@ async function fetchAndApplyManifestPatches(paths, errorReloadPath, manifest, ro
             }
             sessionStorage.setItem(MANIFEST_VERSION_STORAGE_KEY, manifest.version);
             window.location.href = errorReloadPath;
-            throw new Error("Detected manifest version mismatch, reloading...");
+            console.warn("Detected manifest version mismatch, reloading...");
+            await new Promise(()=>{});
         } else if (res.status >= 400) throw new Error(await res.text());
         sessionStorage.removeItem(MANIFEST_VERSION_STORAGE_KEY);
         serverPatches = await res.json();
@@ -32124,10 +33006,10 @@ function isValidMetaTag(tagName) {
 }
 var isHydrated = false;
 function Scripts(props) {
-    let { manifest, serverHandoffString, isSpaMode, ssr, renderMeta } = useFrameworkContext();
+    let { manifest, serverHandoffString, isSpaMode, renderMeta, routeDiscovery, ssr } = useFrameworkContext();
     let { router, static: isStatic, staticContext } = useDataRouterContext2();
     let { matches: routerMatches } = useDataRouterStateContext();
-    let enableFogOfWar = isFogOfWarEnabled(ssr);
+    let enableFogOfWar = isFogOfWarEnabled(routeDiscovery, ssr);
     if (renderMeta) renderMeta.didRenderScripts = true;
     let matches = getActiveMatches(routerMatches, null, isSpaMode);
     _react.useEffect(()=>{
@@ -32198,22 +33080,38 @@ import(${JSON.stringify(manifest.entry.module)});`;
             async: true
         }));
     }, []);
-    let preloads = isHydrated ? [] : manifest.entry.imports.concat(getModuleLinkHrefs(matches, manifest, {
+    let preloads = isHydrated ? [] : dedupe(manifest.entry.imports.concat(getModuleLinkHrefs(matches, manifest, {
         includeHydrateFallback: true
-    }));
-    return isHydrated ? null : /* @__PURE__ */ _react.createElement(_react.Fragment, null, !enableFogOfWar ? /* @__PURE__ */ _react.createElement("link", {
+    })));
+    let sri = typeof manifest.sri === "object" ? manifest.sri : {};
+    return isHydrated ? null : /* @__PURE__ */ _react.createElement(_react.Fragment, null, typeof manifest.sri === "object" ? /* @__PURE__ */ _react.createElement("script", {
+        "rr-importmap": "",
+        type: "importmap",
+        suppressHydrationWarning: true,
+        dangerouslySetInnerHTML: {
+            __html: JSON.stringify({
+                integrity: sri
+            })
+        }
+    }) : null, !enableFogOfWar ? /* @__PURE__ */ _react.createElement("link", {
         rel: "modulepreload",
         href: manifest.url,
-        crossOrigin: props.crossOrigin
+        crossOrigin: props.crossOrigin,
+        integrity: sri[manifest.url],
+        suppressHydrationWarning: true
     }) : null, /* @__PURE__ */ _react.createElement("link", {
         rel: "modulepreload",
         href: manifest.entry.module,
-        crossOrigin: props.crossOrigin
-    }), dedupe(preloads).map((path)=>/* @__PURE__ */ _react.createElement("link", {
+        crossOrigin: props.crossOrigin,
+        integrity: sri[manifest.entry.module],
+        suppressHydrationWarning: true
+    }), preloads.map((path)=>/* @__PURE__ */ _react.createElement("link", {
             key: path,
             rel: "modulepreload",
             href: path,
-            crossOrigin: props.crossOrigin
+            crossOrigin: props.crossOrigin,
+            integrity: sri[path],
+            suppressHydrationWarning: true
         })), initialScripts);
 }
 function dedupe(array) {
@@ -32232,7 +33130,7 @@ function mergeRefs(...refs) {
 // lib/dom/lib.tsx
 var isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined";
 try {
-    if (isBrowser) window.__reactRouterVersion = "7.4.1";
+    if (isBrowser) window.__reactRouterVersion = "7.6.2";
 } catch (e) {}
 function createBrowserRouter(routes, opts) {
     return createRouter({
@@ -32245,6 +33143,7 @@ function createBrowserRouter(routes, opts) {
         hydrationData: opts?.hydrationData || parseHydrationData(),
         routes,
         mapRouteProperties,
+        hydrationRouteProperties,
         dataStrategy: opts?.dataStrategy,
         patchRoutesOnNavigation: opts?.patchRoutesOnNavigation,
         window: opts?.window
@@ -32261,6 +33160,7 @@ function createHashRouter(routes, opts) {
         hydrationData: opts?.hydrationData || parseHydrationData(),
         routes,
         mapRouteProperties,
+        hydrationRouteProperties,
         dataStrategy: opts?.dataStrategy,
         patchRoutesOnNavigation: opts?.patchRoutesOnNavigation,
         window: opts?.window
@@ -32432,11 +33332,11 @@ var NavLink = _react.forwardRef(function NavLinkWithRef({ "aria-current": ariaCu
     });
     let location = useLocation();
     let routerState = _react.useContext(DataRouterStateContext);
-    let { navigator: navigator2, basename } = _react.useContext(NavigationContext);
+    let { navigator, basename } = _react.useContext(NavigationContext);
     let isTransitioning = routerState != null && // Conditional usage is OK here because the usage of a data router is static
     // eslint-disable-next-line react-hooks/rules-of-hooks
     useViewTransitionState(path) && viewTransition === true;
-    let toPathname = navigator2.encodeLocation ? navigator2.encodeLocation(path).pathname : path.pathname;
+    let toPathname = navigator.encodeLocation ? navigator.encodeLocation(path).pathname : path.pathname;
     let locationPathname = location.pathname;
     let nextLocationPathname = routerState && routerState.navigation && routerState.navigation.location ? routerState.navigation.location.pathname : null;
     if (!caseSensitive) {
@@ -32927,7 +33827,7 @@ function StaticRouter({ basename, children, location: locationProp = "/" }) {
         static: true
     });
 }
-function StaticRouterProvider({ context, router, hydrate = true, nonce }) {
+function StaticRouterProvider({ context, router, hydrate: hydrate2 = true, nonce }) {
     invariant(router && context, "You must provide `router` and `context` to <StaticRouterProvider>");
     let dataRouterContext = {
         router,
@@ -32938,7 +33838,7 @@ function StaticRouterProvider({ context, router, hydrate = true, nonce }) {
     };
     let fetchersContext = /* @__PURE__ */ new Map();
     let hydrateScript = "";
-    if (hydrate !== false) {
+    if (hydrate2 !== false) {
         let data2 = {
             loaderData: context.loaderData,
             actionData: context.actionData,
@@ -33152,7 +34052,7 @@ function ServerRouter({ context, url, nonce }) {
         let routeId = match.route.id;
         let route = routeModules[routeId];
         let manifestRoute = context.manifest.routes[routeId];
-        if (route && manifestRoute && shouldHydrateRouteLoader(manifestRoute, route, context.isSpaMode) && (route.HydrateFallback || !manifestRoute.hasLoader)) delete context.staticHandlerContext.loaderData[routeId];
+        if (route && manifestRoute && shouldHydrateRouteLoader(routeId, route.clientLoader, manifestRoute.hasLoader, context.isSpaMode) && (route.HydrateFallback || !manifestRoute.hasLoader)) delete context.staticHandlerContext.loaderData[routeId];
     }
     let router = createStaticRouter(routes, context.staticHandlerContext);
     return /* @__PURE__ */ _react.createElement(_react.Fragment, null, /* @__PURE__ */ _react.createElement(FrameworkContext.Provider, {
@@ -33164,6 +34064,7 @@ function ServerRouter({ context, url, nonce }) {
             future: context.future,
             ssr: context.ssr,
             isSpaMode: context.isSpaMode,
+            routeDiscovery: context.routeDiscovery,
             serializeError: context.serializeError,
             renderMeta: context.renderMeta
         }
@@ -33188,6 +34089,7 @@ function createRoutesStub(routes, unstable_getContext) {
         if (routerRef.current == null) {
             remixContextRef.current = {
                 future: {
+                    unstable_subResourceIntegrity: future?.unstable_subResourceIntegrity === true,
                     unstable_middleware: future?.unstable_middleware === true
                 },
                 manifest: {
@@ -33201,7 +34103,11 @@ function createRoutesStub(routes, unstable_getContext) {
                 },
                 routeModules: {},
                 ssr: false,
-                isSpaMode: false
+                isSpaMode: false,
+                routeDiscovery: {
+                    mode: "lazy",
+                    manifestPath: "/__manifest"
+                }
             };
             let patched = processRoutes(// @ts-expect-error `StubRouteObject` is stricter about `loader`/`action`
             // types compared to `AgnosticRouteObject`
@@ -33227,9 +34133,9 @@ function processRoutes(routes, manifest, routeModules, parentId) {
             id: route.id,
             path: route.path,
             index: route.index,
-            Component: route.Component,
-            HydrateFallback: route.HydrateFallback,
-            ErrorBoundary: route.ErrorBoundary,
+            Component: route.Component ? withComponentProps(route.Component) : void 0,
+            HydrateFallback: route.HydrateFallback ? withHydrateFallbackProps(route.HydrateFallback) : void 0,
+            ErrorBoundary: route.ErrorBoundary ? withErrorBoundaryProps(route.ErrorBoundary) : void 0,
             action: route.action,
             loader: route.loader,
             handle: route.handle,
@@ -33258,8 +34164,8 @@ function processRoutes(routes, manifest, routeModules, parentId) {
         };
         manifest.routes[newRoute.id] = entryRoute;
         routeModules[route.id] = {
-            default: route.Component || Outlet,
-            ErrorBoundary: route.ErrorBoundary || void 0,
+            default: newRoute.Component || Outlet,
+            ErrorBoundary: newRoute.ErrorBoundary || void 0,
             handle: route.handle,
             links: route.links,
             meta: route.meta,
@@ -33270,7 +34176,7 @@ function processRoutes(routes, manifest, routeModules, parentId) {
     });
 }
 // lib/server-runtime/crypto.ts
-var encoder = new TextEncoder();
+var encoder = /* @__PURE__ */ new TextEncoder();
 var sign = async (value, secret)=>{
     let data2 = encoder.encode(value);
     let key = await createKey2(secret, [
@@ -33544,6 +34450,20 @@ function invariant3(value, message) {
         throw new Error(message);
     }
 }
+// lib/server-runtime/dev.ts
+var globalDevServerHooksKey = "__reactRouterDevServerHooks";
+function setDevServerHooks(devServerHooks) {
+    globalThis[globalDevServerHooksKey] = devServerHooks;
+}
+function getDevServerHooks() {
+    return globalThis[globalDevServerHooksKey];
+}
+function getBuildTimeHeader(request, headerName) {
+    if (typeof process !== "undefined") try {
+        if (process.env?.IS_RR_BUILD_REQUEST === "yes") return request.headers.get(headerName);
+    } catch (e) {}
+    return null;
+}
 // lib/server-runtime/routes.ts
 function groupRoutesByParentId2(manifest) {
     let routes = {};
@@ -33573,8 +34493,8 @@ function createStaticHandlerDataRoutes(manifest, future, parentId = "", routesBy
             // Need to use RR's version in the param typed here to permit the optional
             // context even though we know it'll always be provided in remix
             loader: route.module.loader ? async (args)=>{
-                if (args.request.headers.has("X-React-Router-Prerender-Data")) {
-                    const preRenderedData = args.request.headers.get("X-React-Router-Prerender-Data");
+                let preRenderedData = getBuildTimeHeader(args.request, "X-React-Router-Prerender-Data");
+                if (preRenderedData != null) {
                     let encoded = preRenderedData ? decodeURI(preRenderedData) : preRenderedData;
                     invariant3(encoded, "Missing prerendered data for route");
                     let uint8array = new TextEncoder().encode(encoded);
@@ -33586,10 +34506,20 @@ function createStaticHandlerDataRoutes(manifest, future, parentId = "", routesBy
                     });
                     let decoded = await decodeViaTurboStream(stream, global);
                     let data2 = decoded.value;
-                    invariant3(data2 && route.id in data2, "Unable to decode prerendered data");
-                    let result = data2[route.id];
-                    invariant3("data" in result, "Unable to process prerendered data");
-                    return result.data;
+                    if (data2 && SingleFetchRedirectSymbol in data2) {
+                        let result = data2[SingleFetchRedirectSymbol];
+                        let init = {
+                            status: result.status
+                        };
+                        if (result.reload) throw redirectDocument(result.redirect, init);
+                        else if (result.replace) throw replace(result.redirect, init);
+                        else throw redirect(result.redirect, init);
+                    } else {
+                        invariant3(data2 && route.id in data2, "Unable to decode prerendered data");
+                        let result = data2[route.id];
+                        invariant3("data" in result, "Unable to process prerendered data");
+                        return result.data;
+                    }
                 }
                 let val = await callRouteHandler(route.module.loader, args);
                 return val;
@@ -33623,15 +34553,14 @@ function escapeHtml2(html) {
 function createServerHandoffString(serverHandoff) {
     return escapeHtml2(JSON.stringify(serverHandoff));
 }
-// lib/server-runtime/dev.ts
-var globalDevServerHooksKey = "__reactRouterDevServerHooks";
-function setDevServerHooks(devServerHooks) {
-    globalThis[globalDevServerHooksKey] = devServerHooks;
-}
-function getDevServerHooks() {
-    return globalThis[globalDevServerHooksKey];
-}
 function getDocumentHeaders(build, context) {
+    return getDocumentHeadersImpl(context, (m)=>{
+        let route = build.routes[m.route.id];
+        invariant3(route, `Route with id "${m.route.id}" not found in build`);
+        return route.module.headers;
+    });
+}
+function getDocumentHeadersImpl(context, getRouteHeadersFn) {
     let boundaryIdx = context.errors ? context.matches.findIndex((m)=>context.errors[m.route.id]) : -1;
     let matches = boundaryIdx >= 0 ? context.matches.slice(0, boundaryIdx + 1) : context.matches;
     let errorHeaders;
@@ -33646,26 +34575,24 @@ function getDocumentHeaders(build, context) {
     }
     return matches.reduce((parentHeaders, match, idx)=>{
         let { id } = match.route;
-        let route = build.routes[id];
-        invariant3(route, `Route with id "${id}" not found in build`);
-        let routeModule = route.module;
         let loaderHeaders = context.loaderHeaders[id] || new Headers();
         let actionHeaders = context.actionHeaders[id] || new Headers();
         let includeErrorHeaders = errorHeaders != null && idx === matches.length - 1;
         let includeErrorCookies = includeErrorHeaders && errorHeaders !== loaderHeaders && errorHeaders !== actionHeaders;
-        if (routeModule.headers == null) {
+        let headersFn = getRouteHeadersFn(match);
+        if (headersFn == null) {
             let headers2 = new Headers(parentHeaders);
             if (includeErrorCookies) prependCookies(errorHeaders, headers2);
             prependCookies(actionHeaders, headers2);
             prependCookies(loaderHeaders, headers2);
             return headers2;
         }
-        let headers = new Headers(routeModule.headers ? typeof routeModule.headers === "function" ? routeModule.headers({
+        let headers = new Headers(typeof headersFn === "function" ? headersFn({
             loaderHeaders,
             parentHeaders,
             actionHeaders,
             errorHeaders: includeErrorHeaders ? errorHeaders : void 0
-        }) : routeModule.headers : void 0);
+        }) : headersFn);
         if (includeErrorCookies) prependCookies(errorHeaders, headers);
         prependCookies(actionHeaders, headers);
         prependCookies(loaderHeaders, headers);
@@ -33684,14 +34611,10 @@ function prependCookies(parentHeaders, childHeaders) {
     }
 }
 // lib/server-runtime/single-fetch.ts
-var NO_BODY_STATUS_CODES = /* @__PURE__ */ new Set([
-    100,
-    101,
-    204,
-    205,
+var SERVER_NO_BODY_STATUS_CODES = /* @__PURE__ */ new Set([
+    ...NO_BODY_STATUS_CODES,
     304
 ]);
-var SINGLE_FETCH_REDIRECT_STATUS = 202;
 async function singleFetchAction(build, serverMode, staticHandler, request, handlerUrl, loadContext, handleError) {
     try {
         let respond2 = function(context) {
@@ -33823,7 +34746,7 @@ async function singleFetchLoaders(build, serverMode, staticHandler, request, han
 function generateSingleFetchResponse(request, build, serverMode, { result, headers, status }) {
     let resultHeaders = new Headers(headers);
     resultHeaders.set("X-Remix-Response", "yes");
-    if (NO_BODY_STATUS_CODES.has(status)) return new Response(null, {
+    if (SERVER_NO_BODY_STATUS_CODES.has(status)) return new Response(null, {
         status,
         headers: resultHeaders
     });
@@ -33855,7 +34778,7 @@ function encodeViaTurboStream(data2, requestSignal, streamTimeout, serverMode) {
     let controller = new AbortController();
     let timeoutId = setTimeout(()=>controller.abort(new Error("Server Timeout")), typeof streamTimeout === "number" ? streamTimeout : 4950);
     requestSignal.addEventListener("abort", ()=>clearTimeout(timeoutId));
-    return (0, _turboStream.encode)(data2, {
+    return encode(data2, {
         signal: controller.signal,
         plugins: [
             (value)=>{
@@ -33926,7 +34849,6 @@ var createRequestHandler = (build, mode)=>{
     let errorHandler;
     return async function requestHandler(request, initialContext) {
         _build = typeof build === "function" ? await build() : build;
-        let loadContext = _build.future.unstable_middleware ? new unstable_RouterContextProvider(initialContext) : initialContext || {};
         if (typeof build === "function") {
             let derived = derive(_build, mode);
             routes = derived.routes;
@@ -33940,13 +34862,8 @@ var createRequestHandler = (build, mode)=>{
             staticHandler = derived.staticHandler;
             errorHandler = derived.errorHandler;
         }
-        let url = new URL(request.url);
-        let normalizedBasename = _build.basename || "/";
-        let normalizedPath = url.pathname;
-        if (stripBasename(normalizedPath, normalizedBasename) === "/_root.data") normalizedPath = normalizedBasename;
-        else if (normalizedPath.endsWith(".data")) normalizedPath = normalizedPath.replace(/\.data$/, "");
-        if (stripBasename(normalizedPath, normalizedBasename) !== "/" && normalizedPath.endsWith("/")) normalizedPath = normalizedPath.slice(0, -1);
         let params = {};
+        let loadContext;
         let handleError = (error)=>{
             if (mode === "development" /* Development */ ) getDevServerHooks()?.processRequestError?.(error);
             errorHandler(error, {
@@ -33955,8 +34872,27 @@ var createRequestHandler = (build, mode)=>{
                 request
             });
         };
+        if (_build.future.unstable_middleware) {
+            if (initialContext == null) loadContext = new unstable_RouterContextProvider();
+            else try {
+                loadContext = new unstable_RouterContextProvider(initialContext);
+            } catch (e) {
+                let error = new Error(`Unable to create initial \`unstable_RouterContextProvider\` instance. Please confirm you are returning an instance of \`Map<unstable_routerContext, unknown>\` from your \`getLoadContext\` function.
+
+Error: ${e instanceof Error ? e.toString() : e}`);
+                handleError(error);
+                return returnLastResortErrorResponse(error, serverMode);
+            }
+        } else loadContext = initialContext || {};
+        let url = new URL(request.url);
+        let normalizedBasename = _build.basename || "/";
+        let normalizedPath = url.pathname;
+        if (stripBasename(normalizedPath, normalizedBasename) === "/_root.data") normalizedPath = normalizedBasename;
+        else if (normalizedPath.endsWith(".data")) normalizedPath = normalizedPath.replace(/\.data$/, "");
+        if (stripBasename(normalizedPath, normalizedBasename) !== "/" && normalizedPath.endsWith("/")) normalizedPath = normalizedPath.slice(0, -1);
+        let isSpaMode = getBuildTimeHeader(request, "X-React-Router-SPA-Mode") === "yes";
         if (!_build.ssr) {
-            if (_build.prerender.length === 0) request.headers.set("X-React-Router-SPA-Mode", "yes");
+            if (_build.prerender.length === 0) isSpaMode = true;
             else if (!_build.prerender.includes(normalizedPath) && !_build.prerender.includes(normalizedPath + "/")) {
                 if (url.pathname.endsWith(".data")) {
                     errorHandler(new ErrorResponseImpl(404, "Not Found", `Refusing to SSR the path \`${normalizedPath}\` because \`ssr:false\` is set and the path is not included in the \`prerender\` config, so in production the path will be a 404.`), {
@@ -33968,10 +34904,10 @@ var createRequestHandler = (build, mode)=>{
                         status: 404,
                         statusText: "Not Found"
                     });
-                } else request.headers.set("X-React-Router-SPA-Mode", "yes");
+                } else isSpaMode = true;
             }
         }
-        let manifestUrl = `${normalizedBasename}/__manifest`.replace(/\/+/g, "/");
+        let manifestUrl = getManifestPath(_build.routeDiscovery.manifestPath, normalizedBasename);
         if (url.pathname === manifestUrl) try {
             let res = await handleManifestRequest(_build, routes, url);
             return res;
@@ -33981,7 +34917,7 @@ var createRequestHandler = (build, mode)=>{
                 status: 500
             });
         }
-        let matches = matchServerRoutes(routes, url.pathname, _build.basename);
+        let matches = matchServerRoutes(routes, normalizedPath, _build.basename);
         if (matches && matches.length > 0) Object.assign(params, matches[0].params);
         let response;
         if (url.pathname.endsWith(".data")) {
@@ -34008,7 +34944,7 @@ var createRequestHandler = (build, mode)=>{
                     });
                 }
             }
-        } else if (!request.headers.has("X-React-Router-SPA-Mode") && matches && matches[matches.length - 1].route.module.default == null && matches[matches.length - 1].route.module.ErrorBoundary == null) response = await handleResourceRequest(serverMode, _build, staticHandler, matches.slice(-1)[0].route.id, request, loadContext, handleError);
+        } else if (!isSpaMode && matches && matches[matches.length - 1].route.module.default == null && matches[matches.length - 1].route.module.ErrorBoundary == null) response = await handleResourceRequest(serverMode, _build, staticHandler, matches.slice(-1)[0].route.id, request, loadContext, handleError);
         else {
             let { pathname } = url;
             let criticalCss = void 0;
@@ -34016,7 +34952,7 @@ var createRequestHandler = (build, mode)=>{
                 pathname
             });
             else if (mode === "development" /* Development */  && getDevServerHooks()?.getCriticalCss) criticalCss = await getDevServerHooks()?.getCriticalCss?.(pathname);
-            response = await handleDocumentRequest(serverMode, _build, staticHandler, request, loadContext, handleError, criticalCss);
+            response = await handleDocumentRequest(serverMode, _build, staticHandler, request, loadContext, handleError, isSpaMode, criticalCss);
         }
         if (request.method === "HEAD") return new Response(null, {
             headers: response.headers,
@@ -34066,8 +35002,7 @@ async function handleSingleFetchRequest(serverMode, build, staticHandler, reques
     let response = request.method !== "GET" ? await singleFetchAction(build, serverMode, staticHandler, request, handlerUrl, loadContext, handleError) : await singleFetchLoaders(build, serverMode, staticHandler, request, handlerUrl, loadContext, handleError);
     return response;
 }
-async function handleDocumentRequest(serverMode, build, staticHandler, request, loadContext, handleError, criticalCss) {
-    let isSpaMode = request.headers.has("X-React-Router-SPA-Mode");
+async function handleDocumentRequest(serverMode, build, staticHandler, request, loadContext, handleError, isSpaMode, criticalCss) {
     try {
         let response = await staticHandler.query(request, {
             requestContext: loadContext,
@@ -34083,7 +35018,7 @@ async function handleDocumentRequest(serverMode, build, staticHandler, request, 
     async function renderHtml(context, isSpaMode2) {
         if (isResponse(context)) return context;
         let headers = getDocumentHeaders(build, context);
-        if (NO_BODY_STATUS_CODES.has(context.statusCode)) return new Response(null, {
+        if (SERVER_NO_BODY_STATUS_CODES.has(context.statusCode)) return new Response(null, {
             status: context.statusCode,
             headers
         });
@@ -34098,22 +35033,27 @@ async function handleDocumentRequest(serverMode, build, staticHandler, request, 
             actionData: context.actionData,
             errors: serializeErrors2(context.errors, serverMode)
         };
+        let baseServerHandoff = {
+            basename: build.basename,
+            future: build.future,
+            routeDiscovery: build.routeDiscovery,
+            ssr: build.ssr,
+            isSpaMode: isSpaMode2
+        };
         let entryContext = {
             manifest: build.assets,
             routeModules: createEntryRouteModules(build.routes),
             staticHandlerContext: context,
             criticalCss,
             serverHandoffString: createServerHandoffString({
-                basename: build.basename,
-                criticalCss,
-                future: build.future,
-                ssr: build.ssr,
-                isSpaMode: isSpaMode2
+                ...baseServerHandoff,
+                criticalCss
             }),
             serverHandoffStream: encodeViaTurboStream(state, request.signal, build.entry.module.streamTimeout, serverMode),
             renderMeta: {},
             future: build.future,
             ssr: build.ssr,
+            routeDiscovery: build.routeDiscovery,
             isSpaMode: isSpaMode2,
             serializeError: (err)=>serializeError(err, serverMode)
         };
@@ -34137,12 +35077,7 @@ async function handleDocumentRequest(serverMode, build, staticHandler, request, 
             entryContext = {
                 ...entryContext,
                 staticHandlerContext: context,
-                serverHandoffString: createServerHandoffString({
-                    basename: build.basename,
-                    future: build.future,
-                    ssr: build.ssr,
-                    isSpaMode: isSpaMode2
-                }),
+                serverHandoffString: createServerHandoffString(baseServerHandoff),
                 serverHandoffStream: encodeViaTurboStream(state2, request.signal, build.entry.module.streamTimeout, serverMode),
                 renderMeta: {}
             };
@@ -34276,7 +35211,7 @@ function createSessionStorage({ cookie: cookieArg, createData, readData, updateD
     };
 }
 function warnOnceAboutSigningSessionCookie(cookie) {
-    warnOnce(cookie.isSigned, `The "${cookie.name}" cookie is not signed, but session cookies should be signed to prevent tampering on the client before they are sent back to the server. See https://remix.run/utils/cookies#signing-cookies for more information.`);
+    warnOnce(cookie.isSigned, `The "${cookie.name}" cookie is not signed, but session cookies should be signed to prevent tampering on the client before they are sent back to the server. See https://reactrouter.com/explanation/sessions-and-cookies#signing-cookies for more information.`);
 }
 // lib/server-runtime/sessions/cookieStorage.ts
 function createCookieSessionStorage({ cookie: cookieArg } = {}) {
@@ -34336,6 +35271,7 @@ function createMemorySessionStorage({ cookie } = {}) {
 function href(path, ...args) {
     let params = args[0];
     return path.split("/").map((segment)=>{
+        if (segment === "*") return params ? params["*"] : void 0;
         const match = segment.match(/^:([\w-]+)(\?)?/);
         if (!match) return segment;
         const param = match[1];
@@ -34370,613 +35306,25 @@ function deserializeErrors2(errors) {
     }
     return serialized;
 }
-
-},{"react":"21dqq","turbo-stream":"7xOWB","cookie":"d4fp5","set-cookie-parser":"6kLnH","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN"}],"7xOWB":[function(require,module,exports,__globalThis) {
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.encode = exports.decode = void 0;
-const flatten_js_1 = require("8f10be1c14cdc7ed");
-const unflatten_js_1 = require("d8f22d128db7aee5");
-const utils_js_1 = require("bcbf18eed9422159");
-async function decode(readable, options) {
-    const { plugins } = options ?? {};
-    const done = new utils_js_1.Deferred();
-    const reader = readable.pipeThrough((0, utils_js_1.createLineSplittingTransform)()).getReader();
-    const decoder = {
-        values: [],
-        hydrated: [],
-        deferred: {},
-        plugins
+// lib/dom/ssr/hydration.tsx
+function getHydrationData(state, routes, getRouteInfo, location, basename, isSpaMode) {
+    let hydrationData = {
+        ...state,
+        loaderData: {
+            ...state.loaderData
+        }
     };
-    const decoded = await decodeInitial.call(decoder, reader);
-    let donePromise = done.promise;
-    if (decoded.done) done.resolve();
-    else donePromise = decodeDeferred.call(decoder, reader).then(done.resolve).catch((reason)=>{
-        for (const deferred of Object.values(decoder.deferred))deferred.reject(reason);
-        done.reject(reason);
-    });
-    return {
-        done: donePromise.then(()=>reader.closed),
-        value: decoded.value
-    };
-}
-exports.decode = decode;
-async function decodeInitial(reader) {
-    const read = await reader.read();
-    if (!read.value) throw new SyntaxError();
-    let line;
-    try {
-        line = JSON.parse(read.value);
-    } catch (reason) {
-        throw new SyntaxError();
+    let initialMatches = matchRoutes(routes, location, basename);
+    if (initialMatches) for (let match of initialMatches){
+        let routeId = match.route.id;
+        let routeInfo = getRouteInfo(routeId);
+        if (shouldHydrateRouteLoader(routeId, routeInfo.clientLoader, routeInfo.hasLoader, isSpaMode) && (routeInfo.hasHydrateFallback || !routeInfo.hasLoader)) delete hydrationData.loaderData[routeId];
+        else if (!routeInfo.hasLoader) hydrationData.loaderData[routeId] = null;
     }
-    return {
-        done: read.done,
-        value: unflatten_js_1.unflatten.call(this, line)
-    };
-}
-async function decodeDeferred(reader) {
-    let read = await reader.read();
-    while(!read.done){
-        if (!read.value) continue;
-        const line = read.value;
-        switch(line[0]){
-            case utils_js_1.TYPE_PROMISE:
-                {
-                    const colonIndex = line.indexOf(":");
-                    const deferredId = Number(line.slice(1, colonIndex));
-                    const deferred = this.deferred[deferredId];
-                    if (!deferred) throw new Error(`Deferred ID ${deferredId} not found in stream`);
-                    const lineData = line.slice(colonIndex + 1);
-                    let jsonLine;
-                    try {
-                        jsonLine = JSON.parse(lineData);
-                    } catch (reason) {
-                        throw new SyntaxError();
-                    }
-                    const value = unflatten_js_1.unflatten.call(this, jsonLine);
-                    deferred.resolve(value);
-                    break;
-                }
-            case utils_js_1.TYPE_ERROR:
-                {
-                    const colonIndex = line.indexOf(":");
-                    const deferredId = Number(line.slice(1, colonIndex));
-                    const deferred = this.deferred[deferredId];
-                    if (!deferred) throw new Error(`Deferred ID ${deferredId} not found in stream`);
-                    const lineData = line.slice(colonIndex + 1);
-                    let jsonLine;
-                    try {
-                        jsonLine = JSON.parse(lineData);
-                    } catch (reason) {
-                        throw new SyntaxError();
-                    }
-                    const value = unflatten_js_1.unflatten.call(this, jsonLine);
-                    deferred.reject(value);
-                    break;
-                }
-            default:
-                throw new SyntaxError();
-        }
-        read = await reader.read();
-    }
-}
-function encode(input, options) {
-    const { plugins, postPlugins, signal } = options ?? {};
-    const encoder = {
-        deferred: {},
-        index: 0,
-        indices: new Map(),
-        stringified: [],
-        plugins,
-        postPlugins,
-        signal
-    };
-    const textEncoder = new TextEncoder();
-    let lastSentIndex = 0;
-    const readable = new ReadableStream({
-        async start (controller) {
-            const id = flatten_js_1.flatten.call(encoder, input);
-            if (Array.isArray(id)) throw new Error("This should never happen");
-            if (id < 0) controller.enqueue(textEncoder.encode(`${id}\n`));
-            else {
-                controller.enqueue(textEncoder.encode(`[${encoder.stringified.join(",")}]\n`));
-                lastSentIndex = encoder.stringified.length - 1;
-            }
-            const seenPromises = new WeakSet();
-            while(Object.keys(encoder.deferred).length > 0){
-                for (const [deferredId, deferred] of Object.entries(encoder.deferred)){
-                    if (seenPromises.has(deferred)) continue;
-                    seenPromises.add(encoder.deferred[Number(deferredId)] = raceSignal(deferred, encoder.signal).then((resolved)=>{
-                        const id = flatten_js_1.flatten.call(encoder, resolved);
-                        if (Array.isArray(id)) {
-                            controller.enqueue(textEncoder.encode(`${utils_js_1.TYPE_PROMISE}${deferredId}:[["${utils_js_1.TYPE_PREVIOUS_RESOLVED}",${id[0]}]]\n`));
-                            encoder.index++;
-                            lastSentIndex++;
-                        } else if (id < 0) controller.enqueue(textEncoder.encode(`${utils_js_1.TYPE_PROMISE}${deferredId}:${id}\n`));
-                        else {
-                            const values = encoder.stringified.slice(lastSentIndex + 1).join(",");
-                            controller.enqueue(textEncoder.encode(`${utils_js_1.TYPE_PROMISE}${deferredId}:[${values}]\n`));
-                            lastSentIndex = encoder.stringified.length - 1;
-                        }
-                    }, (reason)=>{
-                        if (!reason || typeof reason !== "object" || !(reason instanceof Error)) reason = new Error("An unknown error occurred");
-                        const id = flatten_js_1.flatten.call(encoder, reason);
-                        if (Array.isArray(id)) {
-                            controller.enqueue(textEncoder.encode(`${utils_js_1.TYPE_ERROR}${deferredId}:[["${utils_js_1.TYPE_PREVIOUS_RESOLVED}",${id[0]}]]\n`));
-                            encoder.index++;
-                            lastSentIndex++;
-                        } else if (id < 0) controller.enqueue(textEncoder.encode(`${utils_js_1.TYPE_ERROR}${deferredId}:${id}\n`));
-                        else {
-                            const values = encoder.stringified.slice(lastSentIndex + 1).join(",");
-                            controller.enqueue(textEncoder.encode(`${utils_js_1.TYPE_ERROR}${deferredId}:[${values}]\n`));
-                            lastSentIndex = encoder.stringified.length - 1;
-                        }
-                    }).finally(()=>{
-                        delete encoder.deferred[Number(deferredId)];
-                    }));
-                }
-                await Promise.race(Object.values(encoder.deferred));
-            }
-            await Promise.all(Object.values(encoder.deferred));
-            controller.close();
-        }
-    });
-    return readable;
-}
-exports.encode = encode;
-function raceSignal(promise, signal) {
-    if (!signal) return promise;
-    if (signal.aborted) return Promise.reject(signal.reason || new Error("Signal was aborted."));
-    const abort = new Promise((resolve, reject)=>{
-        signal.addEventListener("abort", (event)=>{
-            reject(signal.reason || new Error("Signal was aborted."));
-        });
-        promise.then(resolve).catch(reject);
-    });
-    abort.catch(()=>{});
-    return Promise.race([
-        abort,
-        promise
-    ]);
+    return hydrationData;
 }
 
-},{"8f10be1c14cdc7ed":"g7dZl","d8f22d128db7aee5":"5bJBv","bcbf18eed9422159":"d250n"}],"g7dZl":[function(require,module,exports,__globalThis) {
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.flatten = void 0;
-const utils_js_1 = require("c3c0dac07752d118");
-function flatten(input) {
-    const { indices } = this;
-    const existing = indices.get(input);
-    if (existing) return [
-        existing
-    ];
-    if (input === undefined) return utils_js_1.UNDEFINED;
-    if (input === null) return utils_js_1.NULL;
-    if (Number.isNaN(input)) return utils_js_1.NAN;
-    if (input === Number.POSITIVE_INFINITY) return utils_js_1.POSITIVE_INFINITY;
-    if (input === Number.NEGATIVE_INFINITY) return utils_js_1.NEGATIVE_INFINITY;
-    if (input === 0 && 1 / input < 0) return utils_js_1.NEGATIVE_ZERO;
-    const index = this.index++;
-    indices.set(input, index);
-    stringify.call(this, input, index);
-    return index;
-}
-exports.flatten = flatten;
-function stringify(input, index) {
-    const { deferred, plugins, postPlugins } = this;
-    const str = this.stringified;
-    const stack = [
-        [
-            input,
-            index
-        ]
-    ];
-    while(stack.length > 0){
-        const [input, index] = stack.pop();
-        const partsForObj = (obj)=>Object.keys(obj).map((k)=>`"_${flatten.call(this, k)}":${flatten.call(this, obj[k])}`).join(",");
-        let error = null;
-        switch(typeof input){
-            case "boolean":
-            case "number":
-            case "string":
-                str[index] = JSON.stringify(input);
-                break;
-            case "bigint":
-                str[index] = `["${utils_js_1.TYPE_BIGINT}","${input}"]`;
-                break;
-            case "symbol":
-                {
-                    const keyFor = Symbol.keyFor(input);
-                    if (!keyFor) error = new Error("Cannot encode symbol unless created with Symbol.for()");
-                    else str[index] = `["${utils_js_1.TYPE_SYMBOL}",${JSON.stringify(keyFor)}]`;
-                    break;
-                }
-            case "object":
-                {
-                    if (!input) {
-                        str[index] = `${utils_js_1.NULL}`;
-                        break;
-                    }
-                    const isArray = Array.isArray(input);
-                    let pluginHandled = false;
-                    if (!isArray && plugins) for (const plugin of plugins){
-                        const pluginResult = plugin(input);
-                        if (Array.isArray(pluginResult)) {
-                            pluginHandled = true;
-                            const [pluginIdentifier, ...rest] = pluginResult;
-                            str[index] = `[${JSON.stringify(pluginIdentifier)}`;
-                            if (rest.length > 0) str[index] += `,${rest.map((v)=>flatten.call(this, v)).join(",")}`;
-                            str[index] += "]";
-                            break;
-                        }
-                    }
-                    if (!pluginHandled) {
-                        let result = isArray ? "[" : "{";
-                        if (isArray) {
-                            for(let i = 0; i < input.length; i++)result += (i ? "," : "") + (i in input ? flatten.call(this, input[i]) : utils_js_1.HOLE);
-                            str[index] = `${result}]`;
-                        } else if (input instanceof Date) str[index] = `["${utils_js_1.TYPE_DATE}",${input.getTime()}]`;
-                        else if (input instanceof URL) str[index] = `["${utils_js_1.TYPE_URL}",${JSON.stringify(input.href)}]`;
-                        else if (input instanceof RegExp) str[index] = `["${utils_js_1.TYPE_REGEXP}",${JSON.stringify(input.source)},${JSON.stringify(input.flags)}]`;
-                        else if (input instanceof Set) {
-                            if (input.size > 0) str[index] = `["${utils_js_1.TYPE_SET}",${[
-                                ...input
-                            ].map((val)=>flatten.call(this, val)).join(",")}]`;
-                            else str[index] = `["${utils_js_1.TYPE_SET}"]`;
-                        } else if (input instanceof Map) {
-                            if (input.size > 0) str[index] = `["${utils_js_1.TYPE_MAP}",${[
-                                ...input
-                            ].flatMap(([k, v])=>[
-                                    flatten.call(this, k),
-                                    flatten.call(this, v)
-                                ]).join(",")}]`;
-                            else str[index] = `["${utils_js_1.TYPE_MAP}"]`;
-                        } else if (input instanceof Promise) {
-                            str[index] = `["${utils_js_1.TYPE_PROMISE}",${index}]`;
-                            deferred[index] = input;
-                        } else if (input instanceof Error) {
-                            str[index] = `["${utils_js_1.TYPE_ERROR}",${JSON.stringify(input.message)}`;
-                            if (input.name !== "Error") str[index] += `,${JSON.stringify(input.name)}`;
-                            str[index] += "]";
-                        } else if (Object.getPrototypeOf(input) === null) str[index] = `["${utils_js_1.TYPE_NULL_OBJECT}",{${partsForObj(input)}}]`;
-                        else if (isPlainObject(input)) str[index] = `{${partsForObj(input)}}`;
-                        else error = new Error("Cannot encode object with prototype");
-                    }
-                    break;
-                }
-            default:
-                {
-                    const isArray = Array.isArray(input);
-                    let pluginHandled = false;
-                    if (!isArray && plugins) for (const plugin of plugins){
-                        const pluginResult = plugin(input);
-                        if (Array.isArray(pluginResult)) {
-                            pluginHandled = true;
-                            const [pluginIdentifier, ...rest] = pluginResult;
-                            str[index] = `[${JSON.stringify(pluginIdentifier)}`;
-                            if (rest.length > 0) str[index] += `,${rest.map((v)=>flatten.call(this, v)).join(",")}`;
-                            str[index] += "]";
-                            break;
-                        }
-                    }
-                    if (!pluginHandled) error = new Error("Cannot encode function or unexpected type");
-                }
-        }
-        if (error) {
-            let pluginHandled = false;
-            if (postPlugins) for (const plugin of postPlugins){
-                const pluginResult = plugin(input);
-                if (Array.isArray(pluginResult)) {
-                    pluginHandled = true;
-                    const [pluginIdentifier, ...rest] = pluginResult;
-                    str[index] = `[${JSON.stringify(pluginIdentifier)}`;
-                    if (rest.length > 0) str[index] += `,${rest.map((v)=>flatten.call(this, v)).join(",")}`;
-                    str[index] += "]";
-                    break;
-                }
-            }
-            if (!pluginHandled) throw error;
-        }
-    }
-}
-const objectProtoNames = Object.getOwnPropertyNames(Object.prototype).sort().join("\0");
-function isPlainObject(thing) {
-    const proto = Object.getPrototypeOf(thing);
-    return proto === Object.prototype || proto === null || Object.getOwnPropertyNames(proto).sort().join("\0") === objectProtoNames;
-}
-
-},{"c3c0dac07752d118":"d250n"}],"d250n":[function(require,module,exports,__globalThis) {
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.createLineSplittingTransform = exports.Deferred = exports.TYPE_PREVIOUS_RESOLVED = exports.TYPE_URL = exports.TYPE_SYMBOL = exports.TYPE_SET = exports.TYPE_REGEXP = exports.TYPE_PROMISE = exports.TYPE_NULL_OBJECT = exports.TYPE_MAP = exports.TYPE_ERROR = exports.TYPE_DATE = exports.TYPE_BIGINT = exports.UNDEFINED = exports.POSITIVE_INFINITY = exports.NULL = exports.NEGATIVE_ZERO = exports.NEGATIVE_INFINITY = exports.NAN = exports.HOLE = void 0;
-exports.HOLE = -1;
-exports.NAN = -2;
-exports.NEGATIVE_INFINITY = -3;
-exports.NEGATIVE_ZERO = -4;
-exports.NULL = -5;
-exports.POSITIVE_INFINITY = -6;
-exports.UNDEFINED = -7;
-exports.TYPE_BIGINT = "B";
-exports.TYPE_DATE = "D";
-exports.TYPE_ERROR = "E";
-exports.TYPE_MAP = "M";
-exports.TYPE_NULL_OBJECT = "N";
-exports.TYPE_PROMISE = "P";
-exports.TYPE_REGEXP = "R";
-exports.TYPE_SET = "S";
-exports.TYPE_SYMBOL = "Y";
-exports.TYPE_URL = "U";
-exports.TYPE_PREVIOUS_RESOLVED = "Z";
-class Deferred {
-    promise;
-    resolve;
-    reject;
-    constructor(){
-        this.promise = new Promise((resolve, reject)=>{
-            this.resolve = resolve;
-            this.reject = reject;
-        });
-    }
-}
-exports.Deferred = Deferred;
-function createLineSplittingTransform() {
-    const decoder = new TextDecoder();
-    let leftover = "";
-    return new TransformStream({
-        transform (chunk, controller) {
-            const str = decoder.decode(chunk, {
-                stream: true
-            });
-            const parts = (leftover + str).split("\n");
-            // The last part might be a partial line, so keep it for the next chunk.
-            leftover = parts.pop() || "";
-            for (const part of parts)controller.enqueue(part);
-        },
-        flush (controller) {
-            // If there's any leftover data, enqueue it before closing.
-            if (leftover) controller.enqueue(leftover);
-        }
-    });
-}
-exports.createLineSplittingTransform = createLineSplittingTransform;
-
-},{}],"5bJBv":[function(require,module,exports,__globalThis) {
-"use strict";
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.unflatten = void 0;
-const utils_js_1 = require("5dc07f7a5a3d111c");
-const globalObj = typeof window !== "undefined" ? window : typeof globalThis !== "undefined" ? globalThis : undefined;
-function unflatten(parsed) {
-    const { hydrated, values } = this;
-    if (typeof parsed === "number") return hydrate.call(this, parsed);
-    if (!Array.isArray(parsed) || !parsed.length) throw new SyntaxError();
-    const startIndex = values.length;
-    for (const value of parsed)values.push(value);
-    hydrated.length = values.length;
-    return hydrate.call(this, startIndex);
-}
-exports.unflatten = unflatten;
-function hydrate(index) {
-    const { hydrated, values, deferred, plugins } = this;
-    let result;
-    const stack = [
-        [
-            index,
-            (v)=>{
-                result = v;
-            }
-        ]
-    ];
-    let postRun = [];
-    while(stack.length > 0){
-        const [index, set] = stack.pop();
-        switch(index){
-            case utils_js_1.UNDEFINED:
-                set(undefined);
-                continue;
-            case utils_js_1.NULL:
-                set(null);
-                continue;
-            case utils_js_1.NAN:
-                set(NaN);
-                continue;
-            case utils_js_1.POSITIVE_INFINITY:
-                set(Infinity);
-                continue;
-            case utils_js_1.NEGATIVE_INFINITY:
-                set(-Infinity);
-                continue;
-            case utils_js_1.NEGATIVE_ZERO:
-                set(-0);
-                continue;
-        }
-        if (hydrated[index]) {
-            set(hydrated[index]);
-            continue;
-        }
-        const value = values[index];
-        if (!value || typeof value !== "object") {
-            hydrated[index] = value;
-            set(value);
-            continue;
-        }
-        if (Array.isArray(value)) {
-            if (typeof value[0] === "string") {
-                const [type, b, c] = value;
-                switch(type){
-                    case utils_js_1.TYPE_DATE:
-                        set(hydrated[index] = new Date(b));
-                        continue;
-                    case utils_js_1.TYPE_URL:
-                        set(hydrated[index] = new URL(b));
-                        continue;
-                    case utils_js_1.TYPE_BIGINT:
-                        set(hydrated[index] = BigInt(b));
-                        continue;
-                    case utils_js_1.TYPE_REGEXP:
-                        set(hydrated[index] = new RegExp(b, c));
-                        continue;
-                    case utils_js_1.TYPE_SYMBOL:
-                        set(hydrated[index] = Symbol.for(b));
-                        continue;
-                    case utils_js_1.TYPE_SET:
-                        const newSet = new Set();
-                        hydrated[index] = newSet;
-                        for(let i = 1; i < value.length; i++)stack.push([
-                            value[i],
-                            (v)=>{
-                                newSet.add(v);
-                            }
-                        ]);
-                        set(newSet);
-                        continue;
-                    case utils_js_1.TYPE_MAP:
-                        const map = new Map();
-                        hydrated[index] = map;
-                        for(let i = 1; i < value.length; i += 2){
-                            const r = [];
-                            stack.push([
-                                value[i + 1],
-                                (v)=>{
-                                    r[1] = v;
-                                }
-                            ]);
-                            stack.push([
-                                value[i],
-                                (k)=>{
-                                    r[0] = k;
-                                }
-                            ]);
-                            postRun.push(()=>{
-                                map.set(r[0], r[1]);
-                            });
-                        }
-                        set(map);
-                        continue;
-                    case utils_js_1.TYPE_NULL_OBJECT:
-                        const obj = Object.create(null);
-                        hydrated[index] = obj;
-                        for (const key of Object.keys(b).reverse()){
-                            const r = [];
-                            stack.push([
-                                b[key],
-                                (v)=>{
-                                    r[1] = v;
-                                }
-                            ]);
-                            stack.push([
-                                Number(key.slice(1)),
-                                (k)=>{
-                                    r[0] = k;
-                                }
-                            ]);
-                            postRun.push(()=>{
-                                obj[r[0]] = r[1];
-                            });
-                        }
-                        set(obj);
-                        continue;
-                    case utils_js_1.TYPE_PROMISE:
-                        if (hydrated[b]) set(hydrated[index] = hydrated[b]);
-                        else {
-                            const d = new utils_js_1.Deferred();
-                            deferred[b] = d;
-                            set(hydrated[index] = d.promise);
-                        }
-                        continue;
-                    case utils_js_1.TYPE_ERROR:
-                        const [, message, errorType] = value;
-                        let error = errorType && globalObj && globalObj[errorType] ? new globalObj[errorType](message) : new Error(message);
-                        hydrated[index] = error;
-                        set(error);
-                        continue;
-                    case utils_js_1.TYPE_PREVIOUS_RESOLVED:
-                        set(hydrated[index] = hydrated[b]);
-                        continue;
-                    default:
-                        // Run plugins at the end so we have a chance to resolve primitives
-                        // without running into a loop
-                        if (Array.isArray(plugins)) {
-                            const r = [];
-                            const vals = value.slice(1);
-                            for(let i = 0; i < vals.length; i++){
-                                const v = vals[i];
-                                stack.push([
-                                    v,
-                                    (v)=>{
-                                        r[i] = v;
-                                    }
-                                ]);
-                            }
-                            postRun.push(()=>{
-                                for (const plugin of plugins){
-                                    const result = plugin(value[0], ...r);
-                                    if (result) {
-                                        set(hydrated[index] = result.value);
-                                        return;
-                                    }
-                                }
-                                throw new SyntaxError();
-                            });
-                            continue;
-                        }
-                        throw new SyntaxError();
-                }
-            } else {
-                const array = [];
-                hydrated[index] = array;
-                for(let i = 0; i < value.length; i++){
-                    const n = value[i];
-                    if (n !== utils_js_1.HOLE) stack.push([
-                        n,
-                        (v)=>{
-                            array[i] = v;
-                        }
-                    ]);
-                }
-                set(array);
-                continue;
-            }
-        } else {
-            const object = {};
-            hydrated[index] = object;
-            for (const key of Object.keys(value).reverse()){
-                const r = [];
-                stack.push([
-                    value[key],
-                    (v)=>{
-                        r[1] = v;
-                    }
-                ]);
-                stack.push([
-                    Number(key.slice(1)),
-                    (k)=>{
-                        r[0] = k;
-                    }
-                ]);
-                postRun.push(()=>{
-                    object[r[0]] = r[1];
-                });
-            }
-            set(object);
-            continue;
-        }
-    }
-    while(postRun.length > 0)postRun.pop()();
-    return result;
-}
-
-},{"5dc07f7a5a3d111c":"d250n"}],"d4fp5":[function(require,module,exports,__globalThis) {
+},{"6ff87c7dfc99d7be":"d5jf4","react":"21dqq","cookie":"d4fp5","set-cookie-parser":"6kLnH","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"d4fp5":[function(require,module,exports,__globalThis) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -35520,7 +35868,7 @@ $RefreshReg$(_c, "MovieView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dldZz","./movie-view.scss":"jnlR5","react-router":"dXVwI","react-bootstrap":"3AD9A"}],"jnlR5":[function() {},{}],"4OGiN":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./movie-view.scss":"jnlR5","react-router":"dXVwI","react-bootstrap":"3AD9A"}],"jnlR5":[function() {},{}],"4OGiN":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$73d1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35697,7 +36045,7 @@ $RefreshReg$(_c, "SignupView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dldZz","react":"21dqq","react-bootstrap":"3AD9A","./signup-view.scss":"6Z19M"}],"6Z19M":[function() {},{}],"9YtA0":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","react-bootstrap":"3AD9A","./signup-view.scss":"6Z19M"}],"6Z19M":[function() {},{}],"9YtA0":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$9fee = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35842,7 +36190,7 @@ $RefreshReg$(_c, "LoginView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dldZz","react-bootstrap":"3AD9A","./login-view.scss":"e57ax"}],"e57ax":[function() {},{}],"eBaMl":[function() {},{}],"bsPVM":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-bootstrap":"3AD9A","./login-view.scss":"e57ax"}],"e57ax":[function() {},{}],"eBaMl":[function() {},{}],"bsPVM":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$abf5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35855,7 +36203,7 @@ parcelHelpers.export(exports, "NavigationBar", ()=>NavigationBar);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactBootstrap = require("react-bootstrap");
 var _reactRouter = require("react-router");
-const NavigationBar = ({ user, onLoggedOut })=>{
+const NavigationBar = ({ user, onLoggedOut, onSearchChange })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Navbar), {
         bg: "light",
         expand: "lg",
@@ -35879,47 +36227,68 @@ const NavigationBar = ({ user, onLoggedOut })=>{
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Navbar).Collapse, {
                     id: "basic-navbar-nav",
-                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav), {
-                        className: "me-auto",
-                        children: [
-                            !user && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {}, void 0, false),
-                            user && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
-                                        as: (0, _reactRouter.Link),
-                                        to: "/",
-                                        children: "Home"
-                                    }, void 0, false, {
-                                        fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                                        lineNumber: 20,
-                                        columnNumber: 29
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
-                                        as: (0, _reactRouter.Link),
-                                        to: "/profile",
-                                        children: "Profile"
-                                    }, void 0, false, {
-                                        fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                                        lineNumber: 23,
-                                        columnNumber: 29
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
-                                        onClick: onLoggedOut,
-                                        children: "Logout"
-                                    }, void 0, false, {
-                                        fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                                        lineNumber: 26,
-                                        columnNumber: 29
-                                    }, undefined)
-                                ]
-                            }, void 0, true)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/components/navigation-bar/navigation-bar.jsx",
-                        lineNumber: 13,
-                        columnNumber: 21
-                    }, undefined)
-                }, void 0, false, {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav), {
+                            className: "me-auto",
+                            children: [
+                                !user && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {}, void 0, false),
+                                user && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+                                    children: [
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
+                                            as: (0, _reactRouter.Link),
+                                            to: "/",
+                                            children: "Home"
+                                        }, void 0, false, {
+                                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                                            lineNumber: 20,
+                                            columnNumber: 33
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
+                                            as: (0, _reactRouter.Link),
+                                            to: "/profile",
+                                            children: "Profile"
+                                        }, void 0, false, {
+                                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                                            lineNumber: 23,
+                                            columnNumber: 33
+                                        }, undefined),
+                                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Nav).Link, {
+                                            onClick: onLoggedOut,
+                                            children: "Logout"
+                                        }, void 0, false, {
+                                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                                            lineNumber: 26,
+                                            columnNumber: 33
+                                        }, undefined)
+                                    ]
+                                }, void 0, true)
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                            lineNumber: 13,
+                            columnNumber: 21
+                        }, undefined),
+                        user && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Form), {
+                            className: "d-flex",
+                            onSubmit: (e)=>e.preventDefault(),
+                            children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.FormControl), {
+                                type: "search",
+                                placeholder: "Search movies...",
+                                className: "me-2",
+                                "aria-label": "Search",
+                                onChange: (e)=>onSearchChange(e.target.value)
+                            }, void 0, false, {
+                                fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                                lineNumber: 35,
+                                columnNumber: 29
+                            }, undefined)
+                        }, void 0, false, {
+                            fileName: "src/components/navigation-bar/navigation-bar.jsx",
+                            lineNumber: 34,
+                            columnNumber: 25
+                        }, undefined)
+                    ]
+                }, void 0, true, {
                     fileName: "src/components/navigation-bar/navigation-bar.jsx",
                     lineNumber: 12,
                     columnNumber: 17
@@ -35945,7 +36314,7 @@ $RefreshReg$(_c, "NavigationBar");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-bootstrap":"3AD9A","react-router":"dXVwI","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dldZz"}],"2vVqf":[function(require,module,exports,__globalThis) {
+},{"react/jsx-dev-runtime":"iTorj","react-bootstrap":"3AD9A","react-router":"dXVwI","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"2vVqf":[function(require,module,exports,__globalThis) {
 var $parcel$ReactRefreshHelpers$3c12 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -36282,6 +36651,6 @@ $RefreshReg$(_c, "ProfileView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../MovieCard/movie-card":"dg3Ls","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"lWgMN","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"dldZz"}]},["fYiDu","dstz8","d8Dch"], "d8Dch", "parcelRequire94c2")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../MovieCard/movie-card":"dg3Ls","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}]},["aQL8O","7qMjn","d8Dch"], "d8Dch", "parcelRequire94c2")
 
 //# sourceMappingURL=index.b4b6dfad.js.map
