@@ -27,7 +27,7 @@ export const MainView = () => {
 
     if (!token) {
       return;
-    }
+    } console.log("Fetching movies w3ith token:", token);
 
     fetch("https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com/movies", {
       headers: { Authorization: `Bearer ${token}` },
