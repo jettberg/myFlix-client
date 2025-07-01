@@ -7,10 +7,20 @@ export const ProfileView = ({ user, token, onLogout, movies }) => {
   const [favoriteMovies, setFavoriteMovies] = useState([]);
   const [isEditing, setIsEditing] = useState(false);
   const [updatedUserInfo, setUpdatedUserInfo] = useState({
-    username: user.Username,
-    email: user.Email,
-    birthday: user.Birthday,
+    username: "",
+    email: "",
+    birthday: "",
     password: ""
+  });
+  useEffect(() => {
+    if (user) {
+      setUpdatedUserInfo({
+        username: user.Username,
+        email: user.Email,
+        birthday: user.Birthday,
+        password: ""
+      });
+    }
   });
 
   useEffect(() => {
