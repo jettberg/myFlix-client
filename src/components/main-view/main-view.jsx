@@ -145,10 +145,13 @@ export const MainView = () => {
                   <div>The selected movie doesn't exist!</div>
                 ) : (
                   <Col md={8}>
-                    <MovieView movie={selectedMovie}
+                    <MovieView 
+                    movie={selectedMovie}
                     user={user}
                     token={token}
                     setUser={setUser}
+                    movies={movies}
+                    onMovieSelect={(movie) => setSelectedMovie(movie)}
                     onBackClick={() => setSelectedMovie(null)}/>
                   </Col>
                 )}
