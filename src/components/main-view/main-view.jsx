@@ -29,30 +29,32 @@ export const MainView = () => {
       return;
     } console.log("Fetching movies w3ith token:", token);
 
-    fetch("https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com/movies", {
-      headers: { Authorization: `Bearer ${token}` },
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        console.log("API movies data:", data)
-      })
-      .then((data) => {
-        const moviesFromApi = data.map((doc) => {
-          return {
-            id: doc._id,
-            _id: doc._id,
-            title: doc.title,
-            year: doc.year,
-            genre: doc.genre,
-            director: doc.director,
-            cast: doc.cast,
-            runtime: doc.runtime,
-            image: doc.image,
-            rating: doc.rating,
-          };
-        });
-        setMovies(moviesFromApi);
-      });
+fetch("https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com/movies", {
+  headers: { Authorization: `Bearer ${token}` },
+})
+  .then((response) => response.json())
+  .then((data) => {
+    console.log("API movies data:", data);
+    const moviesFromApi = data.map((doc) => {
+      return {
+        id: doc._id,
+        _id: doc._id,
+        title: doc.title,
+        year: doc.year,
+        genre: doc.genre,
+        director: doc.director,
+        cast: doc.cast,
+        runtime: doc.runtime,
+        image: doc.image,
+        rating: doc.rating,
+      };
+    });
+    setMovies(moviesFromApi);
+  })
+  .catch((error) => {
+    console.error("Error fetching movies:", error);
+  });
+
   }, [token]);
 
 
