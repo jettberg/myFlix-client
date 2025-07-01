@@ -46,64 +46,119 @@ export const SignupView = () => {
       });
   };
 
-return (
-  <div>
-    {errors.length > 0 && (
-      <div className="error-messages" style={{ color: "red", marginBottom: "1rem" }}>
-        <ul>
-          {errors.map((err, index) => (
-            <li key={index}>{err}</li>
-          ))}
-        </ul>
-      </div>
-    )}
 
-    <form onSubmit={handleSubmit}>
-      <Form.Group controlId="SignupFormUsername">
-        <Form.Label>Username:</Form.Label>
-        <Form.Control
-          type="text"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-          required
-          minLength="3"
-        />
-      </Form.Group>
 
-      <Form.Group controlId="SignupFormPassword">
-        <Form.Label>Password:</Form.Label>
-        <Form.Control
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-      </Form.Group>
+  const renderTooltip = (props, message) => (
+    <Tooltip id="button-tooltip" {...props}>
+      {message}
+    </Tooltip>
+  );
 
-      <Form.Group controlId="formEmail">
-        <Form.Label>Email:</Form.Label>
-        <Form.Control
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-      </Form.Group>
 
-      <Form.Group controlId="formBirthday">
-        <Form.Label>Birthday:</Form.Label>
-        <Form.Control
-          type="date"
-          value={birthday}
-          onChange={(e) => setBirthday(e.target.value)}
-          required
-        />
-      </Form.Group>
 
-      <Button variant="primary" type="submit" className="back-button">
-        Submit
-      </Button>
-    </form>
-  </div>
-);
+  return (
+    <div>
+      {errors.length > 0 && (
+        <div className="error-messages" style={{ color: "red", marginBottom: "1rem" }}>
+          <ul>
+            {errors.map((err, index) => (
+              <li key={index}>{err}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      <form onSubmit={handleSubmit}>
+        <Form.Group controlId="SignupFormUsername">
+          <OverlayTrigger
+            placement="right"
+            delay={{ show: 250, hide: 400 }}
+            overlay={(props) =>
+              renderTooltip(
+                props,
+                "Username must be at least 5 characters and contain only letters and numbers."
+              )
+            }
+          >
+            <Form.Label style={{ cursor: "help" }}>Username:</Form.Label>
+          </OverlayTrigger>
+          <Form.Control
+            type="text"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+            required
+            minLength={5}
+          />
+        </Form.Group>
+
+        <Form.Group controlId="SignupFormPassword">
+          <OverlayTrigger
+            placement="right"
+            delay={{ show: 250, hide: 400 }}
+            overlay={(props) =>
+              renderTooltip(
+                props,
+                "Password is required."
+                //If adding more password rules, add here
+              )
+            }
+          >
+            <Form.Label style={{ cursor: "help" }}>Password:</Form.Label>
+          </OverlayTrigger>
+          <Form.Control
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+        </Form.Group>
+
+        <Form.Group controlId="formEmail">
+          <OverlayTrigger
+            placement="right"
+            delay={{ show: 250, hide: 400 }}
+            overlay={(props) =>
+              renderTooltip(
+                props,
+                "Please enter a valid email address."
+              )
+            }
+          >
+            <Form.Label style={{ cursor: "help" }}>Email:</Form.Label>
+          </OverlayTrigger>
+          <Form.Control
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+        </Form.Group>
+
+        <Form.Group controlId="formBirthday">
+          <OverlayTrigger
+            placement="right"
+            delay={{ show: 250, hide: 400 }}
+            overlay={(props) =>
+              renderTooltip(
+                props,
+                "Birthday is required."
+              )
+            }
+          >
+            <Form.Label style={{ cursor: "help" }}>Birthday:</Form.Label>
+          </OverlayTrigger>
+          <Form.Control
+            type="date"
+            value={birthday}
+            onChange={(e) => setBirthday(e.target.value)}
+            required
+          />
+        </Form.Group>
+
+        <Button variant="primary" type="submit" className="back-button">
+          Submit
+        </Button>
+      </form>
+    </div>
+  );
 };
