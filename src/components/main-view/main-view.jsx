@@ -29,7 +29,7 @@ export const MainView = () => {
       return;
     }
 
-    fetch("https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com", {
+    fetch("https://movies-my-flix-application-7f3ae970a7e3.herokuapp.com/movies", {
       headers: { Authorization: `Bearer ${token}` },
     })
       .then((response) => response.json())
